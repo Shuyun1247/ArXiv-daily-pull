@@ -1180,7 +1180,10 @@ def write_archive(output_root: Path) -> None:
             }
         )
 
+    # 生成 optics_daily/index.html（归档页）
     (output_root / "index.html").write_text(build_archive_html(entries), encoding="utf-8")
+
+    # 生成 optics_daily/latest.html（最新一期跳转）
     if entries:
         latest_target = f"./{entries[0]['date']}/index.html"
         latest_html = f"""<!doctype html>
@@ -1197,6 +1200,22 @@ def write_archive(output_root: Path) -> None:
 </html>
 """
         (output_root / "latest.html").write_text(latest_html, encoding="utf-8")
+
+    # 生成根目录 index.html：跳到归档页（每天列表）
+    root_index_html = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=./optics_daily/index.html">
+  <title>ArXiv Optics Daily Archive</title>
+</head>
+<body>
+  <script>window.location.replace("./optics_daily/index.html");</script>
+  <p><a href="./optics_daily/index.html">Open archive</a></p>
+</body>
+</html>
+"""
+    (ROOT / "index.html").write_text(root_index_html, encoding="utf-8")
 
 
 def resolve_report_date(explicit_date: str | None, timezone_name: str) -> dt.date:
