@@ -26,6 +26,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -49,7 +52,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update arXiv optics daily"
-            git push
+            git push origin HEAD:${{ github.ref_name }}
           fi
 
       - name: Configure GitHub Pages
