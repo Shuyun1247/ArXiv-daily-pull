@@ -49,17 +49,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Pull latest changes from remote to handle potential conflicts from local pushes
-          git pull origin main --rebase
-          
-          # Stage the specific output files
+          # 1. Stage the changes FIRST so Git knows they are safe
           git add optics_daily index.html
           
-          # Check if there are actual changes before committing
+          # 2. Stash or commit them temporarily to allow the pull
+          # We'll use a temporary commit to make the rebase possible
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update arXiv optics daily report"
+            git commit -m "Temp commit for sync"
+            
+            # 3. Pull and rebase to stay in sync with remote
+            git pull origin main --rebase
+            
+            # 4. Amend the commit to keep the history clean (optional)
+            git commit --amend -m "Update arXiv optics daily report" --no-edit
+            
+            # 5. Push the final result
             git push origin main
           fi
 
