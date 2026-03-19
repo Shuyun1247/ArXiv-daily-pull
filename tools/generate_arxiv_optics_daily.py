@@ -16,9 +16,9 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 try:
-    from google import genai
-except ImportError:  # pragma: no cover - optional dependency at runtime
-    genai = None
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "arxiv_optics_config.json"
@@ -28,8 +28,7 @@ USER_AGENT = (
     "Codex-ArXiv-Optics-Daily/1.0"
 )
 TRANSLATE_ENDPOINT = "https://translate.googleapis.com/translate_a/single"
-GEMINI_DEFAULT_MODEL = "gemini-3-flash-preview"
-
+OPENAI_DEFAULT_MODEL = "gpt-5.4-nano"
 TOPIC_KEYWORDS: dict[str, set[str]] = {
     "Integrated Optics": {
         "integrated optics",
@@ -476,18 +475,18 @@ def classify_optics_topics(text: str) -> tuple[list[str], dict[str, list[str]]]:
     return [], {}
 
 
-def build_gemini_client(config: dict[str, Any]) -> Any | None:
-    if not bool(config.get("enable_gemini_summaries", True)):
+def build_openai_client(config: dict[str, Any]) -> Any | None:
+    if not bool(config.get("enable_openai_summaries", True)):
         return None
 
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         return None
 
-    if genai is None:
+    if OpenAI is None:
         return None
 
-    return genai.Client()
+    return OpenAI(api_key=api_key)
 
 
 def strip_json_fence(text: str) -> str:
@@ -498,7 +497,7 @@ def strip_json_fence(text: str) -> str:
     return stripped.strip()
 
 
-def request_gemini_summaries(
+def request_openai_summaries(
     client: Any,
     model: str,
     paper: dict[str, Any],
@@ -524,19 +523,16 @@ Title: {paper["title"]}
 Abstract: {paper["abstract"]}
 """.strip()
 
-    response = client.models.generate_content(
+    response = client.responses.create(
         model=model,
-        contents=prompt,
-        config={
-            "response_mime_type": "application/json",
-        },
+        input=prompt,
     )
 
-    text = getattr(response, "text", None)
+    text = response.output_text
     if not text:
         return None
 
-    return json.loads(text)
+    return json.loads(strip_json_fence(text))
 
 
 def fallback_summary_bundle(
@@ -558,16 +554,17 @@ def build_summary_bundle(
     topics: list[str],
     cache: dict[tuple[str, str], str | None],
     enable_translation: bool,
-    gemini_client: Any | None,
-    gemini_model: str,
+    openai_client: Any | None,
+    openai_model: str,
 ) -> tuple[dict[str, str], str]:
     fallback = fallback_summary_bundle(paper["abstract"], cache, enable_translation)
-    if gemini_client is None:
+    if openai_client is None:
         return fallback, "fallback"
 
     try:
-        payload = request_gemini_summaries(gemini_client, gemini_model, paper, topics)
-    except Exception:
+        payload = request_openai_summaries(openai_client, openai_model, paper, topics)
+    except Exception as exc:
+        print(f"[OpenAI error] {paper['id']}: {exc}", flush=True)
         return fallback, "fallback"
 
     if not payload:
@@ -581,7 +578,7 @@ def build_summary_bundle(
     return {
         "en": english,
         "zh": chinese,
-    }, "gemini"
+    }, "openai"
 
 def pick_featured_authors(authors: list[dict[str, str]], max_authors: int) -> list[dict[str, str]]:
     if len(authors) <= max_authors:
@@ -590,39 +587,31 @@ def pick_featured_authors(authors: list[dict[str, str]], max_authors: int) -> li
     tail = max_authors - head
     return authors[:head] + authors[-tail:]
 
-import time
 def filter_and_enrich(
     papers: list[dict[str, Any]],
     enable_translation: bool,
     max_authors_shown: int,
-    gemini_client: Any | None,
-    gemini_model: str,
+    openai_client: Any | None,
+    openai_model: str,
 ) -> list[dict[str, Any]]:
     translation_cache: dict[tuple[str, str], str | None] = {}
     kept: list[dict[str, Any]] = []
 
     for index, paper in enumerate(papers, start=1):
         log(f"      -> checking paper {index}/{len(papers)}: {paper['category']} {paper['id']}")
-        
-        # 1. Check if it's optics
         combined_text = " ".join([paper["title"], paper["abstract"], paper.get("subjects", "")])
         topics, topic_hits = classify_optics_topics(combined_text)
-        
+
         if not topics:
             continue
-
-        # 2. Add a delay ONLY if you are using Gemini
-        if gemini_client is not None:
-            # A 4-second sleep ensures you stay under 15 requests per minute (60/4 = 15)
-            time.sleep(4)
 
         summaries, summary_source = build_summary_bundle(
             paper=paper,
             topics=topics,
             cache=translation_cache,
             enable_translation=enable_translation,
-            gemini_client=gemini_client,
-            gemini_model=gemini_model,
+            openai_client=openai_client,
+            openai_model=openai_model,
         )
 
         kept.append(
@@ -1272,9 +1261,9 @@ def generate(date_str: str | None = None) -> Path:
 
     enable_translation = bool(config.get("enable_translation", True))
     max_authors_shown = int(config.get("max_authors_shown", 6))
-    gemini_model = str(config.get("gemini_model", GEMINI_DEFAULT_MODEL))
-    gemini_client = build_gemini_client(config)
-    gemini_status = "on" if gemini_client is not None else "off"
+    openai_model = str(config.get("openai_model", OPENAI_DEFAULT_MODEL))
+    openai_client = build_openai_client(config)
+    openai_status = "on" if openai_client is not None else "off"
 
     log(f"[1/5] Preparing optics digest for {report_date.isoformat()}")
     fetched: list[dict[str, Any]] = []
@@ -1287,13 +1276,13 @@ def generate(date_str: str | None = None) -> Path:
         log(f"      collected {len(category_papers)} submissions from {category}")
 
     log(f"[3/5] Filtering {len(fetched)} papers for optics topics")
-    log(f"[4/5] Building summaries (Gemini={gemini_status})")
+    log(f"[4/5] Building summaries (OpenAI={openai_status})")
     papers = filter_and_enrich(
         papers=fetched,
         enable_translation=enable_translation,
         max_authors_shown=max_authors_shown,
-        gemini_client=gemini_client,
-        gemini_model=gemini_model,
+        openai_client=openai_client,
+        openai_model=openai_model,
     )
     papers.sort(key=lambda item: (categories.index(item["category"]), item["id"]))
     log(f"      kept {len(papers)} optics-related papers")
