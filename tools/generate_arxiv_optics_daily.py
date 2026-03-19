@@ -16,9 +16,9 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 try:
-    from openai import OpenAI
+    from google import genai
 except ImportError:  # pragma: no cover - optional dependency at runtime
-    OpenAI = None
+    genai = None
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "arxiv_optics_config.json"
@@ -28,8 +28,7 @@ USER_AGENT = (
     "Codex-ArXiv-Optics-Daily/1.0"
 )
 TRANSLATE_ENDPOINT = "https://translate.googleapis.com/translate_a/single"
-DEEPSEEK_DEFAULT_BASE_URL = "https://api.deepseek.com"
-DEEPSEEK_DEFAULT_MODEL = "deepseek-chat"
+GEMINI_DEFAULT_MODEL = "gemini-3-flash-preview"
 
 TOPIC_KEYWORDS: dict[str, set[str]] = {
     "Integrated Optics": {
@@ -127,6 +126,27 @@ TOPIC_KEYWORDS: dict[str, set[str]] = {
         "GaN",
         "zinc oxide",
         "ZnO",
+        "quantum gate",
+        "quantum gates",
+        "two-qubit gate",
+        "two qubit gate",
+        "entangling gate",
+        "gate fidelity",
+        "quantum control",
+        "spin-photon interface",
+        "spin photon interface",
+        "cavity array",
+        "photonic qubit",
+        "superconducting qubit",
+        "trapped-ion quantum",
+        "neutral-atom quantum",
+        "solid-state quantum emitter",
+        "color-center qubit",
+        "donor qubit",
+        "rare-earth qubit",
+        "quantum transduction",
+        "quantum network",
+        "quantum node",
     },
     "Optical Computing": {
         "optical computing",
@@ -166,29 +186,33 @@ TOPIC_KEYWORDS: dict[str, set[str]] = {
         "ptychography",
         "tomographic microscopy",
     },
-    "Optical Materials": {
-        "optical material",
-        "optical materials",
-        "photonic material",
-        "photonic materials",
-        "optical properties",
-        "refractive index",
-        "dielectric function",
-        "permittivity",
-        "plasmonic",
-        "plasmonics",
-        "metasurface",
-        "metasurfaces",
-        "photonic crystal",
-        "photonic crystals",
-        "polariton",
-        "polaritons",
-        "electro-optic",
-        "electro optic",
-        "photochromic",
-        "photoluminescence",
-        "luminescence",
+    "Integrated Optics": {
+        "integrated optics",
+        "integrated photonics",
+        "integrated photonic",
+        "photonic integrated circuit",
+        "photonic integrated circuits",
+        "silicon photonics",
+        "on-chip photonic",
+        "on chip photonic",
+        "waveguide",
+        "waveguides",
+        "ring resonator",
+        "ring resonators",
+        "micro-ring",
+        "microring",
+        "guided-wave",
+        "guided wave optics",
+        "optical interconnect",
+        "optical interconnects",
+        "photonic crystal cavity",
+        "nanobeam cavity",
+        "cavity design",
+        "mode volume",
+        "quality factor",
+        "purcell",
     },
+
     "AMO Physics": {
         "atomic, molecular, and optical",
         "atomic, molecular and optical",
@@ -245,6 +269,25 @@ GENERAL_OPTICS_KEYWORDS = {
 
 EXCLUSION_KEYWORDS = {
     "optical theorem",
+    "drude",
+    "superconductivity",
+    "superconductor",
+    "ferroelectric",
+    "antiferromagnetic",
+    "antiferromagnet",
+    "spin liquid",
+    "charge density wave",
+    "mott",
+    "hubbard",
+    "kondo",
+    "moire",
+    "van der waals",
+    "topological semimetal",
+    "topological insulator",
+    "quantum hall",
+    "fractional quantum hall",
+    "exciton condensate",
+    "strongly correlated",
 }
 
 SUMMARY_ACTION_HINTS = (
@@ -426,26 +469,25 @@ def classify_optics_topics(text: str) -> tuple[list[str], dict[str, list[str]]]:
         return [], {}
 
     general_hits = find_keyword_hits(normalized, GENERAL_OPTICS_KEYWORDS)
-    if len(general_hits) >= 2:
-        hits["Other Optics"] = general_hits[:4]
-        return ["Other Optics"], hits
+    if len(general_hits) >= 3:
+      hits["Other Optics"] = general_hits[:4]
+      return ["Other Optics"], hits
 
     return [], {}
 
 
-def build_deepseek_client(config: dict[str, Any]) -> Any | None:
-    if not bool(config.get("enable_deepseek_summaries", True)):
+def build_gemini_client(config: dict[str, Any]) -> Any | None:
+    if not bool(config.get("enable_gemini_summaries", True)):
         return None
 
-    api_key = os.environ.get("DEEPSEEK_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         return None
 
-    if OpenAI is None:
+    if genai is None:
         return None
 
-    base_url = str(config.get("deepseek_base_url", DEEPSEEK_DEFAULT_BASE_URL)).strip()
-    return OpenAI(api_key=api_key, base_url=base_url)
+    return genai.Client()
 
 
 def strip_json_fence(text: str) -> str:
@@ -456,7 +498,7 @@ def strip_json_fence(text: str) -> str:
     return stripped.strip()
 
 
-def request_deepseek_summaries(
+def request_gemini_summaries(
     client: Any,
     model: str,
     paper: dict[str, Any],
@@ -464,16 +506,14 @@ def request_deepseek_summaries(
 ) -> dict[str, Any] | None:
     topic_hint = ", ".join(topics) if topics else "None"
     prompt = f"""
-Return a json object with exactly these keys:
+Return a JSON object with exactly these keys:
 - summary_en
 - summary_zh
-- summary_ja
 
 Requirements:
 - Each value must be exactly one sentence.
 - summary_en must be in English.
 - summary_zh must be in Simplified Chinese.
-- summary_ja must be in Japanese.
 - Keep the science faithful to the paper.
 - Do not add markdown.
 - Do not add extra keys.
@@ -484,25 +524,19 @@ Title: {paper["title"]}
 Abstract: {paper["abstract"]}
 """.strip()
 
-    response = client.chat.completions.create(
+    response = client.models.generate_content(
         model=model,
-        messages=[
-            {
-                "role": "system",
-                "content": "You are a careful research assistant. Return valid json only.",
-            },
-            {"role": "user", "content": prompt},
-        ],
-        response_format={"type": "json_object"},
-        max_tokens=500,
-        stream=False,
+        contents=prompt,
+        config={
+            "response_mime_type": "application/json",
+        },
     )
 
-    content = response.choices[0].message.content if response.choices else ""
-    if not content:
+    text = getattr(response, "text", None)
+    if not text:
         return None
 
-    return json.loads(strip_json_fence(content))
+    return json.loads(text)
 
 
 def fallback_summary_bundle(
@@ -512,11 +546,10 @@ def fallback_summary_bundle(
 ) -> dict[str, str]:
     english = choose_summary_sentence(abstract)
     chinese = translate_text(english, "zh-CN", cache, enable_translation) or english
-    japanese = translate_text(english, "ja", cache, enable_translation) or english
+    
     return {
         "en": first_sentence(english),
         "zh": first_sentence(chinese),
-        "ja": first_sentence(japanese),
     }
 
 
@@ -525,15 +558,15 @@ def build_summary_bundle(
     topics: list[str],
     cache: dict[tuple[str, str], str | None],
     enable_translation: bool,
-    deepseek_client: Any | None,
-    deepseek_model: str,
+    gemini_client: Any | None,
+    gemini_model: str,
 ) -> tuple[dict[str, str], str]:
     fallback = fallback_summary_bundle(paper["abstract"], cache, enable_translation)
-    if deepseek_client is None:
+    if gemini_client is None:
         return fallback, "fallback"
 
     try:
-        payload = request_deepseek_summaries(deepseek_client, deepseek_model, paper, topics)
+        payload = request_gemini_summaries(gemini_client, gemini_model, paper, topics)
     except Exception:
         return fallback, "fallback"
 
@@ -544,16 +577,11 @@ def build_summary_bundle(
     chinese = first_sentence(str(payload.get("summary_zh", "")).strip()) or (
         translate_text(english, "zh-CN", cache, enable_translation) or fallback["zh"]
     )
-    japanese = first_sentence(str(payload.get("summary_ja", "")).strip()) or (
-        translate_text(english, "ja", cache, enable_translation) or fallback["ja"]
-    )
 
     return {
         "en": english,
         "zh": chinese,
-        "ja": japanese,
-    }, "deepseek"
-
+    }, "gemini"
 
 def pick_featured_authors(authors: list[dict[str, str]], max_authors: int) -> list[dict[str, str]]:
     if len(authors) <= max_authors:
@@ -562,33 +590,39 @@ def pick_featured_authors(authors: list[dict[str, str]], max_authors: int) -> li
     tail = max_authors - head
     return authors[:head] + authors[-tail:]
 
-
+import time
 def filter_and_enrich(
     papers: list[dict[str, Any]],
     enable_translation: bool,
     max_authors_shown: int,
-    deepseek_client: Any | None,
-    deepseek_model: str,
+    gemini_client: Any | None,
+    gemini_model: str,
 ) -> list[dict[str, Any]]:
     translation_cache: dict[tuple[str, str], str | None] = {}
     kept: list[dict[str, Any]] = []
 
     for index, paper in enumerate(papers, start=1):
         log(f"      -> checking paper {index}/{len(papers)}: {paper['category']} {paper['id']}")
-        combined_text = " ".join(
-            [paper["title"], paper["abstract"], paper.get("subjects", "")]
-        )
+        
+        # 1. Check if it's optics
+        combined_text = " ".join([paper["title"], paper["abstract"], paper.get("subjects", "")])
         topics, topic_hits = classify_optics_topics(combined_text)
+        
         if not topics:
             continue
+
+        # 2. Add a delay ONLY if you are using Gemini
+        if gemini_client is not None:
+            # A 4-second sleep ensures you stay under 15 requests per minute (60/4 = 15)
+            time.sleep(4)
 
         summaries, summary_source = build_summary_bundle(
             paper=paper,
             topics=topics,
             cache=translation_cache,
             enable_translation=enable_translation,
-            deepseek_client=deepseek_client,
-            deepseek_model=deepseek_model,
+            gemini_client=gemini_client,
+            gemini_model=gemini_model,
         )
 
         kept.append(
@@ -991,7 +1025,7 @@ def build_daily_html(date_str: str, papers: list[dict[str, Any]], categories: li
 
     function matches(paper) {
       const authorText = (paper.authors || []).map((author) => author.name).join(" ");
-      const summaryText = [paper.summaries?.en, paper.summaries?.zh, paper.summaries?.ja].join(" ");
+      const summaryText = [paper.summaries?.en, paper.summaries?.zh].join(" ");
       const topicText = (paper.topics || []).join(" ");
       const haystack = [
         paper.id,
@@ -1039,10 +1073,6 @@ def build_daily_html(date_str: str, papers: list[dict[str, Any]], categories: li
             <section class="summary-item">
               <strong>Chinese Summary</strong>
               <p>${escapeHtml(paper.summaries?.zh || "")}</p>
-            </section>
-            <section class="summary-item">
-              <strong>Japanese Summary</strong>
-              <p>${escapeHtml(paper.summaries?.ja || "")}</p>
             </section>
           </div>
           <details>
@@ -1239,9 +1269,9 @@ def generate(date_str: str | None = None) -> Path:
 
     enable_translation = bool(config.get("enable_translation", True))
     max_authors_shown = int(config.get("max_authors_shown", 6))
-    deepseek_model = str(config.get("deepseek_model", DEEPSEEK_DEFAULT_MODEL))
-    deepseek_client = build_deepseek_client(config)
-    deepseek_status = "on" if deepseek_client is not None else "off"
+    gemini_model = str(config.get("gemini_model", GEMINI_DEFAULT_MODEL))
+    gemini_client = build_gemini_client(config)
+    gemini_status = "on" if gemini_client is not None else "off"
 
     log(f"[1/5] Preparing optics digest for {report_date.isoformat()}")
     fetched: list[dict[str, Any]] = []
@@ -1254,13 +1284,13 @@ def generate(date_str: str | None = None) -> Path:
         log(f"      collected {len(category_papers)} submissions from {category}")
 
     log(f"[3/5] Filtering {len(fetched)} papers for optics topics")
-    log(f"[4/5] Building summaries (DeepSeek={deepseek_status})")
+    log(f"[4/5] Building summaries (Gemini={gemini_status})")
     papers = filter_and_enrich(
         papers=fetched,
         enable_translation=enable_translation,
         max_authors_shown=max_authors_shown,
-        deepseek_client=deepseek_client,
-        deepseek_model=deepseek_model,
+        gemini_client=gemini_client,
+        gemini_model=gemini_model,
     )
     papers.sort(key=lambda item: (categories.index(item["category"]), item["id"]))
     log(f"      kept {len(papers)} optics-related papers")
