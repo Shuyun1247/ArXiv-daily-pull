@@ -68,8 +68,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper proposes an ultra-thin aluminum-doped silver (Al-doped Ag) film that uses Al-enabled heterogeneous nucleation to form continuous, smooth, thermally stable and highly conductive transparent metal layers, achieving ~80% visible transmittance with ~8.",
-      "zh": "论文提出一种超薄铝掺杂银（Al 掺杂 Ag）薄膜，通过铝促进银的异质形核来获得连续、平整且在减薄条件下仍热稳定的高导电透明金属层，在 12 nm 时实现可见光平均透过率约 80% 且片电阻约 8."
+      "en": "The paper demonstrates that an ultra-thin aluminum-doped silver film provides thermally stable, highly conductive, and transparent electrical/optical functionality enabling reliable on-chip microheaters and reversible phase-change switching benchmarks for dynamic visible photonics.",
+      "zh": "论文提出并验证了超薄铝掺杂银膜在保持高电导与高光透过的同时具备更好的热稳定性，用于实现片上微加热器的可靠循环，并作为动态可见光子学的基准展示了相变材料的可逆光学开关。"
     },
     "summary_source": "openai"
   },
@@ -102,10 +102,10 @@
       }
     ],
     "summaries": {
-      "en": "We show that when the signatures are repeatable across trials (stereotyped) and linearly independent across routes, a single linear decoder compiled from calibration data maps them to arbitrary payloads, merging selection and memory access into one event and eliminating the fetch that dominates latency and energy in sparse routing architectures.",
-      "zh": "我们表明，当签名在试验中可重复（刻板化）并且在路由之间线性独立时，从校准数据编译的单个线性解码器会将它们映射到任意有效负载，将选择和内存访问合并到一个事件中，并消除在稀疏路由架构中主导延迟和能量的获取。"
+      "en": "The paper proposes “attractor-keyed memory,” where repeatable, linearly independent high-dimensional physical signatures from a selector can be decoded by a single linear map to directly store arbitrary payloads, eliminating the separate fetch step and providing pre-task error bounds via one SVD, with runtime error decomposed into diagnosable channels for decoding fidelity and routing reliability and a four-step experimental protocol to test stereotypy requirements using Ising-machine-inspired constructions and validated scaling on synthetic data.",
+      "zh": "论文提出“吸引子键控记忆”，当选择器产生的高维物理签名在多次试验间可重复且在不同路径间线性无关时，可用由校准数据编译的单一线性解码器直接映射到任意有效载荷，从而把选择与记忆访问合并为一次事件并消除主导稀疏路由架构延迟与能耗的独立取数步骤；该构造只需对测得的器件响应做一次SVD即可在任务选定前给出能力认证与最坏情况误差界，且运行时误差可分解为两类可独立诊断的通道——由字典条件σ_min(Φ)控制的解码保真度与由边际噪声比Δ/T_eff控制的路由可靠性，各自具有不同物理来源与对应改进方案，论文给出完整误差分解、基于伊辛机器的选择器构造，并在三种测量模态的合成散斑签名模拟上验证标度预测；由于尚无硬件演示，作者提供了一个可证伪的四步实验方案，说明首次实验必须测量什么以检验“签名是否满足刻板性”，并指出这也是核心未解问题。"
     },
-    "summary_source": "fallback"
+    "summary_source": "openai"
   },
   {
     "id": "2603.17164",
@@ -182,10 +182,10 @@
       }
     ],
     "summaries": {
-      "en": "We demonstrate efficient diffraction of intense ultrashort laser pulses using optical field ionization plasma-neutral gratings formed by spatially patterned gas ionization in the interference field of two femtosecond pump pulses.",
-      "zh": "我们使用光场电离等离子体中性光栅演示了强超短激光脉冲的有效衍射，该光栅由两个飞秒泵浦脉冲的干涉场中的空间图案气体电离形成。"
+      "en": "The paper experimentally shows that spatially patterned optical-field-ionized plasma-neutral gratings created by two femtosecond pump pulses can diffract intense ultrashort laser pulses with a peak single-order efficiency up to 35%, with tens-of-picoseconds persistence at 10 Hz, efficiency scaling with pump energy and grating aperture, and an optimal grating length consistent with coupled-mode theory, highlighting scalability and high damage threshold for controlling very high-power beams.",
+      "zh": "论文实验表明，通过两束飞秒泵脉冲在干涉场中利用光场电离形成空间图案化的等离子体-中性介质光栅，可实现对强超短激光脉冲的高效衍射：在10 Hz下结构可持续数十皮秒，单一衍射级次效率最高可达35%，且效率随泵能量和光栅口径增强，并在与周期介质耦合模理论一致的特定光栅长度处达到最优，体现了光子等离子体结构的可扩展性与高损伤阈值，适用于超高功率激光束控制并具有多拍瓦系统潜力。"
     },
-    "summary_source": "fallback"
+    "summary_source": "openai"
   },
   {
     "id": "2603.17206",
@@ -250,8 +250,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper studies how a nonrelativistic dipole moving near a reflecting interface experiences time-dependent damping and Lamb shifts from the self-modulated electromagnetic environment, leading to a dynamical version of the Drexhage effect where certain sinusoidal trajectories and modulation parameters produce threshold-dependent amplification of the dipole amplitude and radiated intensity, including cases near epsilon-near-zero materials where damping modulation alone can suffice.",
-      "zh": "论文研究了非相对论速度下的偶极子靠近反射界面时，由其自身引起的电磁环境时变调制所导致的时间相关阻尼和拉姆位移，从而给出德雷克斯奇奇效应的动态扩展，并表明在特定正弦轨迹及调制幅度与频率等参数下会出现阈值条件，使偶极振幅和辐射强度被放大，且在靠近某些零介电常数（epsilon-near-zero）材料的情形下甚至仅通过调制阻尼即可实现放大，同时论文还推导了由界面相对介电常数决定的调制阈值。"
+      "en": "The paper derives a dynamical, time-modulated extension of the Drexhage effect for a dipole emitter near a reflecting interface, showing that motion-driven changes in the electromagnetic Green’s function produce time-dependent damping and Lamb shifts whose non-averaging leads to threshold-dependent amplification of dipole amplitude and radiation intensity for certain trajectories and interface permittivities, including near epsilon-near-zero materials.",
+      "zh": "论文在宏观QED框架下推导了运动引起的德雷赫奇效应时域扩展，表明二极管靠近反射界面时由于电磁环境的自诱导调制会产生不随时间简单平均的时变阻尼与兰姆位移，从而在特定轨迹与界面介电常数条件下超过阈值时会放大二极管振幅及辐射强度，并指出在某些ε近零材料附近仅通过调制阻尼即可实现放大。"
     },
     "summary_source": "openai"
   },
@@ -320,10 +320,10 @@
       }
     ],
     "summaries": {
-      "en": "We report a heat-and-pull system for fabricating low-loss optical nanofibers with controllable waist dimensions and investigate the fabrication limits for achieving small waist diameters and long waist lengths.",
-      "zh": "我们报告了一种用于制造具有可控腰部尺寸的低损耗光学纳米纤维的热拉系统，并研究了实现小腰部直径和长腰部长度的制造限制。"
+      "en": "The paper presents a heat-and-pull fabrication method for low-loss optical nanofibers with precisely controlled submicron waist diameters and millimeter-scale waist lengths, identifies key factors limiting performance (torch geometry, dimensions, and surface contamination), demonstrates >99.",
+      "zh": "论文提出了一种热拉制备工艺，用于实现低损耗、可控的亚微米光纤纳米颈直径及毫米级纳米颈长度；同时分析了限制性能的关键因素（火焰/加热几何、纳米纤维尺寸与表面污染），并在使用多孔喷嘴获得较大且均匀的加热区域后，实现了纳米颈直径最小至200 nm（1 mm长度）和250 nm（50 mm长度）时光传输率均超过99."
     },
-    "summary_source": "fallback"
+    "summary_source": "openai"
   },
   {
     "id": "2603.17638",
@@ -364,8 +364,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper investigates the vacuum and laser-induced degradation of high-finesse Fabry–Perot cavity mirrors at 493 nm for barium-ion cavity QED by measuring cavity loss via cavity lifetime, finding negligible degradation without long exposure or at low circulating power, but observing evidence of degradation after long exposure at high circulating power and concluding that laser-induced deposition is the likely cause rather than thermally activated heating.",
-      "zh": "论文通过用腔寿命测量来研究用于钡离子腔 QED 的 493 nm 高精细度法布里-珀罗腔镜在真空与激光作用下的退化，表明在不长时间暴露或较低环形功率条件下基本不发生退化，但在高环形功率下长时间暴露会出现退化证据，并据此推断更可能是激光诱导的沉积所致而非由激光加热引发的热激活过程。"
+      "en": "The paper studies how high-reflectivity Fabry–Perot mirrors operating at 493 nm degrade in vacuum for barium-ion cavity QED, using cavity lifetime measurements to separate vacuum- and laser-induced effects, showing that degradation occurs after long exposure at high circulating powers and can be reversed, with laser-induced deposition identified as the likely cause rather than thermally driven mechanisms.",
+      "zh": "论文研究用于钡离子腔量子电动力学的493 nm真空高反镜的退化机理，通过腔寿命测量区分真空与激光诱导效应，发现仅在长时间暴露且环形腔内高循环功率条件下出现退化并可实现退化逆转，最终认为更可能是激光诱导沉积导致，而排除了激光加热引发的热激活过程。"
     },
     "summary_source": "openai"
   },
@@ -396,8 +396,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper shows that in two-dimensional wave propagation, the intrinsic wake-tail violation of Huygens' principle prevents perfect time-reversal refocusing, so both spatial-mirror and time-mirror strategies yield broadened or distorted reconstructions with residual wake-tail errors at the source.",
-      "zh": "论文指出，在二维波动传播中，由于对惠更斯原理的内禀破坏产生持久的尾迹结构，使得时间反演无法实现完美的再聚焦；无论采用空间镜还是时间镜策略，重建信号都会出现展宽、畸变并在源处保留尾迹残差，从而限制了精确反演。"
+      "en": "The paper shows that in two-dimensional wave propagation—where Huygens’ principle fails and a wake tail persists inside the light cone—time-reversal refocusing cannot perfectly reconstruct the original pulse, and two idealized spatial- and time-mirror strategies each leave unavoidable broadening or residual, misordered wake-tail components.",
+      "zh": "论文指出，在二维波动传播中由于哈根斯原理失效且光锥内会出现持续的尾迹，时间反演聚焦无法对原始脉冲进行完美重建；尽管采用理想化的空间镜像与时间镜像两种策略，仍会分别造成波形展宽或残余尾迹及其顺序错误，从而限制了精确时间反演。"
     },
     "summary_source": "openai"
   },
@@ -494,8 +494,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a two-step tapering-collapse method that in situ forms an element-interdiffused crystalline transition cladding on Yb:YAG single crystal fibers, using a graded-index layer to suppress lattice mismatch and relieve core–cladding interfacial stress, thereby reducing numerical aperture from 0.",
-      "zh": "论文提出了两步锥化坍塌法，可在Yb:YAG单晶光纤中原位通过元素互扩形成结晶过渡层型包层，利用梯度折射率来抑制晶格失配并迅速缓解芯—包层界面应力，从而使数值孔径由0."
+      "en": "The paper demonstrates a two-step tapering-collapse method to fabricate Yb:YAG single-crystal fiber claddings via elemental interdiffusion, forming a graded-index transition layer that reduces lattice mismatch and interfacial stress, lowers numerical aperture, and yields a 46.",
+      "zh": "本文提出并验证了“两步锥缩塌陷”方法，通过元素互扩在Yb:YAG单晶光纤上原位制备基于元素互扩的包层；其形成的晶体过渡层具有渐变折射率，能有效降低晶格失配并迅速缓解芯包界面应力，从而使数值孔径由0."
     },
     "summary_source": "openai"
   },
@@ -555,10 +555,10 @@
       }
     ],
     "summaries": {
-      "en": "We demonstrate that subtle changes in this level spectrum causes frequency shifts of the resonances.",
-      "zh": "我们证明，该能级谱的细微变化会导致共振的频率变化。"
+      "en": "The paper models nonlinear photonic meta-atoms as soft-core 1D atoms to interpret their higher-order-dispersion spectral resonances and shows that small variations in the meta-atom level structure produce distinguishable isotopic and isomeric frequency shifts, along with a Zeeman-like splitting of resonance lines via a generic mechanism.",
+      "zh": "论文将非线性光子元原子类比为一维软核原子，用以解释由高阶色散引起的其特征光谱共振，并表明元原子能级结构的微小变化会带来可由简单模型区分的同位素与异构体贡献的共振频移，同时还提出一种普适机制导致共振谱线出现类塞曼分裂。"
     },
-    "summary_source": "fallback"
+    "summary_source": "openai"
   },
   {
     "id": "2603.17827",
@@ -593,8 +593,8 @@
       }
     ],
     "summaries": {
-      "en": "We experimentally measure the polarization-complete transmission matrix of a single dielectric sphere using off-axis holography with angle scanning and reconstruct complex transmitted and reflected fields under circular polarization, then after aberration correction and angular mapping the extracted scattering amplitude agrees closely with Mie theory, providing a calibrated benchmark for angle-resolved transmission-matrix measurements and enabling quantitative characterization of spherical and quasi-spherical scatterers.",
-      "zh": "我们使用带角度扫描的离轴全息测量单个介质球的偏振完全透射矩阵，并在圆偏振下重建传输与反射的复振幅，随后在进行像差校正与角度映射后，从透射矩阵提取的散射振幅与米氏理论高度一致，从而为角分辨透射矩阵测量提供了校准基准，并实现对球形及准球形散射体的定量表征。"
+      "en": "The authors measure the polarization-complete transmission matrix of a single dielectric sphere using angle-scanning off-axis holography, reconstruct complex transmission and reflection fields under circular polarization, and after aberration correction show that the extracted scattering amplitude matches Mie theory, providing a calibrated benchmark for quantitative angle-resolved transmission-matrix characterization of spherical and quasi-spherical scatterers.",
+      "zh": "作者利用角度扫描的离轴全息方法测量单个介质球的偏振完备透射矩阵，并在圆偏振下重建传输与反射的复振幅场；经像差校正与角度映射后，从透射矩阵提取的散射振幅与米氏理论高度一致，从而为角分辨透射矩阵测量提供了可校准的基准并实现球形及准球形散射体的定量表征。"
     },
     "summary_source": "openai"
   },
@@ -672,10 +672,10 @@
       }
     ],
     "summaries": {
-      "en": "Here, we demonstrate coherent light generation from the ultraviolet to NIR in a silicon nitride microresonator pumped by a single continuous-wave telecom laser.",
-      "zh": "在这里，我们演示了在由单个连续波电信激光器泵浦的氮化硅微谐振器中产生从紫外到近红外的相干光。"
+      "en": "The paper demonstrates reconfigurable UV-to-infrared coherent frequency generation in a silicon nitride microresonator pumped by a single telecom continuous-wave laser by leveraging cooperative cascaded χ(2) and χ(3) nonlinearities enabled via all-optical poling, where dynamic χ(2) reconfiguration selects second-harmonic spatial modes to realize tunable hybrid-modal phase-matched OPO and milliwatt-level NIR output.",
+      "zh": "论文在单一电信连续波激光泵浦的硅氮化物微谐振器中，通过由全光学极化激发的级联χ(2)与χ(3)非线性协同作用，实现可重构的紫外到红外相干频率生成，并利用动态可调的χ(2)选择二次谐波空间模，从而满足混合模相位匹配实现高度可调的OPO并获得毫瓦级NIR输出。"
     },
-    "summary_source": "fallback"
+    "summary_source": "openai"
   },
   {
     "id": "2603.17814",
@@ -737,8 +737,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper shows that monoclinic η-Ga2O3 has intrinsic giant polarization dichroism from crystal-symmetry-driven optical transition selection rules, enabling near-filter-free high-fidelity polarization photodetection and coherent polarization-division multiplexing in the 245–258 nm band via an activated E//c polarized vb1-to-conduction transition with polarization ratio >500 and crosstalk <0.",
-      "zh": "论文表明单斜相η-Ga2O3由于晶体对称性主导的光学跃迁选择定则而具有本征巨大的偏振二色性，使其在245–258 nm波段实现近无滤波器的高保真偏振探测与相干偏振分复用，通过只激活E//c极化的vb1到导带跃迁获得偏振比>500且串扰<0."
+      "en": "The paper demonstrates that monoclinic η-Ga2O3 has intrinsic giant polarization dichroism that enables near-ideal, filter-free polarization photodetection and coherent polarization-division multiplexing by symmetry-selective optical transitions, achieving a polarization ratio >500, crosstalk <0.",
+      "zh": "论文表明单斜相η-Ga2O3因晶体对称性驱动的偏振选择性光学跃迁而呈现巨大的本征偏振二色性，从而实现无需外部滤光片的近理想偏振光探测与相干偏振分复用，并在245–258 nm窗口获得消光比>500、串扰<0."
     },
     "summary_source": "openai"
   },
@@ -793,8 +793,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper proposes compact hybrid classical-quantum transfer learning models that attach variational quantum classifiers to frozen convolutional backbones, evaluates PennyLane- and Qiskit-based implementations against classical transfer learning on diverse image datasets under ideal and IBM-calibrated noisy conditions including real hardware, and finds that the quantum approaches often match or outperform accuracy while reducing training time and energy use, with PennyLane implementations offering the best accuracy–efficiency trade-off for NISQ settings.",
-      "zh": "论文提出将可变量子分类器接入冻结的卷积骨干的紧凑型混合经典-量子迁移学习架构，使用PennyLane与Qiskit实现并在理想与基于IBM硬件标定的噪声条件下、包括真实量子硬件上，针对多种图像数据集与经典迁移学习进行系统对比，结果表明这些量子方法在多种情况下能达到或超过准确率，同时显著降低训练时间与能耗，其中PennyLane实现的精度-计算效率权衡最佳，说明在特征提取仍由经典完成的NISQ场景下混合量子迁移学习具有实际优势。"
+      "en": "The paper proposes compact hybrid classical–quantum transfer learning architectures that combine frozen classical CNN backbones with variational quantum classifiers, evaluating PennyLane and Qiskit implementations against classical transfer learning under ideal simulation, noise-emulated settings calibrated to IBM hardware, and real IBM devices, finding competitive or sometimes superior accuracy with reduced training time and energy use, especially favoring PennyLane for the best accuracy–efficiency trade-off in realistic NISQ scenarios.",
+      "zh": "论文提出紧凑的混合经典—量子迁移学习架构，将冻结的经典CNN骨干与可变分量子分类器相结合，并在理想仿真、基于IBM硬件校准的噪声仿真以及真实IBM量子设备上，将PennyLane和Qiskit实现与经典迁移学习基线系统对比，结果表明其准确率具有竞争力且在部分情况下更优，同时能稳定降低训练时间与能耗，且PennyLane实现提供了最理想的准确率与计算效率折中，体现了在NISQ时代“特征提取仍为经典”条件下混合量子迁移学习的实际优势。"
     },
     "summary_source": "openai"
   },
@@ -858,8 +858,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper reports a superconducting-qubit quantum simulator implementing a Bose-Hubbard model on a triangular-ladder lattice, where tunable coupling magnitudes and signs generate synthetic magnetic flux and half-filling ground-state regimes characterized by measured current-current correlators and bond kinetic energies that indicate chiral superfluids, Meissner superfluids, and bond-ordered insulators.",
-      "zh": "论文基于超导量子比特实现了三角梯形晶格上的玻色—哈伯德模型，并通过调节耦合强度与符号构造合成磁通，进而在半填充条件下用类似电流-电流相关函数和键动能的测量来表征基态相，结果表明存在手性超流、迈斯纳超流以及键序绝缘体等现象。"
+      "en": "The paper uses a superconducting-qubit quantum simulator to realize a Bose-Hubbard model on a triangular-ladder lattice with tunable couplings and synthetic magnetic flux, and by measuring current-current–like correlators and bond kinetic energies it identifies phases consistent with chiral superfluids, Meissner superfluids, and bond-ordered insulators in the half-filling ground state across different regimes.",
+      "zh": "该论文利用超导量子比特量子模拟器实现了可调耦合与合成磁通的三角梯形晶格玻色-哈伯模型，并通过测量类似电流-电流关联与键动力学能量，在半填充基态的不同参数区间中观测到与手性超流、迈斯纳超流以及键有序绝缘体相一致的相变特征。"
     },
     "summary_source": "openai"
   },
@@ -902,8 +902,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper shows that for unital quantum channels, failing to be representable as a probabilistic mixture of unitary dynamics is directly linked to the quantum character of memory effects in non-Markovian evolution, which can be formalized using process tensors to produce a hierarchy of semidefinite-program witnesses for non-mixed-unitary behavior that is numerically efficient and better than prior tests, demonstrated on qutrit (d=3) and qudit (d=4) examples.",
-      "zh": "论文表明，对于保持最大混合态不变的幺正通道，若其不能表示为幺正演化的概率混合，则该性质与非马尔可夫动力学中的记忆效应是否具有量子特征存在直接对应关系，并可借助过程张量将问题转化为一组半定规划的判别准则，从而得到数值高效且优于既有方法的非混合幺正行为证据，作者在三维与四维情形（d=3、d=4）的示例中验证了该方法的有效性。"
+      "en": "The paper shows that a unital quantum channel’s failure to be expressible as a probabilistic mixture of unitary evolutions can be characterized via the quantum nature of memory in non-Markovian dynamics using process tensors, leading to an efficient hierarchy of semidefinite-program witnesses with improved performance over existing tests and demonstrated on examples in dimensions three and four.",
+      "zh": "本文将“未能写成幺正演化的概率混合”的无偏（unital）量子信道与非马尔可夫动力学中记忆效应的量子性联系起来，并借助过程张量语言构建了一系列半定规划层级，用于高效数值判别非混合幺正行为且优于既有准则，最后在三维与四维无偏信道的示例中验证了方法的有效性。"
     },
     "summary_source": "openai"
   },
@@ -952,8 +952,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper quantifies how much of a quantum system’s heat and work originate specifically from entanglement by driving nonequilibrium dynamics under the constraint that the evolving state remains separable, thereby isolating entanglement’s direct thermodynamic contribution and benchmarking the framework on multipartite platforms such as quantum batteries and quantum refrigerators.",
-      "zh": "论文通过在非平衡动力学中施加“态始终保持可分”的约束来量化热与功中由纠缠直接产生的部分，从而在基准多体系统（如量子电池与量子制冷机）上隔离纠缠对热力学效应的独立贡献并验证该理论。"
+      "en": "The paper quantifies how much heat and work in quantum thermodynamic devices arise specifically from entanglement by enforcing separability constraints on their non-equilibrium dynamics and benchmarking the approach on systems such as quantum batteries and refrigerators.",
+      "zh": "论文通过在量子热力学装置的非平衡动力学中施加可分性约束，专门量化热和功中由纠缠导致的部分，并在量子电池和量子制冷机等多体系统上对该方法进行了基准验证。"
     },
     "summary_source": "openai"
   },
@@ -996,8 +996,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a memory-enhanced Quantum Extreme Learning Machine that characterizes and estimates parameters of quantum dynamics from a tunable collision model, showing that augmenting the QELM feature space with temporal information from earlier steps yields consistent, significant, and robust accuracy gains—especially as the dynamics becomes more strongly non-Markovian—while adding only extra observables gives only marginal improvement.",
-      "zh": "论文提出了一种引入记忆机制的量子极限学习机，用于基于可调碰撞模型产生的量子状态表征并估计量子动力学参数，并系统考察扩展QELM特征空间时加入时间信息与额外观测量对性能的影响，结果表明从更早时间步引入的时间记忆能带来一致且显著、稳健的精度提升且在非马尔可夫性更强时优势更明显，而仅加入额外观测量的增益较为有限。"
+      "en": "The paper presents a Quantum Extreme Learning Machine that learns parameters of quantum dynamics from collision-model-generated sequential quantum states using a many-body disordered quantum reservoir, showing that augmenting the feature space with temporal information—especially memory from earlier time steps—significantly improves estimation accuracy, with the benefit growing for more strongly non-Markovian dynamics.",
+      "zh": "该论文提出一种量子极限学习机，通过碰撞模型产生的连续量子态输入并用在固定哈密顿量下演化的多体无序量子系统作为储层来学习量子动力学的参数，结果表明扩展特征空间并引入时间信息（尤其是来自更早时间步的记忆）能显著提升参数估计精度，且在非马尔可夫性更强时这一优势愈发明显，表明环境记忆效应可作为学习的有益资源。"
     },
     "summary_source": "openai"
   },
@@ -1066,8 +1066,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a noise-resilient nonadiabatic geometric quantum computation protocol using bosonic binomial codes encoded in a superconducting circuit formed by an off-resonantly dispersive microwave cavity coupled to a three-level qutrit, where geometric-phase-based control is synthesized via reverse engineering and optimal control to achieve strong error tolerance.",
-      "zh": "论文提出了一种利用玻色子二项式码（binomial codes）实现非绝热几何量子计算的抗噪声协议，物理平台为由离共振色散耦合的微波腔与三能级qutrit构成的超导系统，并通过将几何相位控制与逆向工程及最优控制相结合来设计定制化控制方案以获得强纠错容忍和固有抗噪性。"
+      "en": "The paper proposes a noise-resilient protocol for performing nonadiabatic geometric quantum computation with bosonic binomial codes in a superconducting cavity–qutrit system, using reverse engineering and optimal control to design geometry-based gates that achieve high simulated fidelities under parameter fluctuations and decoherence with experimentally accessible parameters.",
+      "zh": "论文提出一种在超导腔体-三能级qutrit系统中利用玻色二项码进行非绝热几何量子计算的抗噪协议，通过结合反向工程与最优控制设计基于几何相位的量子门，使其在参数波动和退相干存在下仍获得较高的仿真保真度，并指出该方案可在现有技术中实现可靠的非绝热几何计算。"
     },
     "summary_source": "openai"
   },
@@ -1111,8 +1111,8 @@
       }
     ],
     "summaries": {
-      "en": "By modeling non-Markovian emitter–nanocavity interactions with macroscopic quantum electrodynamics and a Lorentzian pseudo-mode, the paper shows that adding a 2 nm molecular J-aggregate shell to 20 nm silver nanosphere cores restructures the dipole-mode electromagnetic vacuum so quantum dot emitters exhibit Rabi oscillations instead of purely exponential decay, enabling weak-to-strong coupling crossovers in the near field.",
-      "zh": "论文基于用洛伦兹型伪模近似的非马尔可夫相互作用核来建立宏观量子电动力学模型，表明在20 nm银纳米球核外包覆2 nm分子J-聚集层后会重构发射子对应的偶极模电磁真空，使得靠近表面的量子点发射子产生黎波振荡而非仅有的指数衰减，并在近场中实现弱耦合到强耦合的跨越。"
+      "en": "The paper shows that coating 20 nm silver nanospheres with a thin J-aggregate molecular layer reshapes the near-field vacuum at dipole-mode frequencies, inducing weak-to-strong coupling and enabling Rabi oscillations of nearby quantum dot emitters rather than mere exponential decay, by engineering core-shell plexcitonic resonances through a non-Markovian macroscopic QED model.",
+      "zh": "论文表明，通过在20 nm银纳米球表面包覆一层薄的J-聚集体分子层，可以在偶极模频率下重构其近场真空，从而使邻近的量子点发射体出现弱到强耦合的转变并产生拉比振荡，而不是仅发生指数型衰减；该结果基于使用洛伦兹伪模近似的非马尔可夫宏观量子电动力学模型，并通过核-壳“plexciton”共振进行真空场的深亚波长结构化。"
     },
     "summary_source": "openai"
   },
@@ -1166,8 +1166,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a non-adiabatic holonomic scheme for implementing high-fidelity two-qubit controlled-unitary gates in the Rydberg anti-blockade regime, using reverse-engineered pulse parameters and specific detuning/interaction conditions to enforce the required geometric evolution path that remains robust against spontaneous emission and laser intensity errors, and extends the approach to non-local controlled gates for transforming four-qubit entangled states.",
-      "zh": "论文提出了一种在里德伯反封锁（Rydberg anti-blockade）条件下，通过非绝热全几何量子计算实现高保真两量子比特受控幺正门的新方案，并在特定失谐与相互作用约束下，借助对脉冲参数的逆向工程来构造所需的几何演化路径，该门在自发辐射和激光强度误差存在时仍保持高保真度，随后进一步扩展到非局域受控门并研究其用于转换四量子比特纠缠态的应用，显示了该方案对复杂量子信息处理任务的潜在适用性。"
+      "en": "The paper presents a high-fidelity non-adiabatic holonomic geometric scheme for implementing arbitrary non-local two-qubit controlled-unitary gates in a Rydberg anti-blockade setting using reverse-engineered pulse parameters, showing robustness in simulations against spontaneous decay and laser intensity errors and demonstrating applications to converting four-qubit entangled states.",
+      "zh": "该论文提出了一种基于Rydberg反阻塞的非绝热全周（holonomic）几何方案，通过对脉冲参数进行逆向工程来实现任意非局域的两量子比特受控幺算门，并在数值仿真中验证其在自发辐射与激光强度误差下的高保真鲁棒性，同时将设计的量子门扩展到非局域门并研究其用于四量子比特纠缠态的转换，表明其在复杂量子信息处理任务中的潜在适用性。"
     },
     "summary_source": "openai"
   },
@@ -1230,8 +1230,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a compact, self-locking Mach–Zehnder interferometer that uses digital spatial light modulators and static beam displacers to convert spatial-mode entanglement from a parametric down-conversion source into topological entanglement with high fidelity while also digitally reprogramming the device to emulate a controlled-unitary gate action for generating high-purity topological structured light at the single-photon and entangled-photon levels.",
-      "zh": "论文提出了一种紧凑且自锁定的马赫-曾德尔干涉仪，结合数字式空间光调制器与静态光束偏置器，将来自参量下转换源的空间模纠缠高保真映射为拓扑纠缠，并通过空间光调制器数字化驱动来模拟可重编程的受控幺操作，从而在单光子及纠缠态水平上生成具有拓扑特征的高纯量子结构光。"
+      "en": "The paper presents a compact, self-locking Mach-Zehnder interferometer that uses digital spatial light modulators and static beam displacers to convert parametric down-conversion spatial-mode entanglement into high-fidelity topological structured-light entanglement and to implement a digitally reprogrammable controlled-unitary gate for generating high-purity quantum states at the single-photon level.",
+      "zh": "论文提出了一种紧凑且自锁定的马赫-曾德尔干涉仪，结合数字空间光调制器与静态光束位移器，将参数下转换产生的空间模纠缠以高保真映射为具有拓扑特征的结构光纠缠，并模拟由空间光调制器数字驱动的可重编程受控幺操作，从而在单光子层面生成可靠、高纯度的量子结构光态。"
     },
     "summary_source": "openai"
   },
@@ -1295,8 +1295,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents an iterative AI-assisted graph-decimation method that uses two-qubit Clifford gates to reduce the edge count of stabilizer-state graph representations, producing lower-depth unitary preparation circuits and up to 2.",
-      "zh": "论文提出一种迭代的AI辅助图退化方法，通过使用两比特Clifford门减少稳定子态图表示中的边数，从而生成更低深度的制备用幺正电路，并在保持低电路深度的同时使所需两比特门数最多减少2."
+      "en": "The paper presents an AI-optimized graph-decimation method that prepares stabilizer states with significantly fewer two-qubit Clifford gates and depth than prior approaches, using a graph-state reduction strategy with a reinforcement-learning plus Monte Carlo tree search scheme called QuSynth and demonstrating up to 2.",
+      "zh": "本文提出一种基于AI优化图删减的稳定子态制备方法，通过对稳定子态的图态表示进行迭代边数减少并在每步选择两比特Clifford门来生成制备电路，同时引入结合强化学习与蒙特卡洛树搜索的QuSynth以实现更优门选择，在23比特Golay码与144比特gross码等纠错码的态制备上表明两比特门数量最多可比以往方法降低2."
     },
     "summary_source": "openai"
   },
@@ -1339,8 +1339,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper introduces Quantum Depth Compression (QDC), a compilation method using dynamic circuits to transform arbitrary quantum circuits into depth that scales linearly with the number of non-Clifford gates and matches grid connectivity without costly SWAP networks by deferring all Clifford operations, compressing the resulting non-Clifford Pauli-phasors and trailing all-Clifford subcircuit to constant depth via dynamic circuits, which in simulations of random Pauli-phasor circuits also reduces both depth and CNOT count versus a standard compiler.",
-      "zh": "论文提出量子深度压缩（QDC），一种利用动态量子电路的编译框架，可在无需昂贵SWAP网络的情况下，将任意量子电路编译为与非Clifford门数量线性相关的深度并满足网格连接，通过将所有Clifford门推迟到电路末端，将得到的非Clifford Pauli相位器序列和末尾全Clifford子电路分别借助动态电路压缩为常数深度，并在随机Pauli相位器电路的仿真中表明其相较标准编译器可同时降低深度与CNOT数量。"
+      "en": "The paper introduces Quantum Depth Compression (QDC), a compilation framework that uses dynamic circuits to transform arbitrary quantum circuits into forms with depth linear in the number of non-Clifford gates and with grid-compatible connectivity without SWAP-heavy routing, by commuting Clifford gates to the end and then reducing both the resulting non-Clifford Pauli-phasors and the remaining all-Clifford subcircuit to constant depth via dynamic circuits, improving depth and CNOT count on random Pauli-phasor instances versus a standard compiler.",
+      "zh": "论文提出量子深度压缩（QDC）编译框架，利用动态电路把任意量子电路改写为：深度与非Clifford门的数量成线性关系且无需昂贵的SWAP网络即可适配网格连接，通过将Clifford门推到电路末端得到“非Clifford Pauli 相位器序列+全Clifford子电路”，并再借助动态电路把两部分都降低到常数深度；实验表明对随机Pauli相位器电路应用QDC能同时降低深度和CNOT数量，相比标准编译器更优。"
     },
     "summary_source": "openai"
   },
@@ -1431,8 +1431,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper argues that combining high-performance computing, machine learning, and high-performance quantum computing can eliminate the accuracy–scalability bottleneck in quantum-mechanically grounded drug discovery by using ML foundation models for quantum-accurate simulation and HPQC with hybrid QPU–GPU architectures and Hilbert-space mapping to generate truly chemically accurate quantum data, thereby optimizing the full pipeline and extending to quantum-enhanced sampling beyond GPU capability for reactive cellular and next-generation materials modeling.",
-      "zh": "论文提出，通过将高性能计算、机器学习和高性能量子计算三者融合，可在基于量子力学的药物发现中消除“精度—可扩展性”瓶颈：先用类似 FeNNix-Bio1 的机器学习基础模型实现量子精度仿真，再借助采用混合 QPU–GPU 架构并进行希尔伯特空间映射的 HPQC 生成具有真正化学精度的量子数据，从而优化从体系准备到 ML 驱动高保真仿真的全过程，并进一步把量子增强采样作为超越 GPU 的前沿，用于反应性细胞系统与新一代材料的建模。"
+      "en": "The paper argues that integrating high-performance quantum computing with machine learning and HPC overcomes the cost-accuracy tradeoff in ab initio molecular dynamics for drug discovery by enabling quantum-accurate, true chemical-accuracy simulations via hybrid QPU-GPU architectures and Hilbert-space mapping, thereby accelerating the ML-enhanced workflow and extending further to quantum-enhanced sampling for reactive cellular systems and next-generation materials.",
+      "zh": "本文认为，将高性能量子计算与机器学习和高性能计算协同整合可以打破药物发现中从头算分子动力学的“成本—精度”瓶颈：通过混合QPU-GPU架构与希尔伯特空间映射，实现量子准确且真正化学精度的仿真，从而加速ML驱动的高保真流程，并进一步面向反应性细胞系统与下一代材料扩展到量子增强采样。"
     },
     "summary_source": "openai"
   },
@@ -1475,10 +1475,10 @@
       }
     ],
     "summaries": {
-      "en": "For any given $k$-partition of a $d$-dimensional multipartite system, we introduce the total uncertainty as the sum of the uncertainties associated with all possible tensor products of local $\\mathrm{SU}(N)$ observables, where each observable acts on the corresponding subsystem.",
-      "zh": "对于 $d$ 维多部分系统的任何给定 $k$ 分区，我们将总不确定性引入为与局部 $\\mathrm{SU}(N)$ 可观测量的所有可能张量积相关的不确定性之和，其中每个可观测量作用于相应的子系统。"
+      "en": "The paper derives an exact purity-based uncertainty equality for SU(N) observables of arbitrary finite-dimensional multipartite states, enabling efficient experimental detection of k-inseparability and related entanglement/nonlocality criteria from global and reduced purities rather than correlation-matrix norms.",
+      "zh": "论文为任意有限维多体量子态推导了SU(N)观测量对应的、可由全局与约化纯度精确刻画的不确定度等式，从而使得无需直接计算相关矩阵范数就能通过纯度测量高效地检测k不可分性及其关联的纠缠/非局域性判据。"
     },
-    "summary_source": "fallback"
+    "summary_source": "openai"
   },
   {
     "id": "2603.17847",
@@ -1526,8 +1526,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper proposes a continuous-variable Quantum Fourier Layer (CV–QFL) that implements a two-dimensional FFT-like Cooley–Tukey quantum Fourier transform using bipartite Gaussian encoding and Gaussian photonic gates for exact spectral filtering and for integrating the heat equation in the Fourier domain, matching classical results to machine precision while also enabling direct processing of coherent Gaussian optical fields without an explicit encoding stage.",
-      "zh": "论文提出连续变量量子傅里叶层（CV–QFL），利用双部高斯编码与高斯光子门实现类Cooley–Tukey的二维量子傅里叶变换，从而在高斯光子电路中对频谱低通滤波以及在傅里叶域对热方程进行积分实现精确处理，并在两类任务中与经典基准结果到机器精度一致，同时还可在信号已为高斯光学场的情况下直接处理相干光耦合到单模波导的输入而无需显式的经典到量子编码。"
+      "en": "The paper proposes a continuous-variable Quantum Fourier Layer that structurally maps the Cooley–Tukey FFT onto Gaussian photonic gates, allowing exact 2D spectral processing for operator-learning tasks such as spectral low-pass filtering and Fourier-domain heat-equation integration with machine-precision agreement to classical results, and extends naturally to native Gaussian optical-input processing for future CV quantum ML neural operators.",
+      "zh": "论文提出了一种连续变量量子傅里叶层，将 Cooley–Tukey 的 FFT 结构性地映射为高斯光子器件中的电路，从而在高斯光子电路中实现精确的二维谱处理，并在谱低通滤波与热方程的傅里叶域积分等任务上与经典结果达到机器精度一致，同时还能自然扩展到已为高斯光场的原生光学输入处理，为未来 CV 框架下的量子机器学习神经算子架构奠定基础。"
     },
     "summary_source": "openai"
   },
@@ -1584,8 +1584,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper studies how thermal dephasing acting as continuous quantum non-demolition monitoring affects dark-state retention in a two-atom cavity QED system via a Lindblad Tavis–Cummings model, finding an anti-Zeno regime at low dephasing where stronger measurement accelerates dark-state coherence loss and a Zeno regime at higher dephasing where it slows dynamics and partially restores dark-state weight, with the crossover set by dephasing rates, cavity photon exchange, and coupling asymmetry while a finite dark-state component remains even for strong dephasing.",
-      "zh": "论文研究在两原子腔QED体系中，热去相干把连续量子非拆分监测等效建模后如何通过Lindblad形式的Tavis–Cummings模型影响暗态保持，结果表明在低去相干下增强测量强度会加速暗态相干的耗散对应反Zeno效应，而在高去相干下会减缓动力学并部分恢复暗态权重对应Zeno效应，二者的转换由去相干速率、腔场光子交换以及原子场耦合不对称共同决定，同时即使在强去相干条件下仍保留有限的暗态分量，体现出显著鲁棒性。"
+      "en": "The paper numerically studies how thermal-dephasing-induced measurement back-action in a cavity-QED Tavis–Cummings model affects dark-state stability, finding parameter regimes where increasing measurement strength either accelerates dark-state loss (anti-Zeno) or slows it and partially restores dark-state weight (Zeno), with robustness evidenced by a finite dark-state component even under strong dephasing.",
+      "zh": "论文用包含热去相干（等效于连续QND监测）的Tavis–Cummings腔QED洛伦兹主方程数值研究了测量回退对暗态稳定性的影响，发现当参数处于不同去相干强度下，增大测量强度会导致暗态相干快速衰减（反祖诺）或减慢动力学并部分恢复暗态权重（祖诺），且即使在强去相干下仍存在有限的暗态成分，体现出显著鲁棒性。"
     },
     "summary_source": "openai"
   },
@@ -1649,8 +1649,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a magneto-optical trap formed with a single crossed-wire pair rotated by 45° and a bias field to achieve over 10^8 atoms, then repurposes the same wires with adjusted parameters for magnetic trapping and forced evaporative cooling to obtain a Bose-Einstein condensate with more than 10^4 atoms, supported by a theoretical quadrupole-field framework for arbitrary rotation angles and detailed chip design, fabrication, and BEC production protocols.",
-      "zh": "论文提出用单一交叉线对并将其旋转45°、配合合适偏置场构建磁光俘获，使原子数超过10^8；随后通过微调控制参数将同一套线对改用于磁性俘获并结合强迫蒸发冷却，获得超过10^4个原子的玻色-爱因斯坦凝聚（BEC），并给出包含任意旋转角时交叉线对产生四极场的理论框架，同时描述原子芯片的设计与加工以及仅依赖单一交叉线对实现BEC所需的实验流程。"
+      "en": "The paper reports a new atom-chip approach that uses a single pair of crossed, 45°-rotated wires (with a bias field) to realize a large magneto-optical trap exceeding 10^8 atoms, then—after adjusting parameters—switches to magnetic trapping and forced evaporative cooling to produce a Bose-Einstein condensate with over 10^4 atoms, supported by a quadrupole-field theory for arbitrary wire rotation, chip design/fabrication details, and BEC experimental protocols using only this one crossed-wire pair.",
+      "zh": "论文提出一种新的原子芯片方案：用一对交叉旋转的导线（在45°并配合偏置磁场）实现超过10^8个原子的强磁光陷阱，随后通过微调参数切换到磁性俘获并进行强迫蒸发冷却，获得超过10^4个原子的玻色-爱因斯坦凝聚（BEC）；文中给出适用于任意旋转角的交叉导线产生四极磁场的理论框架，介绍芯片设计与制作，并给出仅依赖这一对交叉导线芯片制备BEC的实验流程。"
     },
     "summary_source": "openai"
   },
@@ -1717,8 +1717,8 @@
       }
     ],
     "summaries": {
-      "en": "The paper presents a modular, rack-confined laser system for AMO experiments using precision-manufactured optical boards to reduce alignment degrees of freedom and improve robustness, delivering 13 wavelengths (375 nm to 1092 nm) to ion traps with 21–28% source-to-trap efficiency and laser linewidths below 1 MHz via fiber in-out and electronic control as Class 1 laser products integrated with compact locking stations.",
-      "zh": "论文提出了一套用于AMO实验的模块化激光系统，将激光设备限制在单个机柜并配备紧凑锁定站点，通过精密加工的光学板降低对准自由度、提升抗环境扰动能力；系统覆盖13个波长（375 nm至1092 nm），从激光源到离子阱的效率为21–28%，并实现小于1 MHz的激光稳定线宽，同时利用光纤进出与电子控制构成符合Class 1的激光产品并与离子阱系统集成。"
+      "en": "The paper presents a modular, rack-contained, Class 1 fiber-in/fiber-out laser system with an integrated locking station for AMO experiments, achieving reduced alignment complexity and robust stabilization across 13 wavelengths (375–1092 nm) with 21–28% source-to-ion-trap efficiency and <1 MHz linewidths, demonstrated via key performance characterization and ion-trap integration.",
+      "zh": "本文提出用于AMO实验的模块化、机架内部署的Class 1激光系统及集成锁定站，通过精密制造降低对准自由度并提升环境鲁棒性，在375–1092 nm的13个波长范围内实现21–28%的激光源到离子阱效率和小于1 MHz的线宽，并通过性能表征与离子阱集成进行验证。"
     },
     "summary_source": "openai"
   }

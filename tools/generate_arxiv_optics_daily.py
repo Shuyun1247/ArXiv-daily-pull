@@ -505,17 +505,11 @@ def request_openai_summaries(
 ) -> dict[str, Any] | None:
     topic_hint = ", ".join(topics) if topics else "None"
     prompt = f"""
-Return a JSON object with exactly these keys:
-- summary_en
-- summary_zh
+Summarize the following paper faithfully.
 
 Requirements:
-- Each value must be exactly one sentence.
-- summary_en must be in English.
-- summary_zh must be in Simplified Chinese.
-- Keep the science faithful to the paper.
-- Do not add markdown.
-- Do not add extra keys.
+- summary_en: exactly one sentence in English
+- summary_zh: exactly one sentence in Simplified Chinese
 
 Topic hints: {topic_hint}
 
@@ -526,13 +520,29 @@ Abstract: {paper["abstract"]}
     response = client.responses.create(
         model=model,
         input=prompt,
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": "paper_summary",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "summary_en": {"type": "string"},
+                        "summary_zh": {"type": "string"},
+                    },
+                    "required": ["summary_en", "summary_zh"],
+                    "additionalProperties": False,
+                },
+                "strict": True,
+            }
+        },
     )
 
     text = response.output_text
     if not text:
         return None
 
-    return json.loads(strip_json_fence(text))
+    return json.loads(text)
 
 
 def fallback_summary_bundle(
