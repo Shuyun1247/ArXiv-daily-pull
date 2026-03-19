@@ -646,6 +646,7 @@ def build_daily_html(date_str: str, papers: list[dict[str, Any]], categories: li
     category_json = json.dumps(categories, ensure_ascii=False).replace("</", "<\\/")
     topic_order = list(TOPIC_KEYWORDS.keys()) + ["Other Optics"]
     topic_json = json.dumps(topic_order, ensure_ascii=False).replace("</", "<\\/")
+    category_labels_html = ", ".join(f"<code>{c}</code>" for c in categories)
     template = """<!doctype html>
 <html lang="en">
 <head>
@@ -928,8 +929,9 @@ def build_daily_html(date_str: str, papers: list[dict[str, Any]], categories: li
       <h1>Daily ArXiv Papers in Optics</h1>
       <p>
         Data comes from arXiv's daily <code>new submissions</code> pages across
-        <code>cond-mat</code>, <code>physics</code>, <code>quant-ph</code>, and <code>eess</code>.
-        This version uses optics keywords as the baseline filter and provides one-sentence summaries in English, Chinese, and Japanese for each paper.
+        __CATEGORY_LABELS__.
+        This version focuses on quantum platforms, quantum information, and photonic design,
+        and provides one-sentence summaries in English and Chinese for each paper.
       </p>
       <div class="stats" id="stats"></div>
     </section>
@@ -1113,10 +1115,11 @@ def build_daily_html(date_str: str, papers: list[dict[str, Any]], categories: li
 </html>
 """
     return (
-        template.replace("__DATE__", date_str)
-        .replace("__PAPERS_JSON__", papers_json)
-        .replace("__CATEGORY_ORDER__", category_json)
-        .replace("__TOPIC_ORDER__", topic_json)
+    template.replace("__DATE__", date_str)
+    .replace("__PAPERS_JSON__", papers_json)
+    .replace("__CATEGORY_ORDER__", category_json)
+    .replace("__TOPIC_ORDER__", topic_json)
+    .replace("__CATEGORY_LABELS__", category_labels_html)
     )
 
 
