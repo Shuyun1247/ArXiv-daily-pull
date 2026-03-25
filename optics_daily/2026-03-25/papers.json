@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "2603.22578",
+    "category": "physics.optics",
+    "title": "Benchmarking Dual-Polarization Silicon Nitride Photonic IntegratedCircuitsforTrapped-IonQuantumTechnologies",
+    "abstract": "Trapped ions are one of the most advanced platforms for quantum technologies, with applications ranging from quantum computing to precision timekeeping. A crucial step towards more compact and scalable systems involves integrating photonic integrated circuits (PICs) into surface ion traps to enable on-chip light delivery and optical addressing of individual ions. Currently, most implementations rely solely on transverse-electric (TE) mode grating couplers, where the emitted light is polarized in the plane of the chip. In this work, we design, fabricate and characterize silicon nitride (Si\\(_3\\)N\\(_4\\)) PIC components, including incoupling structures, splitters, and grating couplers that support both TE and transverse-magnetic (TM) modes with comparable optical losses. We benchmark the PIC at 760\\,nm, which is a typical wavelength for Yb$^{+}$-applications. The fabricated grating couplers enable the outcoupling of collimated free-space beams for both polarizations, exhibiting distinct emission angles. This dual-polarization capability gives more flexibility in polarization control and expands the accessible optical design space for trapped-ion quantum technologies.",
+    "url": "https://arxiv.org/abs/2603.22578",
+    "authors": [
+      {
+        "name": "Carl-Frederik Grimpe"
+      },
+      {
+        "name": "Anastasiia Lüßmann-Sorokina"
+      },
+      {
+        "name": "Guochun Du"
+      },
+      {
+        "name": "Pragya Sah"
+      },
+      {
+        "name": "Steffen Sauer"
+      },
+      {
+        "name": "Elena Jordan"
+      },
+      {
+        "name": "Rijil Thomas"
+      },
+      {
+        "name": "Pascal Gehrmann"
+      },
+      {
+        "name": "Maksim Lipkin"
+      },
+      {
+        "name": "Stephan Suckow"
+      },
+      {
+        "name": "Max C. Lemme"
+      },
+      {
+        "name": "Stefanie Kroker"
+      },
+      {
+        "name": "Tanja E. Mehlstäubler"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 13,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing",
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "photonic integrated circuit",
+        "photonic integrated circuits"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "trapped-ion quantum"
+      ],
+      "AMO Physics": [
+        "ion trap",
+        "ion traps",
+        "trapped ion",
+        "trapped ions"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Carl-Frederik Grimpe"
+      },
+      {
+        "name": "Anastasiia Lüßmann-Sorokina"
+      },
+      {
+        "name": "Guochun Du"
+      },
+      {
+        "name": "Max C. Lemme"
+      },
+      {
+        "name": "Stefanie Kroker"
+      },
+      {
+        "name": "Tanja E. Mehlstäubler"
+      }
+    ],
+    "summaries": {
+      "en": "The paper designs, fabricates, and benchmarks dual-polarization silicon nitride photonic integrated-circuit components for trapped-ion quantum technology, demonstrating comparable-loss TE and TM grating couplers at 760 nm that emit collimated beams at distinct angles to enable flexible polarization control for on-chip light delivery and optical addressing.",
+      "zh": "本文设计、制造并在760 nm波段对用于困陷离子量子技术的双偏振硅氮（Si3N4）光子集成电路器件进行基准测试，证明具有相近损耗的TE与TM两类光栅耦合器可将两种偏振的准直自由空间光束以不同发射角耦合输出，从而为片上照明与单离子光学寻址提供更灵活的偏振控制。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22639",
+    "category": "physics.optics",
+    "title": "Twist-Tuned Bilayer Metasurface for 3T MRI",
+    "abstract": "Magnetic resonance imaging (MRI) can see deep inside the body without ionizing radiation, but image quality depends strongly on how well the radio-frequency field is controlled. Passive resonant pads and metasurfaces can help, yet they often lose their tuning when they are placed next to water-rich tissue or tissue-like materials. Here we show a simple way to bring such a device back into tune. We built a bilayer metasurface made of two aluminum wire arrays. One layer can rotate relative to the other, and the gap between the two layers can also be adjusted. Bench measurements show that adding a controlled water load shifts the resonance to lower frequency by about \\SIrange{4.2}{11.4}{\\mega\\hertz}. Rotating the layers shifts it back by about \\SIrange{13.2}{14.9}{\\mega\\hertz}, which is much stronger than changing the gap alone. One loaded setting lands essentially at the proton frequency used in \\SI{3}{\\tesla} MRI. In a proof-of-concept scan on a clinical \\SI{3}{\\tesla} system, the metasurface made internal features in a structured pineapple phantom easier to see than in a substrate-only control. These results show that a passive MRI metasurface can be tuned after fabrication and retuned under load using geometry alone, opening a practical route to simple adjustable RF accessories for MRI.",
+    "url": "https://arxiv.org/abs/2603.22639",
+    "authors": [
+      {
+        "name": "Ingrid Torres"
+      },
+      {
+        "name": "Raquel Rodriguez"
+      },
+      {
+        "name": "Robert W. Laird"
+      },
+      {
+        "name": "Angela R. Laird"
+      },
+      {
+        "name": "Alex Krasnok"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Applied Physics (physics.app-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Ingrid Torres"
+      },
+      {
+        "name": "Raquel Rodriguez"
+      },
+      {
+        "name": "Robert W. Laird"
+      },
+      {
+        "name": "Angela R. Laird"
+      },
+      {
+        "name": "Alex Krasnok"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a twist-tunable bilayer aluminum metasurface for 3T MRI that can be retuned under water-rich tissue loading by rotating one layer relative to the other and adjusting their gap, restoring resonance shifted downward by several megahertz and improving phantom image visibility on a clinical system compared with a substrate-only control.",
+      "zh": "论文提出一种用于3T MRI的扭转可调双层铝金属表面：通过在水负载（模拟组织）后旋转上下两层并调节层间距来重新校准谐振频率（将因水载荷下移的约数兆赫频移重新拉回），并在临床3T系统的菠萝体模验证中相较于仅衬底对照更清晰地成像内部结构，展示了可在无需重新制造的情况下实现被动RF配件实用调谐的路线。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22747",
+    "category": "physics.optics",
+    "title": "Standing-Wave Optical Trap Based on Retro-Reflection Photonic Nanojet",
+    "abstract": "A concept of an innovative optical trap based on the retro-reflected standing-wave photon nanojet (SWOT) is presented. An open resonance cavity is formed between two coaxial microparticles of different geometries (sphere, cylinder, ring, truncated cone) with one particle docked to a plain mirror. Numerical simulations have shown the achievement of a record-high optical field intensity in the SWOT workspace, almost seven times higher than that of a conventional photonic nanojet trap due to a triple-focused optical beam, which contributes to improved optical capture. The proposed design of the optical trap allows for multi-position particle confinement in the trap area. The advantages of the proposed solution are the simple technical implementation and the possibility of integration with microfluidic technologies for optical manipulation of nanoobjects (Chip-on-flex optical sorting and ordering of nanoobjects, particle beaming).",
+    "url": "https://arxiv.org/abs/2603.22747",
+    "authors": [
+      {
+        "name": "Yu.E. Geints"
+      },
+      {
+        "name": "I.V. Minin"
+      },
+      {
+        "name": "O.V. Minin"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 3,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "optical",
+        "optics",
+        "photonic"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yu.E. Geints"
+      },
+      {
+        "name": "I.V. Minin"
+      },
+      {
+        "name": "O.V. Minin"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a simple open-resonance standing-wave optical trap using retro-reflected photon nanojets between two coaxial microparticles with one mounted on a mirror, achieving a record optical field intensity nearly seven times higher than a conventional nanojet trap to enable improved, multi-position particle confinement and compatibility with microfluidic optical manipulation systems.",
+      "zh": "论文提出一种利用反射形成的驻波光子纳米喷射、在两同轴不同几何微粒之间构建开放共振腔的简单光学陷阱方案，其中一颗微粒固定在平面镜上；数值模拟表明其在工作区的光场强度几乎是传统纳米喷射陷阱的7倍左右，从而提升捕获效果并实现陷阱区域内的多位置粒子约束，同时该方案具有易实现及可与微流控技术集成用于纳米对象光学操控的优势。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22811",
+    "category": "physics.optics",
+    "title": "Toward scalable and bias-stable optical phased arrays on lithium tantalate",
+    "abstract": "Ferroelectric materials are an ideal platform for high-speed reconfigurable photonic integrated circuits (PICs) for classical and quantum photonic computations, communications, and sensing. Most reconfigurable PIC devices achieve their functionalities via interference and are therefore highly sensitive to phase errors. Under static bias, carrier drift in ferroelectric waveguides induces continuous phase drift, creating a severe bottleneck for both PIC functionality and scalability. Here we propose achieving bias-stable and scalable ferroelectric PICs by exploiting the intrinsically low carrier drift of lithium tantalate (LT). Taking one of the PIC devices that is most sensitive to phase drift, the optical phased array (OPA), as an example, we designed and fabricated an integrated LT OPA that can keep the far-field main lobe 8 dB higher than side lobes for over 4 hours, representing at least a two-order-of-magnitude improvement over the state of the art. We demonstrated our device's capability in generating arbitrary spatiotemporal waveforms with a modulation frequency as low as 0.1 Hz, leading to practical applications in optical tweezers, trapped-ion quantum computers, adaptive optics for astronomy, AR, 3D printers, LiDAR, and free-space optical communications. Beyond OPA, our work establishes LT as a bias-stable, scalable, and high-speed PIC platform for large-scale classical and quantum photonic systems.",
+    "url": "https://arxiv.org/abs/2603.22811",
+    "authors": [
+      {
+        "name": "Gongcheng Yue"
+      },
+      {
+        "name": "Xuqiang Wang"
+      },
+      {
+        "name": "Yihan Miao"
+      },
+      {
+        "name": "Bowen Chen"
+      },
+      {
+        "name": "Yangming Zhan"
+      },
+      {
+        "name": "Weiran Zhou"
+      },
+      {
+        "name": "Phatham loahavilai"
+      },
+      {
+        "name": "Jiachen Cai"
+      },
+      {
+        "name": "Siyuan Yu"
+      },
+      {
+        "name": "Chengli Wang"
+      },
+      {
+        "name": "Xin Ou"
+      },
+      {
+        "name": "Yang Li"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 12,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing",
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "photonic integrated circuit",
+        "photonic integrated circuits",
+        "waveguide",
+        "waveguides"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "trapped-ion quantum"
+      ],
+      "AMO Physics": [
+        "optical tweezer",
+        "optical tweezers"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Gongcheng Yue"
+      },
+      {
+        "name": "Xuqiang Wang"
+      },
+      {
+        "name": "Yihan Miao"
+      },
+      {
+        "name": "Chengli Wang"
+      },
+      {
+        "name": "Xin Ou"
+      },
+      {
+        "name": "Yang Li"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes lithium tantalate–based ferroelectric optical phased arrays that are bias-stable against carrier-drift–induced phase errors, enabling scalable PICs and demonstrating an integrated LT OPA that maintains a high main-lobe contrast for over 4 hours with at least a two-order-of-magnitude improvement, plus arbitrary spatiotemporal waveform generation down to 0.",
+      "zh": "论文提出利用低载流子漂移的锂铌酸锂（LT）实现抗偏置漂移的铁电相干相移阵列，从而解决相位误差导致的可重构PIC难以扩展问题，并示范了一种集成LT光学相控阵：在4小时以上仍能保持主瓣比旁瓣高8 dB，较现有技术至少提升两个数量级；同时还能以最低0."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22925",
+    "category": "physics.optics",
+    "title": "GHz control of THz QCL band structure and gain by standing acoustic strain",
+    "abstract": "Active frequency comb generation and waveform control are central challenges in the terahertz (THz) domain. In THz quantum cascade lasers (QCLs), these functions have typically been achieved through active bias modulation, which alters the operating point of the device and imposes severe limitations on its flexibility. To address these challenges, we propose an approach based on the direct modulation of the QCL bandstructure using GHz-frequency standing bulk acoustic waves (BAWs), promising direct and localized control of the optical gain and chromatic dispersion. To this end, we fabricated a bulk acoustic transducer on top of a THz QCL in order to excite GHz standing BAWs within its active region. We demonstrate that radio-frequency driving of the transducer leads to the tunable generation of standing BAWs in 5-12 GHz frequency range with wavelengths commensurate to the QCL period length. The effect of the BAW on the QCL bandstructure is revealed by measuring photoluminescence (PL) of the active region, where the BAW strain leads to a considerable modulation of the PL energy up to a few meV around its non-modulated value. We also develop a model and perform bandstructure simulations to predict the effect of the BAW on the QCL subband structure and gain. These results mark the first demonstration of dynamic bandstructure modulation in a THz QCL using GHz acoustic strain, introducing a fundamentally new paradigm that establishes a powerful synergy between QCLs and BAWs towards coherent control and frequency comb engineering in the THz domain.",
+    "url": "https://arxiv.org/abs/2603.22925",
+    "authors": [
+      {
+        "name": "Alexander S. Kuznetsov"
+      },
+      {
+        "name": "Valentino Pistore"
+      },
+      {
+        "name": "Lutz Schrottke"
+      },
+      {
+        "name": "Klaus Biermann"
+      },
+      {
+        "name": "Xiang Lü"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Other Condensed Matter (cond-mat.other); Applied Physics (physics.app-ph)",
+    "author_count": 5,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "frequency comb",
+        "laser",
+        "lasers",
+        "optical"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Alexander S. Kuznetsov"
+      },
+      {
+        "name": "Valentino Pistore"
+      },
+      {
+        "name": "Lutz Schrottke"
+      },
+      {
+        "name": "Klaus Biermann"
+      },
+      {
+        "name": "Xiang Lü"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates that GHz-frequency standing bulk acoustic waves can directly and locally modulate the THz QCL band structure, enabling tunable control of optical gain and chromatic dispersion by driving an acoustic transducer, with bandstructure effects confirmed via photoluminescence measurements and supported by modeling and simulations.",
+      "zh": "论文表明，通过驱动布置在THz量子级联激光器（QCL）上的声学换能器，可利用5–12 GHz的驻立体声波直接且局域地调制THz QCL的能带结构，从而实现对光学增益与色散的可调控制，并通过光致发光测量验证声波引起的能级调制，同时借助模型与能带仿真加以支持，开创了THz相干控制与频率梳工程的新范式。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23061",
+    "category": "physics.optics",
+    "title": "Structured Single-photon Metasource",
+    "abstract": "Structured quantum light is crucial for high-dimensional quantum information processing, yet its direct generation from quantum emitters remains challenging due to their intrinsic locality and omnidirectional radiation. Metasurfaces have been adopted for quantum-light wavefront shaping, typically in cascaded or stacked configurations that suffer from low efficiency and limited resolution. Here, we demonstrate a semiconductor metasource that directly embodies single quantum dots in a nonlocal GaAs metasurface. Spontaneous emission from quantum dot is efficiently funneled into an extended quasi-bound-state-in-the-continuum mode while sustaining strong mode-emitter overlap. A lateral core-barrier heterostructure tunes mode volume and spatial distribution to balance Purcell enhancement and holographic resolution. Using spatially modulated geometric phase, our compact metasource enables deterministic generation of diverse single-photon radiation patterns, including orbital-angular-momentum beams and holographic images. Our work brings versatile single-photon wavefront control into the nanoscale cavity quantum electrodynamics regime, offering a scalable route toward integrated sources of structured quantum light.",
+    "url": "https://arxiv.org/abs/2603.23061",
+    "authors": [
+      {
+        "name": "Jun-Yong Yan"
+      },
+      {
+        "name": "Fang-Yuan Li"
+      },
+      {
+        "name": "Zhou Zhou"
+      },
+      {
+        "name": "Yue-Yao Mu"
+      },
+      {
+        "name": "Hang-Yu Ge"
+      },
+      {
+        "name": "Severin Kruger"
+      },
+      {
+        "name": "Jianfeng Chen"
+      },
+      {
+        "name": "Zhe Wang"
+      },
+      {
+        "name": "Fulong Shi"
+      },
+      {
+        "name": "Mengqi Liu"
+      },
+      {
+        "name": "Haoye Qin"
+      },
+      {
+        "name": "Ying Che"
+      },
+      {
+        "name": "Yu-Tong Wang"
+      },
+      {
+        "name": "Yunyan Zhang"
+      },
+      {
+        "name": "Song Han"
+      },
+      {
+        "name": "Zongyin Yang"
+      },
+      {
+        "name": "Chaoyuan Jin"
+      },
+      {
+        "name": "Huiyun Liu"
+      },
+      {
+        "name": "Arne Ludwig"
+      },
+      {
+        "name": "Feng Liu"
+      },
+      {
+        "name": "Cheng-Wei Qiu"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 21,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing",
+      "Optical Imaging"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "mode volume",
+        "purcell"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "quantum emitter",
+        "quantum emitters",
+        "single-photon"
+      ],
+      "Optical Imaging": [
+        "holographic"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jun-Yong Yan"
+      },
+      {
+        "name": "Fang-Yuan Li"
+      },
+      {
+        "name": "Zhou Zhou"
+      },
+      {
+        "name": "Arne Ludwig"
+      },
+      {
+        "name": "Feng Liu"
+      },
+      {
+        "name": "Cheng-Wei Qiu"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports a semiconductor metasource that nonlocally embeds single quantum dots in a GaAs metasurface to efficiently funnel their emission into quasi-bound-state-in-the-continuum modes, using a lateral core-barrier heterostructure and spatially modulated geometric phases to deterministically generate diverse structured single-photon wavefronts such as OAM beams and holographic images.",
+      "zh": "论文提出了一种半导体超表面单光子源：在非局域的GaAs超表面中嵌入单个量子点，使其自发辐射高效耦合到准束缚态于连续体模式，并通过侧向核-势垒异质结构调控模体积与空间分布、借助空间调制几何相位来确定性地产生多种结构化单光子辐射图样（包括轨道角动量光束与全息图像），从而将结构化量子光波前控制推进到可扩展的片上纳米腔量子电动力学体系中。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23094",
+    "category": "physics.optics",
+    "title": "Doppler dual-comb coherent Raman spectromicroscopy",
+    "abstract": "Chemical imaging enabled by Raman processes is crucial to investigating biological and chemical samples in a label-free manner. Stimulated Raman spectroscopy (SRS) overcomes the key limitation associated with low signal levels in spontaneous Raman spectroscopy, however, at the expense of probing only narrow Raman bands. Time-domain implementation of coherent anti-Stokes Raman spectroscopy (CARS) by dual frequency combs can achieve broad Raman bandwidths; nevertheless, its execution is demanding due to strenuous temporal-synchronization of two independent ultrashort laser sources. Here, we introduce time-domain coherent Raman spectroscopy utilizing two frequency combs generated by the Doppler effect from a single ultra-broadband laser source. In contrast to CARS, in our approach, the interference of impulsively launched vibrations by two broadband frequency combs ({\\tau} ~ 6 fs) periodically modulates the Kerr nonlinear response of the medium, leading to cross-phase modulation (XPM) experienced by both the combs. This phase modulation leads to spectral broadening and periodic modulation in the anti-Stokes region of the combs. Down-conversion by a factor of ~ 10-8 in the frequency of the vibrations enabled by the dual-comb approach empowered us to use photon-counting methodology in the anti-Stokes region. This makes our technique extremely versatile, background-free, sensitive and fast (millisecond acquisition times), in probing a range of samples from wide bandgap dielectrics and liquids to individual micro-particles with nondestructive pulse energies (~ 100 pJ) incident on the sample. Owing to the higher-order nonlinearity involved in the XPM process, we achieved ~ 2.5 times improvement in diffraction-limited spatial resolution (~ 280 nm) in ultra-broadband chemical imaging of a ~ 8 {\\mu}m bead of poly-methyl-methacrylate.",
+    "url": "https://arxiv.org/abs/2603.23094",
+    "authors": [
+      {
+        "name": "Florian M. Schweizer"
+      },
+      {
+        "name": "Hannah Terrasa"
+      },
+      {
+        "name": "Manish Garg"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Chemical Physics (physics.chem-ph)",
+    "author_count": 3,
+    "topics": [
+      "Nonlinear Optics",
+      "Quantum Optics & Quantum Computing",
+      "Optical Imaging"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "cross-phase modulation",
+        "kerr"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ],
+      "Optical Imaging": [
+        "microscopy"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Florian M. Schweizer"
+      },
+      {
+        "name": "Hannah Terrasa"
+      },
+      {
+        "name": "Manish Garg"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a label-free time-domain coherent Raman spectromicroscopy method using Doppler-derived dual frequency combs from a single ultrabroadband laser, where periodic interference of impulsively launched vibrations induces Kerr cross-phase modulation that broadens anti-Stokes spectra enabling fast, background-free photon-counting detection and improved diffraction-limited spatial resolution for micro-particle chemical imaging.",
+      "zh": "论文提出了一种基于单一超宽带激光经多普勒效应生成的双频梳时域相干拉曼显微光谱方法：两把频梳对冲激发出的振动相互干涉通过克尔交叉相位调制产生反斯托克斯端的光谱展宽，从而实现快速、无背景的光子计数检测，并在用于聚甲基丙烯酸甲酯约8 μm微球的超宽带化学成像中获得约280 nm的衍射极限分辨率提升。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23237",
+    "category": "physics.optics",
+    "title": "Ultrafast near-field imaging of an operating nanolaser using free electrons",
+    "abstract": "Integrated opto-electronic devices have the potential to revolutionize information processing, with substantial increase in compute speed, seamless information transfer and reduction of energy consumption. A key missing unit for the successful implementation of compact functional devices are nanometer scale modular and tunable light sources. Monotonically grown semiconducting nanowire lasers (NWLs) fills this gap. However, NWLs operation improvement and optimization require the characterization of their near-field and its dynamics at the nanometer scale, which is hindered due to the light diffraction limit. Here we show how synchronous electron near-field and photon far-field time-resolved spectroscopies surpass this limitation and map a NWLs near-field with nanometer and sub-picoseconds temporal resolution. We quantitatively measured the evolution of the absolute number of stimulated photons $N_0(t)$ in the NWL cavity, measuring that up to 4x10$^5$ are present simultaneously in the cavity. We mapped the lasing cavity mode's near-field, showing that both whispering gallery and Fabry-Perot modes can participate in the lasing. Our results demonstrate how the near-field of a NWL under operation evolves in the sub-picoseconds and the nanometer scales. We anticipate that a direct observation of the near-field will help to elucidate the influence of materials heterogeneities (defects, chemical changes, contaminants, interface roughness, strain) in NWL operation.",
+    "url": "https://arxiv.org/abs/2603.23237",
+    "authors": [
+      {
+        "name": "Cléo Santini"
+      },
+      {
+        "name": "Thi Huong Ngo"
+      },
+      {
+        "name": "Luiz H. G. Tizei"
+      },
+      {
+        "name": "Aurélie Lloret"
+      },
+      {
+        "name": "Tom Fraysse"
+      },
+      {
+        "name": "Sebastien Weber"
+      },
+      {
+        "name": "Adrien Teurtrie"
+      },
+      {
+        "name": "Virginie Brändli"
+      },
+      {
+        "name": "Sebastien Chenot"
+      },
+      {
+        "name": "Denis Lefebvre"
+      },
+      {
+        "name": "Stéphane Vézian"
+      },
+      {
+        "name": "Hugo Lourenço-Martins"
+      },
+      {
+        "name": "Christelle Brimont"
+      },
+      {
+        "name": "Benjamin Damilano"
+      },
+      {
+        "name": "Thierry Guillet"
+      },
+      {
+        "name": "Sophie Meuret"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Materials Science (cond-mat.mtrl-sci)",
+    "author_count": 16,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "laser",
+        "lasers",
+        "optics"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Cléo Santini"
+      },
+      {
+        "name": "Thi Huong Ngo"
+      },
+      {
+        "name": "Luiz H. G. Tizei"
+      },
+      {
+        "name": "Benjamin Damilano"
+      },
+      {
+        "name": "Thierry Guillet"
+      },
+      {
+        "name": "Sophie Meuret"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents synchronous time-resolved electron near-field and photon far-field spectroscopies to overcome the diffraction limit and nanometer-/sub-picosecond-map the operating near-field of a semiconductor nanowire laser, including measuring up to 4×10^5 stimulated photons in the cavity and identifying that whispering-gallery and Fabry–Perot cavity modes both contribute to lasing.",
+      "zh": "该论文提出同步的时间分辨电子近场与光子远场光谱技术，以突破衍射极限并以纳米及亚皮秒精度成像工作中的半导体纳米线激光器近场，定量测得腔内同时存在多达4×10^5个受激光子，并表明光学涡旋（whispering-gallery）与法布里-珀罗（Fabry–Perot）两类腔模均参与激射。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22396",
+    "category": "quant-ph",
+    "title": "Boundary Floquet Control of Bulk non-Hermitian Systems",
+    "abstract": "Non-Hermitian systems provide a powerful platform for engineering and controlling nonequilibrium phenomena beyond Hermitian settings, with the presence of non-Hermitian skin effect broadening the scope of dynamical control. Here, we develop a general theory of non-Hermitian systems driven exclusively at their boundaries, providing a unified description of the driving-frequency dependence of bulk spectra and dynamics in the thermodynamic limit. Our framework extends non-Bloch band theory to time-periodic systems at arbitrary boundary driving frequencies. Applying it to representative models, we demonstrate boundary-driving-induced parity-time symmetry breaking, with the driving frequency serving as a control knob and the driving amplitude providing an additional handle in finite-size systems. These results establish boundary Floquet driving as a versatile mechanism for controlling bulk properties of non-Hermitian systems and open new routes for dynamical engineering in driven open systems.",
+    "url": "https://arxiv.org/abs/2603.22396",
+    "authors": [
+      {
+        "name": "Yu-Min Hu"
+      },
+      {
+        "name": "Yu-Bo Shi"
+      },
+      {
+        "name": "Linhu Li"
+      },
+      {
+        "name": "Gianluca Teza"
+      },
+      {
+        "name": "Ching Hua Lee"
+      },
+      {
+        "name": "Roderich Moessner"
+      },
+      {
+        "name": "Shu Zhang"
+      },
+      {
+        "name": "Sen Mu"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mesoscale and Nanoscale Physics (cond-mat.mes-hall); Quantum Gases (cond-mat.quant-gas); Optics (physics.optics)",
+    "author_count": 8,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yu-Min Hu"
+      },
+      {
+        "name": "Yu-Bo Shi"
+      },
+      {
+        "name": "Linhu Li"
+      },
+      {
+        "name": "Roderich Moessner"
+      },
+      {
+        "name": "Shu Zhang"
+      },
+      {
+        "name": "Sen Mu"
+      }
+    ],
+    "summaries": {
+      "en": "The paper develops a unified theory for boundary-only Floquet driving of bulk non-Hermitian systems, extending non-Bloch band theory to arbitrary driving frequencies to predict how bulk spectra and dynamics depend on frequency in the thermodynamic limit and demonstrating boundary-induced PT-symmetry breaking controllable via driving frequency and amplitude in finite systems.",
+      "zh": "本文建立了仅在边界驱动的非厄米系统边界Floquet控制统一理论，将非布洛赫能带理论推广到任意边界驱动频率，并在热力学极限中描述并预测边界驱动下体能谱与动力学随频率的依赖关系，同时在代表性模型中证明可通过驱动频率与有限尺寸下的驱动幅度实现边界诱导的PT对称性破缺。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22399",
+    "category": "quant-ph",
+    "title": "Latent Style-based Quantum Wasserstein GAN for Drug Design",
+    "abstract": "The development of new drugs is a tedious, time-consuming, and expensive process, for which the average costs are estimated to be up to around $2.5 billion. The first step in this long process is the design of the new drug, for which de novo drug design, assisted by artificial intelligence, has blossomed in recent years and revolutionized the field. In particular, generative artificial intelligence has delivered promising results in drug discovery and development, reducing costs and the time to solution. However, classical generative models, such as generative adversarial networks (GANs), are difficult to train due to barren plateaus and prone to mode collapse. Quantum computing may be an avenue to overcome these issues and provide models with fewer parameters, thereby enhancing the generalizability of GANs. We propose a new style-based quantum GAN (QGAN) architecture for drug design that implements noise encoding at every rotational gate of the circuit and a gradient penalty in the loss function to mitigate mode collapse. Our pipeline employs a variational autoencoder to represent the molecular structure in a latent space, which is then used as input to our QGAN. Our baseline model runs on up to 15 qubits to validate our architecture on quantum simulators, and a 156-qubit IBM Heron quantum computer in the five-qubit setup is used for inference to investigate the effects of using real quantum hardware on the analysis. We benchmark our results against classical models as provided by the MOSES benchmark suite.",
+    "url": "https://arxiv.org/abs/2603.22399",
+    "authors": [
+      {
+        "name": "Julien Baglio"
+      },
+      {
+        "name": "Yacine Haddad"
+      },
+      {
+        "name": "Richard Polifka"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Biomolecules (q-bio.BM)",
+    "author_count": 3,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Julien Baglio"
+      },
+      {
+        "name": "Yacine Haddad"
+      },
+      {
+        "name": "Richard Polifka"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a latent style-based quantum Wasserstein GAN for de novo drug design that uses a variational autoencoder to encode molecules in latent space, injects noise at every rotational gate, and adds a gradient penalty to reduce mode collapse, validating the architecture on quantum simulators up to 15 qubits and testing inference on real 156-qubit IBM Heron hardware while benchmarking against MOSES classical models.",
+      "zh": "该论文提出一种用于药物先验设计的潜在风格量子 Wasserstein GAN：用变分自编码器将分子编码到潜在空间，并在电路每个旋转门中加入噪声、在损失函数中使用梯度惩罚以缓解模式塌陷；在最多15量子比特的量子模拟器上验证架构，并在实际的156量子比特IBM Heron硬件（五量子比特设置）上进行推断分析，同时与 MOSES 基准中的经典模型进行对比。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22401",
+    "category": "quant-ph",
+    "title": "Probabilistic modeling over permutations using quantum computers",
+    "abstract": "Quantum computers provide a super-exponential speedup for performing a Fourier transform over the symmetric group, an ability for which practical use cases have remained elusive so far. In this work, we leverage this ability to unlock spectral methods for machine learning over permutation-structured data, which appear in applications such as multi-object tracking and recommendation systems. It has been shown previously that a powerful way of building probabilistic models over permutations is to use the framework of non-Abelian harmonic analysis, as the model's group Fourier spectrum captures the interaction complexity: \"low frequencies\" correspond to low order correlations, and \"high frequencies\" to more complex ones. This can be used to construct a Markov chain model driven by alternating steps of diffusion (a group-equivariant convolution) and conditioning (a Bayesian update). However, this approach is computationally challenging and hence limited to simple approximations. Here we construct a quantum algorithm that encodes the exact probabilistic model -- a classically intractable object -- into the amplitudes of a quantum state by making use of the Quantum Fourier Transform (QFT) over the symmetric group. We discuss the scaling, limitations, and practical use of such an approach, which we envision to be a first step towards useful applications of non-Abelian QFTs.",
+    "url": "https://arxiv.org/abs/2603.22401",
+    "authors": [
+      {
+        "name": "Vasilis Belis"
+      },
+      {
+        "name": "Giulio Crognaletti"
+      },
+      {
+        "name": "Matteo Argenton"
+      },
+      {
+        "name": "Michele Grossi"
+      },
+      {
+        "name": "Maria Schuld"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Machine Learning (cs.LG)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Vasilis Belis"
+      },
+      {
+        "name": "Giulio Crognaletti"
+      },
+      {
+        "name": "Matteo Argenton"
+      },
+      {
+        "name": "Michele Grossi"
+      },
+      {
+        "name": "Maria Schuld"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a quantum algorithm using the Quantum Fourier Transform over the symmetric group to exactly encode probabilistic models over permutations—enabling non-Abelian harmonic-analysis-based spectral and Markov modeling for permutation-structured data such as tracking and recommendation—while analyzing its scaling, limitations, and prospective practical applications.",
+      "zh": "论文提出一种利用对称群上的量子傅里叶变换（QFT）的量子算法，可将用于置换结构数据的基于非阿贝尔谐分析的概率模型（原本在经典计算上不可行）精确编码到量子态振幅中，并讨论其规模、局限性以及面向跟踪与推荐等应用的潜在实践前景。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22547",
+    "category": "quant-ph",
+    "title": "Development of Biphoton Entangled Light Spectroscopy (BELS) using Bell pairs",
+    "abstract": "We introduce Biphoton Entanglement Light Spectroscopy (BELS), a quantum spectroscopic technique that employs polarization entangled Bell pairs and two photon interference to probe material properties. In BELS, the measured signal arises not from single photon intensities but from changes in the joint polarization and path correlations of biphoton Bell pairs transmitted through or scattered by a sample and analyzed via cross channel coincidences. A key concept of BELS is the explicit mapping between Jones matrix operations and transformations within the Bell state manifold. Optical elements that are equivalent under classical polarization optics can produce qualitatively distinct signatures in the coincidence landscape when interrogated with entangled photons. We demonstrate that linear birefringence and Faraday rotation generate orthogonal admixtures of Bell states, yielding experimentally distinguishable coincidence channels within a single measurement. We measure birefringence in an anisotropic dielectric and Faraday rotation in $\\text{Tb}_3\\text{Ga}_5\\text{O}_{12}$. By mapping the changes to the photonic entanglement, BELS establishes a new framework for future entanglement enhanced spectroscopy, a potentially powerful approach in characterizing quantum materials, nanophotonic devices, and light matter interactions perhaps eventually at a fundamentally quantum level.",
+    "url": "https://arxiv.org/abs/2603.22547",
+    "authors": [
+      {
+        "name": "V. V. Desai"
+      },
+      {
+        "name": "N. P. Armitage"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Materials Science (cond-mat.mtrl-sci); Optics (physics.optics)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "entangled photon",
+        "entangled photons",
+        "single photon"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "V. V. Desai"
+      },
+      {
+        "name": "N. P. Armitage"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents Biphoton Entanglement Light Spectroscopy (BELS), which uses polarization-entangled Bell pairs and two-photon interference to infer material properties from changes in joint Bell-state correlations rather than single-photon intensity, by explicitly mapping Jones-matrix operations to Bell-manifold transformations and experimentally distinguishing linear birefringence and Faraday rotation via orthogonal Bell-state admixtures in coincidence channels for measurements on an anisotropic dielectric and Tb3Ga5O12.",
+      "zh": "本文提出双光子纠缠光谱学（BELS），利用偏振纠缠的贝尔对与双光子干涉，通过贝尔态联合相关的变化而非单光子强度来表征材料性质，并将琼斯矩阵操作与贝尔流形内的变换做出明确对应；作者表明线性双折射与法拉第旋转会产生正交的贝尔态掺混，从而在一次测量中可通过符合（coincidence）通道加以区分，并在各向异性介电体与Tb3Ga5O12上实现了实验测量。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22710",
+    "category": "quant-ph",
+    "title": "Optimal filtering for a giant cavity in waveguide QED systems",
+    "abstract": "In waveguide quantum electrodynamics (QED) systems, a giant cavity can be engineered to interact with quantum fields by multiple distant coupling points so that its non-Markovian dynamics are quite different from traditional quantum optical cavity systems. Towards feedback control this system, this paper designs an optimal filter for the giant cavity systems to estimate its state evolution under continuous quantum measurements. Firstly, the Langevin equation in the Heisenberg picture are derived, which is a linear continuous-time system with both states and inputs delays resulting from the unconventional distant couplings. Compared to existing modeling approaches, this formulation effectively preserves the nonlocal coupling and multiple delay dynamic characteristics inherent in the original system. In particular, the presence of coupling and propagation delays leads to noncommutativity among the system operators at different times, which prevents the direct application of existing quantum filtering methods. To address this issue, an optimal filter is designed, in which the delayed-state covariance matrices are computed. By iteratively evaluating the delayed-state covariance over successive time intervals, the resulting optimal filter can be implemented in an interval-wise backward recursion algorithm. Finally, numerical simulations are conducted to evaluate the tracking performance of the proposed optimal filter for the giant cavity. By comparing between the evolutions of Wigner functions of coherent and cat states and the filter, the effectiveness of the optimal filter is validated.",
+    "url": "https://arxiv.org/abs/2603.22710",
+    "authors": [
+      {
+        "name": "Guangpu Wu"
+      },
+      {
+        "name": "Shibei Xue"
+      },
+      {
+        "name": "Yuting Zhu"
+      },
+      {
+        "name": "Guofeng Zhang"
+      },
+      {
+        "name": "Ian R. Petersen"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Systems and Control (eess.SY)",
+    "author_count": 5,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "waveguide"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "quantum optical",
+        "siv",
+        "waveguide qed"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Guangpu Wu"
+      },
+      {
+        "name": "Shibei Xue"
+      },
+      {
+        "name": "Yuting Zhu"
+      },
+      {
+        "name": "Guofeng Zhang"
+      },
+      {
+        "name": "Ian R. Petersen"
+      }
+    ],
+    "summaries": {
+      "en": "The paper derives a delay-inclusive Heisenberg-picture Langevin model for waveguide QED giant cavities and designs an optimal interval-wise quantum filter to estimate their non-Markovian state under continuous measurements, validating it through simulations that track Wigner functions of coherent and cat states.",
+      "zh": "本文推导了波导QED中“巨型腔”的包含延迟的海森堡表象朗之万模型，并在连续测量下针对其非马尔可夫动力学设计了基于时间区间回递的最优量子滤波器来估计腔态，同时通过对相干态与猫态的Wigner函数跟踪仿真验证了滤波器的有效性。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22718",
+    "category": "quant-ph",
+    "title": "Sub-nanometer resolution of the nitrogen-vacancy center by Fourier magnetic imaging",
+    "abstract": "Solid-state spins in diamond are promising building blocks for quantum computing and quantum sensing, both of which require precise nanoscale addressing of individual spins. To explore the resolution limit of this approach, we demonstrate Fourier magnetic imaging of nitrogen-vacancy centers in diamond under state-of-the-art conditions. We constructed a highly compact experimental platform featuring thermal drift compensation under ambient conditions and generated a pulsed magnetic field gradient of up to 13.5 G/$\\mu$m. By implementing the Fourier magnetic imaging protocol, we achieved localization of a single nitrogen-vacancy center with a spatial resolution of 0.28 $\\pm$ 0.10 nm and a magnetic field measurement deviation of 9 nT. This technique holds potential for applications such as localizing spins within proteins and cells.",
+    "url": "https://arxiv.org/abs/2603.22718",
+    "authors": [
+      {
+        "name": "Peihan Lei"
+      },
+      {
+        "name": "You Huang"
+      },
+      {
+        "name": "Zhi Cheng"
+      },
+      {
+        "name": "Fazhan Shi"
+      },
+      {
+        "name": "Pengfei Wang"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Applied Physics (physics.app-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "vacancy center",
+        "vacancy centers"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Peihan Lei"
+      },
+      {
+        "name": "You Huang"
+      },
+      {
+        "name": "Zhi Cheng"
+      },
+      {
+        "name": "Fazhan Shi"
+      },
+      {
+        "name": "Pengfei Wang"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports state-of-the-art Fourier magnetic imaging of a diamond nitrogen-vacancy center using a compact drift-compensated setup and strong pulsed magnetic gradients, achieving single-spin localization at 0.",
+      "zh": "论文利用带环境漂移补偿的紧凑装置和最高13."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.22789",
+    "category": "quant-ph",
+    "title": "Understanding Bugs in Quantum Simulators: An Empirical Study",
+    "abstract": "Quantum simulators are a foundational component of the quantum software ecosystem. They are widely used to develop and debug quantum programs, validate compiler transformations, and support empirical claims about correctness and performance. In the absence of large-scale quantum hardware, simulator outputs are often treated as ground truth for algorithm development and system evaluation. However, quantum simulators also introduce unique implementation challenges. They must faithfully emulate quantum behavior while executing on classical hardware, requiring complex representations of quantum state evolution, operator composition, and noise modeling. Yet, we still lack a large-scale and in-depth study of failures in quantum simulators. To bridge this gap, this work presents a comprehensive empirical study of bugs in widely used open-source quantum simulators. We analyze 394 confirmed bugs from 12 simulators and manually categorize them based on root causes, failure manifestations, affected components, and discovery mechanisms. Our study reveals several key findings. First, bug discovery is largely user-driven, with most crashes, exceptions, and resource-related failures not detected by automated testing and identified after deployment. Second, logical correctness failures are widespread and often silent, producing plausible but incorrect outputs without triggering crashes or explicit error signals. Third, many critical failures originate in classical simulator infrastructure, such as memory management, indexing, configuration, and dependency compatibility, rather than in core quantum execution logic. These findings provide new insights into the reliability challenges of quantum simulators and highlight opportunities to improve testing and validation practices in the quantum software ecosystem.",
+    "url": "https://arxiv.org/abs/2603.22789",
+    "authors": [
+      {
+        "name": "Krishna Upadhyay"
+      },
+      {
+        "name": "Moshood Fakorede"
+      },
+      {
+        "name": "Umar Farooq"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Software Engineering (cs.SE)",
+    "author_count": 3,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Krishna Upadhyay"
+      },
+      {
+        "name": "Moshood Fakorede"
+      },
+      {
+        "name": "Umar Farooq"
+      }
+    ],
+    "summaries": {
+      "en": "This paper presents an empirical analysis of 394 confirmed bugs across 12 open-source quantum simulators, finding that failures are mostly user-driven, frequently manifest as silent logical incorrectness, and often stem from classical infrastructure issues rather than core quantum execution logic.",
+      "zh": "本文对12个开源量子模拟器的394个已确认缺陷进行实证分析，发现故障主要由用户触发、经常表现为静默的逻辑性错误且不会报错，并且许多关键故障源自经典基础设施（如内存管理与配置兼容性等）而非核心量子执行逻辑。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23009",
+    "category": "quant-ph",
+    "title": "Connection-topology--dependent energy transport and ergotropy in quantum battery networks with reciprocal and nonreciprocal couplings",
+    "abstract": "The realization of scalable quantum battery architectures requires concern not only with how much energy can be stored, but also with how energy is transported, distributed, and converted into extractable work across connected battery nodes. While previous studies mainly focused on collective charging in multi-cell quantum batteries, the topology-dependent transport law and the corresponding work-oriented performance of quantum battery networks remain largely unexplored. In this work, we investigate quantum battery networks with engineered reciprocal and nonreciprocal couplings and compare different connection topologies, including cascaded and parallel architectures, within a unified transport framework. In the nonreciprocal regime, the optimal coupling follows distinct scaling laws for the two connection topologies, namely $J_{\\rm op}^{c}\\propto N$ for cascaded transport and $J_{\\rm op}^{p}\\propto N^{-1/2}$ for parallel charging in the large-$N$ limit. In reciprocal cascaded networks, a parity-dependent spectral response produces an odd-even transport effect that is absent in the nonreciprocal and parallel configurations. We further analyze the role of thermal and squeezed reservoirs and show that thermal noise mainly increases passive energy, whereas squeezing enhances ergotropy and thus the useful fraction of stored energy. These results shift the emphasis from charging enhancement to transport engineering and provide architecture-level design principles for quantum battery networks.",
+    "url": "https://arxiv.org/abs/2603.23009",
+    "authors": [
+      {
+        "name": "Bing-Bing Liu"
+      },
+      {
+        "name": "Rui Chen"
+      },
+      {
+        "name": "Jin-Lei Wu"
+      },
+      {
+        "name": "Gang Chen"
+      },
+      {
+        "name": "Shi-Lei Su"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Bing-Bing Liu"
+      },
+      {
+        "name": "Rui Chen"
+      },
+      {
+        "name": "Jin-Lei Wu"
+      },
+      {
+        "name": "Gang Chen"
+      },
+      {
+        "name": "Shi-Lei Su"
+      }
+    ],
+    "summaries": {
+      "en": "The paper shows that in quantum battery networks the energy transport and ergotropy performance depend on connection topology and engineered reciprocal versus nonreciprocal couplings, yielding different optimal-coupling scaling for cascaded (J_op^c∝N) versus parallel (J_op^p∝N^(-1/2)) charging at large network size, an odd-even parity effect only in reciprocal cascaded configurations, and that squeezed reservoirs enhance extractable ergotropy while thermal noise mainly increases passive energy.",
+      "zh": "论文表明，量子电池网络的能量输运与能量可利用度（ergotropy）会随连接拓扑以及工程化的互易/非互易耦合而改变：在大规模下级联与并联充电的最优耦合分别满足J_op^c∝N和J_op^p∝N^(-1/2)，互易级联结构中由于宇称相关谱响应会出现仅在该情形存在的奇偶输运效应，而热库噪声主要增加“非可利用”的被动能量、压缩态（squeezing）则能提升ergotropy从而提高可提取能量占比。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23036",
+    "category": "quant-ph",
+    "title": "Zero-Uncertainty States Relative to Observable Algebras",
+    "abstract": "We study zero-uncertainty states with quantum memory from an operator-algebraic perspective, which naturally accommodates degenerate projective-valued measurements. In the equal-dimension setting, we prove a rigidity theorem for purity and maximal entanglement. We then analyze two mechanisms by which this rigidity can fail: one arising from proper observable subalgebras, and the other from allowing larger memory dimensions. In these cases, we give corresponding algebraic decomposition and representation-theoretic descriptions, and compare their mathematical structure with their physical interpretation. Finally, we present an example from quantum steering to illustrate how our framework helps resolve a concrete physical question in a specific setting.",
+    "url": "https://arxiv.org/abs/2603.23036",
+    "authors": [
+      {
+        "name": "Jiayu Ran"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum memory"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jiayu Ran"
+      }
+    ],
+    "summaries": {
+      "en": "The paper uses an operator-algebraic framework to study zero-uncertainty states with quantum memory and proves rigidity results for purity and maximal entanglement in an equal-dimension setting, while characterizing how and why this rigidity can fail via proper observable subalgebras or larger memory dimensions through algebraic decompositions and representation-theoretic descriptions, including an illustrative quantum-steering example.",
+      "zh": "本文从算符代数视角研究带量子记忆的零不确定性态，能够自然处理退化的投影值测量；在等维情形下证明了纯度与最大纠缠的刚性定理，并进一步分析该刚性为何可能失效——分别来自适当的可观测量子代数或允许更大的记忆维度——通过代数分解与表示论描述刻画其结构，并以一个量子保真（量子定向）示例说明该框架如何解决特定设定中的具体物理问题。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23124",
+    "category": "quant-ph",
+    "title": "Quantum speedup from nonclassical polarization",
+    "abstract": "We develop a framework for identifying nonclassical speedups in systems with polarization, likewise spin degrees of freedom. By confining the dynamics to the manifold of angular momentum coherent states, which act as the classical reference in this case, we compute the speed limit that bounds the rate of change of the state achievable without generating quantum coherence. A comparison with the unrestricted quantum speed limit enables the quantitative identification of speedups arising from polarization nonclassicality. We apply this framework to the cross-Kerr interaction, demonstrating a persistent speedup scaling as $\\mathcal{O}(\\sqrt{N})$ with the photon number $N$. The results establish polarization nonclassicality as a genuine dynamical resource, linking quantum coherence to quantum-enhanced evolution speeds in nonlinear photonic systems.",
+    "url": "https://arxiv.org/abs/2603.23124",
+    "authors": [
+      {
+        "name": "Tim Aßbrock"
+      },
+      {
+        "name": "Jan Sperling"
+      },
+      {
+        "name": "Laura Ares"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 3,
+    "topics": [
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "kerr"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Tim Aßbrock"
+      },
+      {
+        "name": "Jan Sperling"
+      },
+      {
+        "name": "Laura Ares"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a framework to quantify nonclassical quantum speedups in polarization-based (spin-like) systems by restricting dynamics to angular-momentum coherent-state manifolds to find a coherence-free speed limit, then comparing it with the full quantum speed limit, and applies it to cross-Kerr nonlinearity to show an enduring O(√N) speedup with photon number N.",
+      "zh": "本文提出一种量化极化（类似自旋）系统中非经典量子加速的框架：通过将动力学限制在角动量相干态流形上来得到不产生量子相干时的速度极限，并与自由的量子速度极限进行比较以识别由极化非经典性带来的加速，随后在交叉Kerr相互作用中应用该框架，证明速度增益随光子数N持续按 O(√N) 规模增长，从而表明极化非经典性是动力学资源并将量子相干与非线性光子系统中的量子增强演化速度联系起来。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23362",
+    "category": "quant-ph",
+    "title": "Global control via quantum actuators",
+    "abstract": "We introduce the concept of quantum actuators as mediators for globally controlled quantum computation. Auxiliary quantum systems act as controllable elements that transiently store and release interaction energy, enabling the selective activation of multi-qubit gates within globally driven architectures. During compilation they remain passive and require no fine-grained local control, while during operation they allow for controlled activation of interactions and directional flow of quantum information. We provide a framework for embedding quantum actuators in globally controlled processors, showing how they enhance connectivity, enable long-range entangling operations, and bridge distant regions without increasing local control overhead. We discuss physical implementations and architectural strategies illustrating how these elements extend the capabilities of global-control schemes. A complementary interpretation in terms of quantum batteries naturally emerges, connecting global-control architectures with concepts from quantum thermodynamics while highlighting the distinct operational role of quantum actuators.",
+    "url": "https://arxiv.org/abs/2603.23362",
+    "authors": [
+      {
+        "name": "Roberto Menta"
+      },
+      {
+        "name": "Francesco Cioni"
+      },
+      {
+        "name": "Riccardo Aiudi"
+      },
+      {
+        "name": "Marco Polini"
+      },
+      {
+        "name": "Vittorio Giovannetti"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Roberto Menta"
+      },
+      {
+        "name": "Francesco Cioni"
+      },
+      {
+        "name": "Riccardo Aiudi"
+      },
+      {
+        "name": "Marco Polini"
+      },
+      {
+        "name": "Vittorio Giovannetti"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes “quantum actuators” that act as auxiliary quantum systems storing and releasing interaction energy so that globally driven processors can selectively activate multi-qubit gates and direct quantum information flow without fine-grained local control, while improving connectivity and enabling long-range entanglement through implementable architectural strategies and a related quantum-battery interpretation.",
+      "zh": "论文提出“量子执行器”，作为辅助量子系统暂时储存并释放相互作用能量，使得在无需精细局部控制的全球驱动处理器中可以选择性激活多比特门并引导量子信息流，同时通过可实现的架构策略提升连通性并实现远距离纠缠，并以量子电池的观点加以解释其与全局控制方案的联系与区别。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23422",
+    "category": "quant-ph",
+    "title": "Quantum simulation of Motzkin spin chain with Rydberg atoms",
+    "abstract": "Motzkin spin chain is a well-known mathematical model with connections to symmetry-protected topological phases, such as the Haldane phase, as well as to concepts in the AdS/CFT correspondence. They exhibit highly entangled ground states that violate the area law and are exceptionally difficult to simulate with conventional numerical methods. Numerical simulations of the Motzkin ground state become further challenging at large system sizes due to their high-dimensional spin structure, rendering it a natural test bed for quantum simulation with ultra-cold systems. Here, we propose a Rydberg-atom based quantum simulation scheme that effectively realizes Motzkin spins using an experimentally accessible set of parameters. We show that the resulting effective Motzkin ground state reproduces the characteristic entanglement scaling and the block-structure properties of the reduced density matrix associated with the ideal Motzkin state. Our results establish a pathway toward a concrete experimental realization of Motzkin spins beyond purely mathematical constructions, opening avenues for exploring other similar exotic non-area-law entangled phases in programmable Rydberg simulators.",
+    "url": "https://arxiv.org/abs/2603.23422",
+    "authors": [
+      {
+        "name": "Kaustav Mukherjee"
+      },
+      {
+        "name": "Hatem Barghathi"
+      },
+      {
+        "name": "Adrian Del Maestro"
+      },
+      {
+        "name": "Rick Mukherjee"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Quantum Gases (cond-mat.quant-gas)",
+    "author_count": 4,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "rydberg"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Kaustav Mukherjee"
+      },
+      {
+        "name": "Hatem Barghathi"
+      },
+      {
+        "name": "Adrian Del Maestro"
+      },
+      {
+        "name": "Rick Mukherjee"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a Rydberg-atom quantum simulation scheme that realizes Motzkin spin interactions and demonstrates that the resulting effective ground state reproduces the expected entanglement scaling and reduced-density-matrix block structure, enabling experimental access to non-area-law entangled phases beyond purely mathematical models.",
+      "zh": "本文提出一种基于赖兹贝格（Rydberg）原子的量子模拟方案来实现 Motzkin 自旋链，并表明该方案得到的有效基态能够复现理想 Motzkin 态的纠缠熵标度与约化密度矩阵的块结构特征，从而为在实验中探索非面积定律纠缠相提供可行路径并拓展到可编程赖兹贝格模拟器中的其他类似奇异相。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23468",
+    "category": "quant-ph",
+    "title": "Information-Theoretic Scaling Laws of Neural Quantum States",
+    "abstract": "We establish an information-theoretic scaling law for generic autoregressive neural quantum states, determined by the middle-cut mutual information of the wavefunction amplitude. By formalizing the virtual bond as an effective information channel across a sequence bipartition, we rigorously prove that exact autoregressive representation of a quantum state requires the virtual-bond dimension to scale with the amplitude mutual information. For stabilizer-state families, we show that this law yields an explicit, analytical rank formula. Applying this framework across quantum-state tomography, ground-state and finite-temperature learning, our numerical experiments expose precise exponent matching, architecture-dependent scaling differences between recurrent and Transformer neural quantum state, and the critical role of autoregressive basis ordering. These results establish a rigorous physical link between the intrinsic structure of a quantum many-body state and the corresponding neural-network capacity required for its faithful representation.",
+    "url": "https://arxiv.org/abs/2603.23468",
+    "authors": [
+      {
+        "name": "Yiming Lu"
+      },
+      {
+        "name": "Sriram Bharadwaj"
+      },
+      {
+        "name": "Dikshant Rathore"
+      },
+      {
+        "name": "Di Luo"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yiming Lu"
+      },
+      {
+        "name": "Sriram Bharadwaj"
+      },
+      {
+        "name": "Dikshant Rathore"
+      },
+      {
+        "name": "Di Luo"
+      }
+    ],
+    "summaries": {
+      "en": "The paper derives an information-theoretic scaling law for autoregressive neural quantum states showing that the virtual-bond dimension needed for an exact representation grows with the middle-cut mutual information of the wavefunction amplitude, yielding explicit rank formulas for stabilizer families and numerical evidence across tomography, ground-state/finite-temperature learning that identifies architecture- and ordering-dependent capacity exponents tied to the state’s intrinsic structure.",
+      "zh": "论文通过信息论方法为自回归神经量子态建立了缩放定律，证明要实现量子态幅度在“中间切”上的精确表示，其虚拟键维度必须随波函数幅度的中间切互信息增长；对稳定子态族给出解析秩公式，并在量子态重构与基态/有限温度学习中用数值实验发现与网络架构及自回归基底排序相关的容量幂律差异，从而在物理上严格连接了量子多体态的内在结构与其神经网络的必要表达能力。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.23446",
+    "category": "physics.atom-ph",
+    "title": "A multi-ion optical clock with $\\mathbf{5 \\times 10^{-19}}$ uncertainty",
+    "abstract": "Today's most accurate clocks are based on laser spectroscopy of electronic transitions in single trapped ions and feature fractional frequency uncertainties below $1\\times10^{-18}$. Scaling these systems to multiple, simultaneously interrogated ions reduces measurement times, driving recent advances in multi-ion clocks. However, maintaining state-of-the-art systematic uncertainties while increasing the number of ions remains a central challenge. Here, we report on a multi-ion optical atomic clock with a fractional frequency uncertainty of $5.3\\times10^{-19}$ and up to 10 \\Sr ions. Ion-resolved state detection enables minimization of position-dependent shifts, with residual effects suppressed below the $10^{-20}$-level. Clock operation with eight to ten ions reduces the measurement time by a factor of 4.8 compared to single-ion operation. A comparison with an established \\Yb single-ion clock yields an unperturbed frequency ratio of $0.6926711632159660405(20)$, with a statistical uncertainty of $0.9\\times10^{-18}$ and a combined uncertainty of $2.9\\times 10^{-18}$. These results demonstrate robust multi-ion clock operation with reduced averaging time and state-of-the-art accuracy.",
+    "url": "https://arxiv.org/abs/2603.23446",
+    "authors": [
+      {
+        "name": "Melina Filzinger"
+      },
+      {
+        "name": "Martin R. Steinel"
+      },
+      {
+        "name": "Jian Jiang"
+      },
+      {
+        "name": "Daniel Bennett"
+      },
+      {
+        "name": "Tanja E. Mehlstäubler"
+      },
+      {
+        "name": "Ekkehard Peik"
+      },
+      {
+        "name": "Nils Huntemann"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph) ; Quantum Physics (quant-ph)",
+    "author_count": 7,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "atomic clock",
+        "optical clock",
+        "trapped ion",
+        "trapped ions"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Melina Filzinger"
+      },
+      {
+        "name": "Martin R. Steinel"
+      },
+      {
+        "name": "Jian Jiang"
+      },
+      {
+        "name": "Tanja E. Mehlstäubler"
+      },
+      {
+        "name": "Ekkehard Peik"
+      },
+      {
+        "name": "Nils Huntemann"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports a multi-ion optical atomic clock using up to 10 Sr ions with a fractional frequency uncertainty of 5.",
+      "zh": "本文报道了一种用于最多10个Sr离子的多离子光学原子钟，其分数不确定度为5."
+    },
+    "summary_source": "openai"
+  }
+]
