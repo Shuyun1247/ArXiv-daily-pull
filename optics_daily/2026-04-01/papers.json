@@ -1,0 +1,1524 @@
+[
+  {
+    "id": "2603.29111",
+    "category": "physics.optics",
+    "title": "Radiation-pressure-induced non-Hermitian skin effect in elastic membranes",
+    "abstract": "We show that optical forces perpendicular to the direction of the incident light, generated on structures with asymmetric optical scattering, can manipulate longitudinal elastic waves traveling in that same perpendicular direction. When the radiation pressure acts unidirectionally, reciprocity and hence Newton's Third Law are effectively broken. As a result, the waves grow exponentially with position, an instance of the non-Hermitian skin effect. The effect can be enhanced by orders of magnitude to measurable scales in optically dispersive nanostructured membranes. These findings are particularly relevant in the context of lightsails, spacecraft propelled by radiation pressure from high-power lasers. Our discovery showcases a new interaction between radiation pressure and elastic waves, which taps into the rich field of non-Hermitian physics.",
+    "url": "https://arxiv.org/abs/2603.29111",
+    "authors": [
+      {
+        "name": "Jadon Y. Lin"
+      },
+      {
+        "name": "C. Martijn de Sterke"
+      },
+      {
+        "name": "Boris T. Kuhlmey"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 3,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jadon Y. Lin"
+      },
+      {
+        "name": "C. Martijn de Sterke"
+      },
+      {
+        "name": "Boris T. Kuhlmey"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates that asymmetric optical scattering can use unidirectional radiation pressure to break reciprocity for longitudinal elastic waves in elastic membranes, producing an exponentially growing non-Hermitian skin effect that can be significantly enhanced in nanostructured, optically dispersive systems and is relevant to applications like laser-driven lightsails.",
+      "zh": "本文表明，通过不对称光学散射产生的、作用于入射光垂直方向的单向辐射压可在弹性薄膜中操控同一垂直方向传播的纵向弹性波，从而有效打破互易性与牛顿第三定律并引发波沿位置指数增长的非厄米皮肤效应；该效应在光学色散的纳米结构薄膜中可被增强到可测量尺度，且与高功率激光驱动的航天器“光帆”等应用密切相关，体现了辐射压与弹性波之间新的相互作用并连接到非厄米物理领域。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29131",
+    "category": "physics.optics",
+    "title": "Large-scale nonlinear optical computing with incoherent light via linear diffractive systems",
+    "abstract": "Nonlinear computation is essential for various information processing tasks. Optical implementations are attractive because passive light propagation can manipulate high-dimensional signals with extreme throughput and parallelism; yet realizing nonlinear mappings in optical hardware remains challenging due to the weak nonlinearity of optical materials and the large intensities required to induce nonlinear interactions. This challenge is further amplified in many systems that operate with incoherent illumination, motivating a coherence-aware framework for scalable optical nonlinear processing. Here, we show that linear optical systems, in particular, optimized diffractive processors comprising passive surfaces, can perform large-scale nonlinear function approximation under spatially incoherent or partially coherent illumination, when preceded by intensity-only input encoding. We quantify how the accuracy of the nonlinear function approximation varies with the degree of parallelism, the number of diffractive layers, and the number of trainable diffractive features. Numerical results demonstrate snapshot computation of up to one million distinct nonlinear functions in a single forward pass through a diffractive processor, with the function outputs spatially multiplexed and read out using densely packed detectors at the output. We further provide a proof-of-concept experimental demonstration under incoherent illumination from a liquid crystal display (LCD), enabled by a model-free in situ learning strategy that jointly optimizes the diffractive profile and detector readout geometry in the presence of hardware imperfections and misalignments. Our findings establish diffractive processors as a massively parallel universal function approximator for both spatially incoherent and partially coherent illumination.",
+    "url": "https://arxiv.org/abs/2603.29131",
+    "authors": [
+      {
+        "name": "Alexander Chen"
+      },
+      {
+        "name": "Yuntian Wang"
+      },
+      {
+        "name": "Md Sadman Sakib Rahman"
+      },
+      {
+        "name": "Yuhang Li"
+      },
+      {
+        "name": "Aydogan Ozcan"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Neural and Evolutionary Computing (cs.NE); Applied Physics (physics.app-ph)",
+    "author_count": 5,
+    "topics": [
+      "Nonlinear Optics",
+      "Quantum Optics & Quantum Computing",
+      "Optical Computing"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "nonlinear optical"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ],
+      "Optical Computing": [
+        "optical computing"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Alexander Chen"
+      },
+      {
+        "name": "Yuntian Wang"
+      },
+      {
+        "name": "Md Sadman Sakib Rahman"
+      },
+      {
+        "name": "Yuhang Li"
+      },
+      {
+        "name": "Aydogan Ozcan"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates that optimized passive diffractive optical processors can approximate large-scale nonlinear functions using spatially incoherent or partially coherent light by employing intensity-only encoding, enabling up to a million distinct nonlinear functions in one pass and validating this approach with an LCD-based experiment using in situ learning to handle real-world imperfections.",
+      "zh": "论文证明，经过优化的被动衍射光学处理器可在空间非相干或部分相干照明下，通过强度-only编码实现大规模非线性函数逼近，并在一次前向传播中实现最多一百万个不同非线性函数且在LCD实验中通过原位学习共同优化衍射结构与探测读出以适应硬件误差与错位。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29132",
+    "category": "physics.optics",
+    "title": "Time-resolved role of coherence and delocalization in photosynthetic energy transfer from an extended exciton model",
+    "abstract": "Photosynthetic antenna complexes achieve high quantum efficiency through exciton transport in coupled pigment networks. Conventional Frenkel-exciton models treat each chromophore as a structureless site and neglect internal electronic degrees of freedom that can influence coherence and delocalization. Here we develop an extended excitonic network model that preserves the pigment-pigment coupling topology while introducing tunable intrachromophoric electronic mixing within the single-excitation manifold. Using a Lindblad open-quantum-system framework, we quantify coherence, delocalization, and trapping efficiency across parameter space. We show that intrachromophoric mixing plays a time-dependent role: enhanced mixing on the antenna side promotes short-time coherent delocalization and improves excitation injection, whereas excessive mixing near the trapping site induces persistent delocalization and suppresses transfer efficiency. Simulated two-dimensional electronic spectra reveal enhanced cross peaks and systematic blue shifts, providing spectroscopic signatures of coherence-modulated transport. These results establish a microscopic connection between internal electronic structure and quantum transport performance in excitonic networks.",
+    "url": "https://arxiv.org/abs/2603.29132",
+    "authors": [
+      {
+        "name": "Jingyu Liu"
+      },
+      {
+        "name": "Tao-Yuan Du"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Quantum Physics (quant-ph)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jingyu Liu"
+      },
+      {
+        "name": "Tao-Yuan Du"
+      }
+    ],
+    "summaries": {
+      "en": "The paper introduces an extended exciton network model with tunable intrachromophoric electronic mixing to study, within a Lindblad framework, how coherence and delocalization affect excitation injection and trapping efficiency in photosynthetic energy transfer, finding that mixing enhances short-time delocalization near the antenna but that excessive mixing near the trapping site causes persistent delocalization and suppresses efficiency, with these effects supported by simulated 2D electronic spectra showing cross-peak enhancements and blue shifts.",
+      "zh": "该论文提出一种带可调片内色团电子混合的扩展激子网络模型，并在Lindblad框架下研究相干性与定域化/离域化如何影响光合能量转移中的激发注入与俘获效率，结果表明天线侧增强的混合会促进短时相干离域并提高注入，而俘获位附近过强的混合会导致持续离域并抑制转移效率，且通过模拟的二维电子光谱在交叉峰增强与蓝移等方面给出了相干调控输运的谱学证据。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29355",
+    "category": "physics.optics",
+    "title": "Recirculating frequency-shifting loop for flexible optical chirp generation and FMCW LiDAR",
+    "abstract": "A recirculating frequency-shifting loop (FSL) provides a highly flexible platform for generating coherent optically chirped light with tunable bandwidth, duration, chirp rate and repetition rate. The properties of the chirped light are controlled using low-frequency sinusoidal electronic drive signals, enabling deterministic waveform synthesis without complex high-speed electronics. We achieve chirp bandwidths of 10 GHz with a duration in the nanosecond regime, representing one of the fastest tunable laser sources to date. Using such chirped laser pulses, we demonstrate coherent FMCW LiDAR measurements over distances up to 3 m, highlighting the potential of FSL-based sources for compact, scalable and high-performance ranging systems.",
+    "url": "https://arxiv.org/abs/2603.29355",
+    "authors": [
+      {
+        "name": "Alexander Mrokon"
+      },
+      {
+        "name": "Sebastian Schöler"
+      },
+      {
+        "name": "Leonard Vossgrag"
+      },
+      {
+        "name": "Karsten Buse"
+      },
+      {
+        "name": "Ingo Breunig"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 5,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "laser",
+        "optical",
+        "optics"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Alexander Mrokon"
+      },
+      {
+        "name": "Sebastian Schöler"
+      },
+      {
+        "name": "Leonard Vossgrag"
+      },
+      {
+        "name": "Karsten Buse"
+      },
+      {
+        "name": "Ingo Breunig"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a recirculating frequency-shifting loop that uses low-frequency sinusoidal electronic drives to deterministically generate tunable, coherent optical chirps with 10 GHz bandwidth and nanosecond duration, enabling coherent FMCW LiDAR ranging up to 3 m for compact scalable systems.",
+      "zh": "本文提出一种利用低频正弦电子驱动信号的往复频移环路（FSL），可对相干光学啁啾进行可调且可确定的波形合成，获得10 GHz带宽与纳秒级持续时间，并用该啁啾激光实现最高3 m的相干FMCW LiDAR测距，体现其在紧凑可扩展高性能测距系统中的潜力。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29776",
+    "category": "physics.optics",
+    "title": "Strongly Nonlinear Slow Light Polaritons in Subwavelength Modulated Waveguides",
+    "abstract": "Slow light is a regime of reduced group velocity, resulting in increased photon density in optical pulses and enhanced nonlinear effects. Here, we propose the realization of slow light in the regime of strong light-matter interaction between waveguide photons and semiconductor excitons. We design a dielectric superlattice structure with a nearly-flat band characterized by low group velocity and group velocity dispersion, both required for enhancing nonlinear effects with ultrashort pulses. Furthermore, by applying this general framework to a perovskite-based structure, we demonstrate an enhancement of the single-particle phase shift by a factor of more than 20, representing a significant step toward the few-photon quantum regime. Our results provide a blueprint for accessible strong interactions in solid-state integrated optics.",
+    "url": "https://arxiv.org/abs/2603.29776",
+    "authors": [
+      {
+        "name": "Amir Rahmani"
+      },
+      {
+        "name": "Maciej Dems"
+      },
+      {
+        "name": "Michał Matuszewski"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Quantum Physics (quant-ph)",
+    "author_count": 3,
+    "topics": [
+      "Integrated Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "integrated optics",
+        "waveguide",
+        "waveguides"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Amir Rahmani"
+      },
+      {
+        "name": "Maciej Dems"
+      },
+      {
+        "name": "Michał Matuszewski"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes solid-state integrated waveguides with a dielectric superlattice (including a perovskite implementation) that yield nearly-flat, dispersive slow-light polariton bands from strong photon–exciton interactions, enabling over a 20× enhancement of single-particle phase shift toward the few-photon quantum regime.",
+      "zh": "论文提出在固态集成光学中通过介电超晶格结构实现近乎平坦且具有低群速度和群速度色散的慢光极化激元带，并借助光子-激子强相互作用增强非线性效应；在以钙钛矿为基础的结构中进一步证明单粒子相移增强超过20倍，朝向少光子量子极限迈出重要一步。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.28827",
+    "category": "quant-ph",
+    "title": "Quantum Coherence and Giant Enhancement of Positron Channeling Radiation",
+    "abstract": "We present a quantum-mechanical calculation of positron channeling radiation in a planar harmonic potential, explicitly accounting for the interference between transition amplitudes from different transverse energy levels. Because the planar channel potential for positrons in diamond~(110) is well approximated by a parabola, the transverse spectrum is equidistant, $\\varepsilon_n = \\Omega(n+\\tfrac{1}{2})$, and all $n \\to n{-}j$ transitions radiate at the same Doppler-shifted frequency. The entry of the positron into the crystal under the sudden approximation creates a Glauber coherent state with population amplitudes $c_n$. Phase synchronization between the $c_n$ and the dipole matrix elements ensures that all occupied levels contribute constructively to the radiation amplitude, giving an intensity $I_{\\rm coh} \\propto |A_j|^2$ that exceeds the incoherent (Zhevago--Kumakhov) result by a factor $\\mathcal{G} = 12\\text{--}31$ for positron energies of $4\\text{--}14$~GeV in diamond~(110). Numerical results agree with the experimental peak positions of Avakyan \\emph{et al.}~\\cite{Avakyan1982}. The enhancement is unique to positrons because their nearly harmonic channel potential is not replicated for electrons. We propose a decisive experimental test of the coherent model based on the predicted nonlinear angular dependence of the peak intensity. The transition from $N$- to $N^2$-scaling of the radiated intensity, driven by quantum coherence, opens a route toward high-intensity monochromatic gamma-ray sources for nuclear physics and materials science.",
+    "url": "https://arxiv.org/abs/2603.28827",
+    "authors": [
+      {
+        "name": "Michael Shatnev"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; High Energy Physics - Experiment (hep-ex); Accelerator Physics (physics.acc-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Michael Shatnev"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a quantum-coherent calculation of positron channeling radiation in a planar harmonic potential, showing that phase-synchronized interference among transitions between equally spaced transverse energy levels yields a giant enhancement of the radiated intensity over incoherent theory for 4–14 GeV positrons in diamond (110), with results matching observed peak positions and proposing an experimental test via nonlinear angular dependence that could enable high-intensity monochromatic gamma-ray sources.",
+      "zh": "本文对金刚石（110）中正电子在平面谐振势中的通道辐射进行量子相干计算，指出由于横向能级等间隔且不同能级间跃迁幅度相位同步会产生构造性干涉，使4–14 GeV正电子的辐射强度相对非相干理论出现巨大增强（12–31倍），数值与实验峰位一致，并提出可通过峰强的非线性角度依赖来检验相干模型，从而为核物理与材料科学提供高强度单色伽马射线来源新途径。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.28846",
+    "category": "quant-ph",
+    "title": "Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations",
+    "abstract": "This whitepaper seeks to elucidate implications that the capabilities of developing quantum architectures have on blockchain vulnerabilities and mitigation strategies. First, we provide new resource estimates for breaking the 256-bit Elliptic Curve Discrete Logarithm Problem, the core of modern blockchain cryptography. We demonstrate that Shor's algorithm for this problem can execute with either <1200 logical qubits and <90 million Toffoli gates or <1450 logical qubits and <70 million Toffoli gates. In the interest of responsible disclosure, we use a zero-knowledge proof to validate these results without disclosing attack vectors. On superconducting architectures with 1e-3 physical error rates and planar connectivity, those circuits can execute in minutes using fewer than half a million physical qubits. We introduce a critical distinction between fast-clock (such as superconducting and photonic) and slow-clock (such as neutral atom and ion trap) architectures. Our analysis reveals that the first fast-clock CRQCs would enable on-spend attacks on public mempool transactions of some cryptocurrencies. We survey major cryptocurrency vulnerabilities through this lens, identifying systemic risks associated with advanced features in some blockchains such as smart contracts, Proof-of-Stake consensus, and Data Availability Sampling, as well as the enduring concern of abandoned assets. We argue that technical solutions would benefit from accompanying public policy and discuss various frameworks of digital salvage to regulate the recovery or destruction of dormant assets while preventing adversarial seizure. We also discuss implications for other digital assets and tokenization as well as challenges and successful examples of the ongoing transition to Post-Quantum Cryptography (PQC). Finally, we urge all vulnerable cryptocurrency communities to join the ongoing migration to PQC without delay.",
+    "url": "https://arxiv.org/abs/2603.28846",
+    "authors": [
+      {
+        "name": "Ryan Babbush"
+      },
+      {
+        "name": "Adam Zalcman"
+      },
+      {
+        "name": "Craig Gidney"
+      },
+      {
+        "name": "Michael Broughton"
+      },
+      {
+        "name": "Tanuj Khattar"
+      },
+      {
+        "name": "Hartmut Neven"
+      },
+      {
+        "name": "Thiago Bergamaschi"
+      },
+      {
+        "name": "Justin Drake"
+      },
+      {
+        "name": "Dan Boneh"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Cryptography and Security (cs.CR)",
+    "author_count": 9,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "ion trap",
+        "neutral atom"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Ryan Babbush"
+      },
+      {
+        "name": "Adam Zalcman"
+      },
+      {
+        "name": "Craig Gidney"
+      },
+      {
+        "name": "Thiago Bergamaschi"
+      },
+      {
+        "name": "Justin Drake"
+      },
+      {
+        "name": "Dan Boneh"
+      }
+    ],
+    "summaries": {
+      "en": "The whitepaper estimates the resources required for quantum attacks breaking 256-bit elliptic-curve discrete logarithms and argues that fast-clock quantum computers could enable on-spend attacks on some public blockchain transactions, highlighting systemic risks from advanced blockchain features and dormant assets while advocating timely migration to post-quantum cryptography supported by policy and digital-salvage frameworks.",
+      "zh": "该白皮书估算用于破解256位椭圆曲线离散对数的量子攻击所需资源，并认为快时钟量子计算机可能使部分公共区块链交易遭遇“即时花费”式攻击，同时从高级链上功能与闲置资产角度揭示系统性风险，并呼吁在配套政策与数字救援框架支持下尽快迁移到后量子密码学。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.28879",
+    "category": "quant-ph",
+    "title": "Quantum Optical Neuron for Image Classification via Multiphoton Interference",
+    "abstract": "The rapid growth of machine learning is increasingly constrained by the energy and bandwidth limits of classical hardware. Optical and quantum technologies offer an alternative route, enabling high-dimensional, parallel information processing directly in the physical layer, particularly suited for imaging tasks. In this context, quantum photonic platforms provide both a natural mechanism for computing inner products and a promising path to energy-efficient inference in photon-limited regimes. Here, we experimentally demonstrate a camera-free quantum-optical images classifier that performs inference directly at the measurement layer using Hong-Ou-Mandel (HOM) interference of spatially programmable single photons. Two-photon coincidences directly report the overlap between an input image mode and a learned template, replacing pixel-resolved acquisition with a single global measurement. We realize both a single-perceptron quantum optical neuron and a two-neuron shallow network, achieving high accuracy on benchmark datasets with strong robustness to experimental noise and minimal hardware complexity. With a fixed measurement budget, performance remains insensitive to input resolution, demonstrating intrinsic robustness to the number of pixels, which would be impossible in a classical framework. This approach paves the way toward neuromorphic quantum photonic processors capable of extracting task-relevant information directly from HOM interference, with promising applications in remote object recognition, low-signal sensing, and photon-starved biological microscopy.",
+    "url": "https://arxiv.org/abs/2603.28879",
+    "authors": [
+      {
+        "name": "Giorgio Minati"
+      },
+      {
+        "name": "Simone Roncallo"
+      },
+      {
+        "name": "Simone Scrofana"
+      },
+      {
+        "name": "Angela Rosy Morgillo"
+      },
+      {
+        "name": "Nicoló Spagnolo"
+      },
+      {
+        "name": "Chiara Macchiavello"
+      },
+      {
+        "name": "Lorenzo Maccone"
+      },
+      {
+        "name": "Valeria Cimini"
+      },
+      {
+        "name": "Fabio Sciarrino"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 9,
+    "topics": [
+      "Quantum Optics & Quantum Computing",
+      "Optical Computing",
+      "Optical Imaging"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum optical",
+        "single photon",
+        "single photons"
+      ],
+      "Optical Computing": [
+        "photonic processor",
+        "photonic processors"
+      ],
+      "Optical Imaging": [
+        "microscopy"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Giorgio Minati"
+      },
+      {
+        "name": "Simone Roncallo"
+      },
+      {
+        "name": "Simone Scrofana"
+      },
+      {
+        "name": "Lorenzo Maccone"
+      },
+      {
+        "name": "Valeria Cimini"
+      },
+      {
+        "name": "Fabio Sciarrino"
+      }
+    ],
+    "summaries": {
+      "en": "The paper experimentally demonstrates a camera-free quantum-optical image classifier that performs inference at the measurement layer using Hong–Ou–Mandel multiphoton interference, where two-photon coincidences directly measure the overlap between an input image mode and learned templates to realize single- and two-neuron optical quantum neural networks with high accuracy, noise robustness, and resolution-independent performance under a fixed photon budget.",
+      "zh": "论文通过利用洪–欧-曼（HOM）多光子干涉在测量层直接完成推理，实验实现了一种无相机的量子光学图像分类器：两光子符合计数可直接给出输入图像模式与已学习模板的重叠度，从而构建单神经元与双神经元的浅层量子光学神经网络，并在固定光子预算下表现出高精度、对实验噪声的强鲁棒性以及在不改变测量资源的情况下对输入分辨率不敏感的特性。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.28894",
+    "category": "quant-ph",
+    "title": "Process-tensor approach to full counting statistics of charge transport in quantum many-body circuits",
+    "abstract": "We introduce a numerical tensor-network method to compute the statistics of the charge transferred across an interface partitioning an interacting one-dimensional many-body lattice system with $U(1)$ symmetry. Our approach is based on a matrix-product state representation of the process tensor (also known as influence functional or influence matrix) describing the effect of the bulk system on the degrees of freedom at the interface, allowing us to evaluate a multi-time correlation function that yields the moment-generating function of charge transfer. We develop a scheme to truncate non-Markovian correlations which preserves the proper normalization of the process tensor and ensures the correct physical properties of the generating function. We benchmark our approach by simulating magnetization transport within the Heisenberg spin-$1/2$ XXZ brickwork circuit model at infinite temperature. Our results recover the correct transport exponent describing ballistic, superdiffusive, and diffusive transport in different regimes of the model. We also demonstrate anomalous transport encoded by a self-similar scaling form of the moment-generating function outside of the ballistic regime. In particular, we confirm the breakdown of Kardar-Parisi-Zhang universality in higher-order transport cumulants at the isotropic point. Our work paves the way for process-tensor descriptions of non-Markovian open quantum systems to address current fluctuations in strongly interacting systems far from equilibrium.",
+    "url": "https://arxiv.org/abs/2603.28894",
+    "authors": [
+      {
+        "name": "Hari Kumar Yadalam"
+      },
+      {
+        "name": "Mark T. Mitchison"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Statistical Mechanics (cond-mat.stat-mech); Strongly Correlated Electrons (cond-mat.str-el); Computational Physics (physics.comp-ph)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Hari Kumar Yadalam"
+      },
+      {
+        "name": "Mark T. Mitchison"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a tensor-network process-tensor (influence functional) method to compute full counting statistics of charge transport in U(1)-symmetric interacting 1D many-body quantum circuits, including a normalization-preserving non-Markovian truncation scheme, and benchmarks it on XXZ spin-1/2 transport to recover correct ballistic/superdiffusive/diffusive exponents and reveal anomalous scaling and KPZ universality breakdown in higher cumulants at the isotropic point.",
+      "zh": "本文提出了一种张量网络的过程张量（影响泛函）方法，用于计算具有U(1)对称性的相互作用一维多体量子电路中电荷输运的全计数统计，并给出在保留过程张量正确归一性的前提下对非马尔可夫关联进行截断的方案；在对无限温度下的XXZ自旋1/2砖墙电路进行基准测试时，结果再现了不同参量区域的弹道/超扩散/扩散输运指数，并在弹道区外展示了矩母生成函数的异常自相似标度形式，尤其确认了各阶输运库仑在各向同性点KPZ普适性的失效。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.28933",
+    "category": "quant-ph",
+    "title": "Iterative Optimization with Partial Convergence Guarantees on Neutral Atom Quantum Computers",
+    "abstract": "Neutral atom quantum computers (NAQCs) have emerged as a promising platform for solving the maximum weighted independent set (MWIS) problem. However, analog quantum approaches face two key limitations: constraints of the atomic layout on realizable graph geometries and the absence of performance guarantees. We introduce Lp-Quts, a hybrid quantum-classical framework that integrates an NAQC sampler into a classical cutting-plane algorithm. At each iteration, a relaxed linear program (RLP) bounds the MWIS and induces a reduced graph from which independent sets are sampled using an analog quantum sampler. A novel sample-informed separation problem guides odd-cycle cut selection and accelerates convergence. For t-perfect graphs, Lp-Quts inherits polynomial-time convergence guarantees from the classical theory of cutting planes. We evaluate our approach on instances with up to 300 vertices -- a scale that exceeds the capabilities of current NAQC hardware. In this regime, Lp-Quts reaches solutions within 5--10\\% of optimality, outperforming direct analog quantum protocols and greedy baselines under equal sampling budgets. As expected, simulated annealing remains the strongest sample-based solver at this scale. These results demonstrate how quantum samplers can be effectively embedded within classical optimization frameworks to deliver near-optimal solutions with reduced quantum resources while preserving formal guarantees.",
+    "url": "https://arxiv.org/abs/2603.28933",
+    "authors": [
+      {
+        "name": "Cédrick Perron"
+      },
+      {
+        "name": "Yves Bérubé-Lauzière"
+      },
+      {
+        "name": "Victor Drouin-Touchette"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 3,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "neutral atom"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Cédrick Perron"
+      },
+      {
+        "name": "Yves Bérubé-Lauzière"
+      },
+      {
+        "name": "Victor Drouin-Touchette"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes Lp-Quts, a hybrid cutting-plane and neutral-atom quantum sampling framework for the maximum weighted independent set problem that uses partial-convergence guarantees on t-perfect graphs and empirically achieves near-optimal solutions (5–10% from optimal) on up to 300-vertex instances beyond current NAQC hardware limits.",
+      "zh": "本文提出Lp-Quts，一种将中性原子量子采样嵌入到经典割平面算法中的混合框架来求解最大加权独立集，并在t-完美图上继承部分收敛保证且在最多300个顶点的实例中实现了距离最优仅5–10%的近优解，规模超过现有NAQC硬件能力。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29065",
+    "category": "quant-ph",
+    "title": "Oxide-nitride heteroepitaxy for low-loss dielectrics in superconducting quantum circuits",
+    "abstract": "Superconducting qubits show great promise for the realization of fault-tolerant quantum computing, but lossy, amorphous dielectrics limit current technology. Identifying highly crystalline and stoichiometric dielectrics with intrinsically low microwave loss is therefore a central materials challenge, yet experimentally validated platforms remain scarce. In this work, we integrate a crystalline dielectric into a heteroepitaxial TiN/$\\gamma$-Al$_2$O$_3$/TiN trilayer grown via pulsed laser deposition. Correlative high-resolution imaging, diffraction, and spectroscopy measurements confirm the single-crystal quality and chemical integrity of all layers, with minimal defects and limited anion interdiffusion across the oxide-nitride interfaces. Using microwave lumped-element resonators with parallel-plate capacitors, we report the first direct measurement of the dielectric loss of epitaxial $\\gamma$-Al$_2$O$_3$, for which we find a low intrinsic two-level system loss, $\\delta_{\\text{TLS}}^0 = (2.8 \\pm 0.1) \\times 10^{-5}$. These results establish heteroepitaxial oxides on transition metal nitrides as an attractive materials platform for superconducting quantum circuits, particularly for integration into compact device architectures such as merged-element transmons and microwave kinetic inductance detectors.",
+    "url": "https://arxiv.org/abs/2603.29065",
+    "authors": [
+      {
+        "name": "David A. Garcia-Wetten"
+      },
+      {
+        "name": "Mitchell J. Walker"
+      },
+      {
+        "name": "Peter G. Lim"
+      },
+      {
+        "name": "André Vallières"
+      },
+      {
+        "name": "Maria G. Jimenez-Guillermo"
+      },
+      {
+        "name": "Miguel A. Alvarado"
+      },
+      {
+        "name": "Dominic P. Goronzy"
+      },
+      {
+        "name": "Anna Grassellino"
+      },
+      {
+        "name": "Jens Koch"
+      },
+      {
+        "name": "Vinayak P. Dravid"
+      },
+      {
+        "name": "Mark C. Hersam"
+      },
+      {
+        "name": "Michael J. Bedzyk"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Materials Science (cond-mat.mtrl-sci); Superconductivity (cond-mat.supr-con)",
+    "author_count": 12,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "superconducting qubit"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "David A. Garcia-Wetten"
+      },
+      {
+        "name": "Mitchell J. Walker"
+      },
+      {
+        "name": "Peter G. Lim"
+      },
+      {
+        "name": "Vinayak P. Dravid"
+      },
+      {
+        "name": "Mark C. Hersam"
+      },
+      {
+        "name": "Michael J. Bedzyk"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates low-loss superconducting-quantum-circuit dielectrics by heteroepitaxially integrating crystalline γ-Al2O3 between TiN layers, validating the layers’ structural and chemical integrity and directly measuring an exceptionally low intrinsic two-level-system microwave loss of δ_TLS^0=(2.",
+      "zh": "论文通过在TiN层之间异质外延集成晶体γ-Al2O3来实现低损耗的超导量子电路介电材料，并用高分辨成像/衍射/光谱验证各层的结构与化学完整性、缺陷少且界面处阴离子扩散受限，且对外延γ-Al2O3的介电损耗进行了首次直接测量，得到低本征两能级系统损耗δ_TLS^0=(2."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29229",
+    "category": "quant-ph",
+    "title": "Direct measurement of the energy spectrum of a quantum dot qubit",
+    "abstract": "The mapping between gate voltages applied to a double quantum dot, and the parameters of a Hubbard-like Hamiltonian, is of utmost importance for understanding and operating spin qubits. State-of-the-art techniques for measuring Hamiltonian parameters (e.g., detuning axis pulsed spectroscopy, DAPS) provide details about energy levels; however, tunnel coupling estimates typically reveal only a small portion of the full Hamiltonian. Here, we demonstrate a Hamiltonian-agnostic technique for measuring the double dot energy spectrum over a wide energy range, at every value of the detuning, called delta-axis spectroscopy (DAXS). We apply the DAXS method to obtain the energy spectrum of a Si/SiGe double quantum dot and use this data to extract the diagonal and off-diagonal couplings of a 15-level Hubbard-like Hamiltonian, demonstrating very good agreement with the experimental measurements.",
+    "url": "https://arxiv.org/abs/2603.29229",
+    "authors": [
+      {
+        "name": "J. Reily"
+      },
+      {
+        "name": "Daniel J. King"
+      },
+      {
+        "name": "Jonathan C. Marcks"
+      },
+      {
+        "name": "M.A. Wolfe"
+      },
+      {
+        "name": "Piotr Marciniec"
+      },
+      {
+        "name": "E.S. Joseph"
+      },
+      {
+        "name": "Tyler J. Kovach"
+      },
+      {
+        "name": "Brighton X. Coe"
+      },
+      {
+        "name": "Mark Friesen"
+      },
+      {
+        "name": "Benjamin D. Woods"
+      },
+      {
+        "name": "M.A. Eriksson"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 11,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "spin qubit"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "J. Reily"
+      },
+      {
+        "name": "Daniel J. King"
+      },
+      {
+        "name": "Jonathan C. Marcks"
+      },
+      {
+        "name": "Mark Friesen"
+      },
+      {
+        "name": "Benjamin D. Woods"
+      },
+      {
+        "name": "M.A. Eriksson"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents delta-axis spectroscopy (DAXS), a Hamiltonian-agnostic method that directly measures the wide-range energy spectrum of a Si/SiGe double quantum dot qubit at all detuning values and uses the results to extract both diagonal and off-diagonal couplings of a 15-level Hubbard-like Hamiltonian in agreement with experimental data.",
+      "zh": "本文提出一种与哈密顿量无关的测量方法 delta-axis spectroscopy（DAXS），可在所有去谐（detuning）取值下直接测量 Si/SiGe 双量子点量子比特的宽能区能谱，并据此提取 15 能级类 Hubbard 哈密顿量的对角与非对角耦合，其结果与实验测量高度一致。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29290",
+    "category": "quant-ph",
+    "title": "Entanglement between an NV Center and Chiral Photons in a Topological SWCNT Plasmonic Microtoroid",
+    "abstract": "We present a theoretical proposal for a hybrid solid-state quantum node based on a single nitrogen-vacancy (NV) center coupled to a topological single-walled carbon nanotube (SWCNT) plasmonic microtoroid. The SWCNT ring supports deeply sub-wavelength whispering-gallery-like plasmonic modes that are naturally described within a Tomonaga-Luttinger liquid framework. Owing to the closed-ring topology, the cavity spectrum contains a zero-mode sector that is tunable by an external magnetic flux through an Aharonov-Bohm shift. We show that the strongly confined CNT near field can exhibit chiral spin-momentum locking, enabling the two circularly polarized NV transitions to couple selectively to clockwise and counter-clockwise cavity modes, while the parasitic linearly polarized $\\pi$-transition is strongly suppressed by the pronounced anisotropy of the local Purcell enhancement. Based on a tripod stimulated Raman adiabatic passage (STIRAP) scheme, the system can in principle map the NV spin onto a spin-photon entangled state in a deterministic manner, which is then emitted into a side-coupled tapered optical fiber as a tunable flying qubit. We derive the cavity spectrum, the chiral selection rules, the effective tripod Hamiltonian, and the open-system master equation. Quantitative estimates indicate that, under cryogenic conditions and in the overcoupled regime, high-fidelity spin-photon entanglement and in situ magnetic tuning of the emitted photon frequency are in principle achievable. We also discuss a realistic fabrication route for the CNT resonator and deterministic positioning strategies for a single NV center in the CNT near field.",
+    "url": "https://arxiv.org/abs/2603.29290",
+    "authors": [
+      {
+        "name": "Fang-Yu Hong"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 1,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "purcell"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "nv center",
+        "quantum node",
+        "spin-photon"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Fang-Yu Hong"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a hybrid quantum node where a single NV center is deterministically entangled with chiral, topological plasmonic modes of a SWCNT microtoroid cavity whose zero-mode spectrum is tunable by Aharonov–Bohm flux, enabling STIRAP-based generation of a flying spin-photon qubit emitted into a tapered fiber with high-fidelity under cryogenic, overcoupled conditions and includes analyses plus fabrication and positioning strategies.",
+      "zh": "本文提出一种混合量子节点：将单个NV中心与拓扑SWCNT微微型涡旋谐振腔中的手性等离激元零模实现确定性纠缠，该腔的零模谱可通过Aharonov–Bohm磁通调谐，并利用三脚架STIRAP方案把NV自旋映射为可在过耦合且低温条件下获得高保真度的、发射到锥形光纤中的可调频飞行自旋-光子量子比特，同时给出了谱结构、手性选择定则、有效哈密顿量与开放系统主方程，并讨论了合理的器件制备与单NV精确定位方法。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29308",
+    "category": "quant-ph",
+    "title": "Change in bit-flip times of Kerr parametric oscillators caused by their interactions",
+    "abstract": "We experimentally investigate how interactions between Kerr parametric oscillators (KPOs) degrade their bit-flip times, where a bit flip is defined as a transition between the two degenerate ground states of a KPO. Interactions between KPOs cause quantum states of KPOs to leak outside the computational subspace, leading to bit flips. Bit flips degrade fidelity and pose a significant problem for KPO-based quantum information processing. We performed an experiment in which a weak microwave signal is injected into one KPO to emulate photon injection from another KPO, and find that the bit-flip time decreases by an order of magnitude due to induced excitations, depending on the frequency and power of the injected signal. Methods to mitigate the decrease in bit-flip times caused by interactions between KPOs are discussed, including adjusting the pump frequencies, coherent-state amplitudes, and couplings between KPOs. These findings provide valuable insights for scaling up KPO-based quantum computers.",
+    "url": "https://arxiv.org/abs/2603.29308",
+    "authors": [
+      {
+        "name": "Yuya Kano"
+      },
+      {
+        "name": "Yohei Kawakami"
+      },
+      {
+        "name": "Shumpei Masuda"
+      },
+      {
+        "name": "Tomohiro Yamaji"
+      },
+      {
+        "name": "Aiko Yamaguchi"
+      },
+      {
+        "name": "Tetsuro Satoh"
+      },
+      {
+        "name": "Ayuka Morioka"
+      },
+      {
+        "name": "Kiyotaka Endo"
+      },
+      {
+        "name": "Yuichi Igarashi"
+      },
+      {
+        "name": "Masayuki Shirane"
+      },
+      {
+        "name": "Tsuyoshi Yamamoto"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 11,
+    "topics": [
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "kerr"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yuya Kano"
+      },
+      {
+        "name": "Yohei Kawakami"
+      },
+      {
+        "name": "Shumpei Masuda"
+      },
+      {
+        "name": "Yuichi Igarashi"
+      },
+      {
+        "name": "Masayuki Shirane"
+      },
+      {
+        "name": "Tsuyoshi Yamamoto"
+      }
+    ],
+    "summaries": {
+      "en": "The paper experimentally studies how interactions between Kerr parametric oscillators shorten their bit-flip times by inducing leakage from the computational subspace, and shows that a weak microwave signal injected into one KPO can reduce the bit-flip time by an order of magnitude depending on the signal’s frequency and power, with mitigation strategies involving adjusting pump frequencies, coherent-state amplitudes, and couplings.",
+      "zh": "论文通过实验研究科尔压缩参量振荡器（KPO）之间的相互作用如何因状态泄漏出计算子空间而显著缩短其比特翻转时间，并发现向一个KPO注入模拟另一台KPO光子注入的弱微波信号会使比特翻转时间最多降低一个数量级且取决于注入信号的频率与功率，同时提出通过调节泵频率、相干态振幅和KPO耦合等方式来缓解该退化，为KPO量子计算机的扩展提供了依据。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29349",
+    "category": "quant-ph",
+    "title": "Multipartite controlled-NOT gates using molecules and Rydberg atoms",
+    "abstract": "We propose high-fidelity controlled-NOT (CNOT) gates in a hybrid system of polar molecules and Rydberg atoms based on the unconventional Rydberg pumping mechanism. By combining the rich internal structure of polar molecules with the strong dipole-dipole interactions of Rydberg atoms, we realize both two-to-one and one-to-two gate configurations. Numerical simulations show that the gate performance is robust against spontaneous emission from Rydberg states. The approach naturally extends to larger systems, as demonstrated by four-qubit implementations achieving three-to-one and one-to-three CNOT gates with fidelities exceeding 99\\%. These results highlight hybrid molecule-Rydberg atom architectures as a promising platform for scalable quantum information processing.",
+    "url": "https://arxiv.org/abs/2603.29349",
+    "authors": [
+      {
+        "name": "Yi-Han Bai"
+      },
+      {
+        "name": "Yue Wei"
+      },
+      {
+        "name": "Chi Zhang"
+      },
+      {
+        "name": "Weibin Li"
+      },
+      {
+        "name": "Xiao-Qiang Shao"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 5,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "rydberg"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yi-Han Bai"
+      },
+      {
+        "name": "Yue Wei"
+      },
+      {
+        "name": "Chi Zhang"
+      },
+      {
+        "name": "Weibin Li"
+      },
+      {
+        "name": "Xiao-Qiang Shao"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes high-fidelity multipartite controlled-NOT gates in a hybrid polar-molecule and Rydberg-atom system using a Rydberg pumping mechanism, showing via simulations that the gates are robust to Rydberg spontaneous emission and that four-qubit implementations realize 3-to-1 and 1-to-3 CNOT gates with fidelities above 99%, indicating scalability for quantum information processing.",
+      "zh": "论文提出基于Rydberg泵浦机制的极性分子-里德堡原子混合体系中高保真多方受控非门（CNOT）实现，通过数值模拟表明其对里德堡态的自发辐射具有鲁棒性，并在四量子比特实现中获得3到1与1到3的CNOT门保真度超过99%，从而展示该架构在可扩展量子信息处理中的潜力。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29439",
+    "category": "quant-ph",
+    "title": "PAEMS: Precise and Adaptive Error Model for Superconducting Quantum Processors",
+    "abstract": "Superconducting quantum processor units (QPUs) are incapable of producing massive datasets for quantum error correction (QEC) because of hardware limitations. Thus, QEC decoders heavily depend on synthetic data from qubit error models. Classic depolarizing error models with polynomial complexity present limited accuracy. Coherent density matrix methods suffer from exponential complexity $\\propto O(4^n)$ where $n$ represents the number of qubits. This paper introduces PAEMS: a precise and adaptive qubit error model. Its qubit-wise separation framework, incorporating leakage propagation, captures error evolvements crossing spatial and temporal domains. Utilizing repetition-code experiment datasets, PAEMS effectively identifies the intrinsic qubit errors through an end-to-end optimization pipeline. Experiments on IBM's QPUs have demonstrated a 19.5$\\times$, 9.3$\\times$, and 5.2$\\times$ reduction in timelike, spacelike, and spacetime error correlation, respectively, surpassing all of the previous works. It also outperforms the accuracy of Google's SI1000 error model by 58$\\sim$73\\% on multiple quantum platforms, including IBM's Brisbane, Sherbrooke, and Torino, as well as China Mobile's Wuyue and QuantumCTek's Tianyan.",
+    "url": "https://arxiv.org/abs/2603.29439",
+    "authors": [
+      {
+        "name": "Songhuan He"
+      },
+      {
+        "name": "Yifei Cui"
+      },
+      {
+        "name": "Cheng Wang"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 3,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Songhuan He"
+      },
+      {
+        "name": "Yifei Cui"
+      },
+      {
+        "name": "Cheng Wang"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes PAEMS, a precise and adaptive qubit error model for superconducting QPUs that learns intrinsic qubit errors from repetition-code datasets and reduces spatiotemporal error correlations by up to 19.",
+      "zh": "本文提出PAEMS，一种面向超导量子处理器的精确且自适应的量子比特误差模型，通过基于重复码实验数据的端到端优化来刻画固有比特误差，并在IBM硬件上将时空误差相关性最高降低19."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29498",
+    "category": "quant-ph",
+    "title": "Junction-Intrinsic Dissipation in Hybrid Superconductor-Semiconductor Gatemon Qubits",
+    "abstract": "Superconducting transmon qubits based on hybrid superconductor-semiconductor Josephson junctions (gatemons) offer gate tunability, but their relaxation times remain well below those of state-of-the-art transmons, and the origin of this discrepancy is not fully understood. Here, we co-fabricate gatemons and SIS-junction transmons with nominally identical circuit layouts, gate dielectrics, and control lines, so that the Josephson element is the only intentional distinction. Across multiple chips, transmons in this architecture reach relaxation times in the tens of microseconds, whereas gatemons saturate in the few-microsecond range. Using the transmons as on-chip references, we construct a loss budget including Purcell decay, spontaneous emission through the control line, and internal dielectric loss, and find that the corresponding T1 limits exceed all measured gatemon values by more than an order of magnitude. Temperature-dependent T1 measurements follow a common quasiparticle-activation model and yield similar superconducting gaps for S-Sm-S and SIS junctions, indicating that the reduced gatemon coherence is dominated by additional temperature-independent, junction-intrinsic dissipation.",
+    "url": "https://arxiv.org/abs/2603.29498",
+    "authors": [
+      {
+        "name": "Zhenhai Sun"
+      },
+      {
+        "name": "David Feldstein-Bofill"
+      },
+      {
+        "name": "Ksenia Shagalov"
+      },
+      {
+        "name": "Amalie T. J. Paulsen"
+      },
+      {
+        "name": "Casper Wied"
+      },
+      {
+        "name": "Shikhar Singh"
+      },
+      {
+        "name": "Brian D. Isakov"
+      },
+      {
+        "name": "Jacob Hastrup"
+      },
+      {
+        "name": "Christopher W. Warren"
+      },
+      {
+        "name": "Svend Krøjer"
+      },
+      {
+        "name": "Anders Kringhøj"
+      },
+      {
+        "name": "András Gyenis"
+      },
+      {
+        "name": "Morten Kjaergaard"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+    "author_count": 13,
+    "topics": [
+      "Integrated Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "purcell"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Zhenhai Sun"
+      },
+      {
+        "name": "David Feldstein-Bofill"
+      },
+      {
+        "name": "Ksenia Shagalov"
+      },
+      {
+        "name": "Anders Kringhøj"
+      },
+      {
+        "name": "András Gyenis"
+      },
+      {
+        "name": "Morten Kjaergaard"
+      }
+    ],
+    "summaries": {
+      "en": "By co-fabricating nominally identical gate-tunable superconducting hybrid gatemon qubits and SIS-junction transmons, the authors show that gatemons’ relaxation saturates within a few microseconds versus transmons’ tens of microseconds, and a loss-budget analysis rules out Purcell decay and dielectric/control-line emission as causes, with temperature-dependent T1 following quasiparticle activation that indicates similar superconducting gaps while pointing to additional temperature-independent, junction-intrinsic dissipation in the gatemon junctions.",
+      "zh": "作者在电路版图、栅介质和控制线等均保持名义一致的条件下共同制备混合超导-半导体 gatemon 与 SIS-结 transmon，发现 gatemon 的弛豫在几微秒内饱和而 transmon 可达几十微秒，基于损耗预算分析表明 Purcell 衰减及控制线/介质介导的自发辐射等因素不可能解释差异；温度依赖的 T1 服从准粒子活化模型并显示 S-Sm-S 与 SIS 结具有相近的超导能隙，因此降低的 gatemon 相干性主要由额外的、温度无关的结本征耗散主导。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29525",
+    "category": "quant-ph",
+    "title": "Non-perturbative CPMG scaling and qutrit-driven breakdown under compiled superconducting-qubit control: a single-qubit study",
+    "abstract": "Decoherence in superconducting qubits emerges from the interplay of multilevel dynamics and structured environmental noise, yet perturbative models cannot capture all resulting signatures. Here, EmuPlat couples instruction-set-architecture-level waveform generation to the hierarchical equations of motion (HEOM) under $1/f$ non-Markovian pure dephasing. In the resulting non-perturbative regime -- where filter-function predictions become quantitatively uninformative -- CPMG scaling of a three-level superconducting transmon yields one calibration result, two physical findings, and one structural null. Y-CPMG exhibits axis-dependent scaling-law breakdown -- non-monotonic decoherence, partial coherence revival, and pronounced X--Y population asymmetry ($0.204$ vs ${<}\\,0.01$) -- driven by third-level anharmonicity amplified by bath memory; X-CPMG maintains well-behaved power-law scaling with a finite-$n$ transient excess consistent with non-Markovian bath-memory effects. The structural null is equally informative: waveform-level differences -- Standard versus VPPU realizations -- remain undetectable across all coupling strengths, establishing that rotating-frame pure-dephasing coupling renders control-layer detail invisible to scaling observables. These findings define testable predictions, the most experimentally accessible requiring only qualitative verification.",
+    "url": "https://arxiv.org/abs/2603.29525",
+    "authors": [
+      {
+        "name": "Jun Ye"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "superconducting qubit"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jun Ye"
+      }
+    ],
+    "summaries": {
+      "en": "This single-qubit study uses EmuPlat to model superconducting-qutrit decoherence non-perturbatively under 1/f non-Markovian pure dephasing and shows that Y-CPMG exhibits axis-dependent, anharmonicity-and-bath-memory-driven breakdown of filter-function scaling while X-CPMG retains well-behaved power-law scaling, and that a waveform-level control difference (Standard vs VPPU) produces a “structural null” because rotating-frame pure dephasing makes control-layer details invisible to scaling observables.",
+      "zh": "该单量子研究借助EmuPlat在1/f非马尔可夫纯去相干条件下以非微扰方式建模超导qutrit退相干，发现Y-CPMG会因第三能级非谐性与浴的记忆效应而出现与轴相关的滤波函数标度崩塌，而X-CPMG仍保持良好的幂律标度并仅表现出与非马尔可夫记忆一致的有限n过渡量；同时，Standard与VPPU的波形层差异在所有耦合强度下均无法检测到，表明在旋转系纯去相干耦合下控制层细节对标度可观测量不可见。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29574",
+    "category": "quant-ph",
+    "title": "Adiabatic Ramsey Interferometry for Measuring Weak Nonlinearities with Super-Heisenberg Precision",
+    "abstract": "We propose an adiabatic Ramsey interferometry technique for detecting weak nonlinearities with trapped ions. The method relies on using the quantum Rabi model as a probe, which is sensitive to nonlinear symmetry-breaking perturbations. We show that the couplings which arise either from anharmonic terms of the trapping potential or due to higher order terms in the Coulomb interaction expansion can be efficiently estimated by measuring the spin state probabilities alone. We show that the spin signal is amplified by the mean-phonon excitations, which results in the estimation precision reaching the super-Heisenberg limit. Notably, achieving such high-precision estimation does not require specific entangled state preparation and can be reached even for initial thermal motion state. Furthermore, we show that the super-Heisenberg scaling can be observed even in the presence of weak spin-dephasing.",
+    "url": "https://arxiv.org/abs/2603.29574",
+    "authors": [
+      {
+        "name": "Venelin P. Pavlov"
+      },
+      {
+        "name": "Bogomila S. Nikolova"
+      },
+      {
+        "name": "Peter A. Ivanov"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 3,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "trapped ion",
+        "trapped ions"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Venelin P. Pavlov"
+      },
+      {
+        "name": "Bogomila S. Nikolova"
+      },
+      {
+        "name": "Peter A. Ivanov"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes an adiabatic Ramsey interferometry scheme using the quantum Rabi model in trapped ions to estimate weak nonlinearities from nonlinear symmetry-breaking perturbations by inferring coupling strengths from spin-only probabilities, achieving super-Heisenberg precision without special entangled state preparation and even with thermal initial motion and weak spin dephasing.",
+      "zh": "该论文提出了一种基于量子拉比模型的绝热拉姆齐干涉测量方案，用于在离子阱中通过测量自旋态概率来估计由非线性对称性破缺扰动引起的微弱非线性耦合，从而凭借自旋信号随平均声子激发增强实现超海森堡精度，并且无需特定纠缠态制备，热初态与弱自旋退相干下仍可观察到超海森堡标度。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29601",
+    "category": "quant-ph",
+    "title": "Quantum connectivity of quantum networks",
+    "abstract": "The practical utility of a quantum network depends on its ability to establish entanglement between arbitrary node pairs with quality sufficient to execute entanglement enabled tasks. This capability can be assessed globally, through aggregate performance over all node pairs, as well as locally, at the level of individual nodes. Since entanglement-based connections form a layer above the underlying physical topology, quantum connectivity is not adequately captured by classical topological connectivity metrics. To enable characterisation of the quantum connectivity at the level of the network (or its subnetworks), we introduce the quantum connectivity measure (QCM), which quantifies the average connection quality between pairs of network nodes. Further, we describe two quantities, the quantum-connected fraction (QCF) and the quantum clustering coefficient (QCC), naturally derived from the QCM, which capture important features of the functional connectivity of the quantum network at the level of the network and an individual node, respectively. These metrics of quantum connectivity depend crucially on the entanglement distribution protocol and the quantum network parameters in addition to its physical topology. We demonstrate the crucial distinction between topological and quantum connectivity, showing that even a fully connected graph can be functionally disconnected for quantum tasks if average network edge-concurrence falls below a critical threshold. These quantum connectivity metrics thus provide important tools for the design, optimization, and benchmarking of future quantum networks.",
+    "url": "https://arxiv.org/abs/2603.29601",
+    "authors": [
+      {
+        "name": "Md Sohel Mondal"
+      },
+      {
+        "name": "Shashank Shekhar"
+      },
+      {
+        "name": "Siddhartha Santra"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 3,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum network"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Md Sohel Mondal"
+      },
+      {
+        "name": "Shashank Shekhar"
+      },
+      {
+        "name": "Siddhartha Santra"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes quantum connectivity metrics—QCM plus QCF and QCC—to quantify how well quantum networks can establish high-quality entanglement between node pairs, showing that quantum connectivity depends on entanglement protocols and network parameters (not just physical topology) and can fail even for fully connected graphs when edge concurrence drops below a critical threshold.",
+      "zh": "论文提出量子连通性度量指标（QCM，以及由其自然得到的QCF和QCC）来量化量子网络在节点对之间建立足够高质量纠缠的能力，并表明量子连通性不仅取决于物理拓扑，还关键依赖纠缠分发协议与网络参数；即便在完全连通图中，当平均边并发度低于临界阈值时也可能对量子任务出现功能性断连，因此这些指标可用于未来量子网络的设计、优化与基准测试。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29650",
+    "category": "quant-ph",
+    "title": "Non-Equilibrium Sock Dynamics: Spontaneous Symmetry Breaking in the Agitated Wash",
+    "abstract": "It is a universal empirical observation that socks become unpaired in the laundry. We propose a quasiparticle theory of sock dynamics in which individual socks are modelled as bosonic excitations of the agitated laundry condensate. The sock dispersion relation is material-dependent: nondispersive materials retain their shape, while dispersive materials give rise to the well-documented phenomenon of sock shrinkage. In the convex regions of the dispersive spectrum, socks undergo Beliaev decay and spontaneously split into two lower-momentum socks, while in the concave regions the dominant process is Landau-Khalatnikov scattering, which degrades socks into lint and loose threads. In addition, the rotating drum creates sock-antisock pairs from the laundry vacuum via the dynamical Casimir effect. The coexistence of these creation and destruction channels gives rise to a fundamental ambiguity: an unpaired sock at the end of a wash cycle is equally consistent with the destruction of its partner or the spontaneous creation of an entirely new sock.",
+    "url": "https://arxiv.org/abs/2603.29650",
+    "authors": [
+      {
+        "name": "Ahmad Darwish"
+      },
+      {
+        "name": "Matteo Murdaca"
+      },
+      {
+        "name": "Jami J. Kinnunen"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Quantum Gases (cond-mat.quant-gas)",
+    "author_count": 3,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Ahmad Darwish"
+      },
+      {
+        "name": "Matteo Murdaca"
+      },
+      {
+        "name": "Jami J. Kinnunen"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a bosonic quasiparticle model for sock behavior in a rotating wash, explaining shape retention in nondispersive fabrics, shrinkage and spontaneous splitting via Beliaev decay in dispersive spectra, degradation into lint via Landau–Khalatnikov scattering in concave regions, and sock–antisock creation through the dynamical Casimir effect, leading to an end-of-cycle ambiguity about whether an observed unpaired sock came from partner destruction or newly created creation.",
+      "zh": "论文提出了一个将洗衣机中袜子建模为被搅动“洗涤凝聚体”的玻色类准粒子激发的准粒子理论：非色散材料保持形状、色散材料通过谱的机制出现缩水、色散谱凸区袜子经由贝利阿耶夫衰变自发分裂为两个低动量袜子、凹区则主要发生兰道–卡哈洛夫散射把袜子降解为碎绒和松线，同时旋转滚筒还能借助动力学卡西米尔效应从洗涤真空中生成袜子—反袜子对，因而产生一种根本歧义，即洗完后出现的未配对袜子同样可能来自其伴袜被湮灭或来自完全新产生的袜子。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29795",
+    "category": "quant-ph",
+    "title": "Topological sum rule for geometric phases of quantum gates",
+    "abstract": "We establish a topological sum rule, $\\nu_U = \\frac{1}{2\\pi}\\sum_n\\gamma_n = 2m\\nu_H$, connecting the geometric phases accumulated by a two-qubit system over a complete basis of initial states to the winding number $\\nu_H$ classifying its Hamiltonian. Implementations of the same gate from different topological classes must distribute these phases differently, making their distinction measurable through the Wootters concurrence. As a corollary, nontrivial topology is a necessary condition for entanglement: only Hamiltonians with access to $\\nu_H \\neq 0$ can generate it.",
+    "url": "https://arxiv.org/abs/2603.29795",
+    "authors": [
+      {
+        "name": "Nadav Orion"
+      },
+      {
+        "name": "Boris Rotstein"
+      },
+      {
+        "name": "Nirron Miller"
+      },
+      {
+        "name": "Eric Akkermans"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum gate",
+        "quantum gates"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Nadav Orion"
+      },
+      {
+        "name": "Boris Rotstein"
+      },
+      {
+        "name": "Nirron Miller"
+      },
+      {
+        "name": "Eric Akkermans"
+      }
+    ],
+    "summaries": {
+      "en": "The paper derives a topological sum rule relating the total geometric phases acquired by a two-qubit gate across a complete set of initial states to the Hamiltonian’s winding number, showing that gates in different topological classes distribute phases differently in a way that is detectable via Wootters concurrence and that nontrivial topology (ν_H ≠ 0) is necessary for entanglement generation.",
+      "zh": "本文建立了将双量子比特门在完整初态基下累计的几何相位与哈密顿量的绕数 ν_H 联系起来的拓扑求和规则，并表明不同拓扑类别实现同一量子门时相位分配方式不同，可通过 Wootters 共轭性加以区分；作为推论，产生纠缠的必要条件是存在非平凡拓扑，即只有能获得 ν_H ≠ 0 的哈密顿量才可能生成纠缠。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29869",
+    "category": "quant-ph",
+    "title": "Weak-Field Expansion: A Time-Closed Solution of Quantum Three-Wave Mixing",
+    "abstract": "We present a systematic derivation of the Heisenberg evolution of a trilinear bosonic Hamiltonian system in presence of a strong drive beyond the standard approximation of a classical, undepleted driving field. We employ a perturbative expansion of the Hamiltonian propagator in orders of the input field amplitudes, as opposed to the standard Baker-Campbell-Hausdorff (BCH) expansion of the propagator in orders of time. Our method automatically provides time-closed expressions; and converges considerably faster than BCH, especially in the regime of high parametric gain because the small parameter it uses is natural to the problem. We obtain the well-known quantum solution for optical parametric amplification of down-conversion simply as the first order of the expansion, and present the rigorous procedure to derive higher order corrections one by one. To demonstrate the utility of higher corrections, we discuss the 2nd order correction to the pump field as an ideal detector of time-energy entanglement in parametric down-conversion. We also use the 3rd order correction to calculate the limits on the fidelity of quantum state-transfer from one optical mode to another using sum/difference frequency generation, due to the quantum properties of the strong driving field.",
+    "url": "https://arxiv.org/abs/2603.29869",
+    "authors": [
+      {
+        "name": "Hanzhong Zhang"
+      },
+      {
+        "name": "Avi Pe'er"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 2,
+    "topics": [
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "difference frequency",
+        "optical parametric"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Hanzhong Zhang"
+      },
+      {
+        "name": "Avi Pe'er"
+      }
+    ],
+    "summaries": {
+      "en": "The paper derives time-closed Heisenberg evolution for a quantum three-wave-mixing trilinear bosonic Hamiltonian under strong drive by expanding the Hamiltonian propagator perturbatively in field amplitudes rather than using BCH in time orders, yielding faster-converging expressions, reproducing quantum down-conversion at first order, and providing higher-order corrections that quantify pump-induced time-energy entanglement detection and fidelity limits in frequency-conversion-based state transfer.",
+      "zh": "该论文通过对三波混频三线性玻色哈密顿量在强驱动下的海森堡演化进行推导，采用以输入场振幅为小参数的哈密顿量演化算符微扰展开而非用以时间为序的BCH展开，从而自动得到时间闭合表达并在高参数增益区收敛更快，先阶结果给出光学参量放大/下转换的熟知量子解，且进一步提供高阶修正程序，用于讨论泵场二阶修正作为参量下转换中时间-能量纠缠的理想探测器，并用三阶修正计算由强驱动场量子性质导致的求和/差频实现光学模间量子态转移保真度的极限。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29894",
+    "category": "quant-ph",
+    "title": "LLM-Guided Evolutionary Search for Algebraic T-Count Optimization",
+    "abstract": "Reducing the non-Clifford cost of fault-tolerant quantum circuits is a central challenge in quantum compilation, since T gates are typically far more expensive than Clifford operations in error-corrected architectures. For Clifford+T circuits, minimizing T-count remains a difficult combinatorial problem even for highly structured algebraic optimizers. We introduce VarTODD, a policy-parameterized variant of FastTODD in which the correctness-preserving algebraic transformations are left unchanged while candidate generation, pooling, and action selection are exposed as tunable heuristic components. This separates the quality of the algebraic rewrite system from the quality of the search policy. On standard arithmetic benchmarks, fixed hand-designed VarTODD policies already match or improve strong FastTODD baselines, including reductions from 147 to 139 for GF(2^9) and from 173 to 163 for GF(2^10) in the corresponding benchmark branches. As a proof of principle for automated tuning, we then optimize VarTODD policies with GigaEvo, an LLM-guided evolutionary framework, and obtain additional gains on harder instances, reaching 157 for GF(2^10) and 385 for GF(2^16). These results identify policy optimization as an independent and practical lever for improving algebraic T-count reduction, while LLM-guided evolution provides one viable way to exploit it.",
+    "url": "https://arxiv.org/abs/2603.29894",
+    "authors": [
+      {
+        "name": "Daniil Fisher"
+      },
+      {
+        "name": "Valentin Khrulkov"
+      },
+      {
+        "name": "Mikhail Saygin"
+      },
+      {
+        "name": "Ivan Oseledets"
+      },
+      {
+        "name": "Stanislav Straupe"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Daniil Fisher"
+      },
+      {
+        "name": "Valentin Khrulkov"
+      },
+      {
+        "name": "Mikhail Saygin"
+      },
+      {
+        "name": "Ivan Oseledets"
+      },
+      {
+        "name": "Stanislav Straupe"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents VarTODD, a heuristic-tunable variant of FastTODD that separates fixed algebraic T-count–preserving rewrites from configurable search policies, achieving improved T-count reductions on arithmetic benchmarks and further boosting results through LLM-guided evolutionary optimization (GigaEvo).",
+      "zh": "论文提出VarTODD，这是FastTODD的启发式可调变体：在保持正确性的代数T-count重写规则不变的同时，将候选生成与动作选择等搜索策略模块化调参，并在算术基准上取得更好的T计数缩减结果，且通过LLM引导的进化框架GigaEvo在更难实例上进一步提升。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29971",
+    "category": "quant-ph",
+    "title": "High-fidelity entangled photon pairs from a quantum-dot-based single-photon source",
+    "abstract": "Entangled photon pairs are a ubiquitous resource in quantum technologies, used in quantum key distribution and quantum networking as well as fundamental tests of non-locality. For scalable quantum networks, pairs that are indistinguishable in all unentangled degrees of freedom are essential, as they enable high-fidelity entanglement swapping across network nodes. To date the most-studied sources of \"swappable\" entangled photon pairs have been based on spontaneous parametric down-conversion (SPDC) in non-linear crystals. However, the probabilistic nature and unavoidable trade-off between brightness and unwanted multi-photon emission limits their performance in lossy channels. Here, we demonstrate a high-fidelity source of \"swappable\" entangled photon pairs using a semiconductor quantum dot (QD) coupled to a tunable microcavity. By actively modulating the QD emission between orthogonal polarisation states, delaying one path in a low-loss Herriott cell, and recombining the two on a balanced beam splitter, we generate entangled photon pairs with a fidelity of $96.1\\pm0.5$ %. We identify and mitigate fidelity-limiting factors, achieving a maximum fidelity of $98.1\\pm0.5$ % through time-resolved post-selection. The scheme suppresses residual multi-photon events concentrated near the excitation pulse and has only a modest impact on the rate. Furthermore, the photons are mutually indistinguishable, enabling efficient entanglement swapping. Our results establish semiconductor QDs as a viable platform for quantum network-compatible swappable entangled photon pair generation, with feasible entanglement generation rates exceeding 0.5 Gpairs/s.",
+    "url": "https://arxiv.org/abs/2603.29971",
+    "authors": [
+      {
+        "name": "Malwina A. Marczak"
+      },
+      {
+        "name": "Spencer J. Johnson"
+      },
+      {
+        "name": "Mark R. Hogg"
+      },
+      {
+        "name": "Timon L. Baltisberger"
+      },
+      {
+        "name": "Nathan Arnold"
+      },
+      {
+        "name": "Benjamin E. Nussbaum"
+      },
+      {
+        "name": "Clotilde M. N. Pillot"
+      },
+      {
+        "name": "Sascha R. Valentin"
+      },
+      {
+        "name": "Arne Ludwig"
+      },
+      {
+        "name": "Paul G. Kwiat"
+      },
+      {
+        "name": "Richard J. Warburton"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 11,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "entangled photon",
+        "gate fidelity",
+        "photon pair",
+        "photon pairs",
+        "quantum network",
+        "single-photon"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Malwina A. Marczak"
+      },
+      {
+        "name": "Spencer J. Johnson"
+      },
+      {
+        "name": "Mark R. Hogg"
+      },
+      {
+        "name": "Arne Ludwig"
+      },
+      {
+        "name": "Paul G. Kwiat"
+      },
+      {
+        "name": "Richard J. Warburton"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates a semiconductor quantum-dot source of high-fidelity, indistinguishable “swappable” entangled photon pairs using a tunable microcavity and active polarization modulation, achieving 96.",
+      "zh": "该论文展示了基于可调微腔的半导体量子点“可交换”纠缠光子对源，通过主动极化调制等方法实现高保真且彼此可区分度低的纠缠对，得到96."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.30023",
+    "category": "quant-ph",
+    "title": "LO-Free Phase and Amplitude Recovery of an RF Signal with a DC-Stark-Enabled Rydberg Receiver",
+    "abstract": "We present a theoretical framework for recovering the amplitude and carrier phase of a single received RF field with a Rydberg-atom receiver, without injecting an RF local oscillator (LO) into the atoms. The key enabling mechanism is a static DC bias applied to the vapor cell: by Stark-mixing a near-degenerate Rydberg pair, the bias activates an otherwise absent upper optical pathway and closes a phase-sensitive loop within a receiver driven only by the standard probe/coupling pair and the received RF field. For a spatially uniform bias, we derive an effective four-level rotating-frame Hamiltonian of Floquet form and show that the periodic steady state obeys an exact harmonic phase law, so that the $n$th probe harmonic carries the factor $e^{in\\Phi_S}$. This yields direct estimators for the signal phase and amplitude from a demodulated probe harmonic, with amplitude recovery obtained by inverting an injective harmonic response map. In the high-SNR regime, we derive explicit RMSE laws and use them to identify distinct phase-optimal and amplitude-optimal bias-controlled mixing angles, together with a weighted joint-design criterion and a balanced compromise angle that equalizes the fractional phase and amplitude penalties. We then extend the analysis to nonuniform DC bias through quasistatic spatial averaging and show that bias inhomogeneity reduces coherent gain for phase readout while also reshaping the amplitude-response slope. Numerical examples validate the phase law, illustrate response-map inversion and mixing-angle trade-offs, and quantify the penalties induced by bias nonuniformity. The results establish a minimal route to coherent Rydberg reception of a single RF signal without an auxiliary RF LO in the atoms.",
+    "url": "https://arxiv.org/abs/2603.30023",
+    "authors": [
+      {
+        "name": "Vladislav Katkov"
+      },
+      {
+        "name": "Nikola Zlatanov"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Information Theory (cs.IT); Signal Processing (eess.SP)",
+    "author_count": 2,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "rydberg"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Vladislav Katkov"
+      },
+      {
+        "name": "Nikola Zlatanov"
+      }
+    ],
+    "summaries": {
+      "en": "The paper develops a LO-free theoretical method for a DC-Stark-enabled Rydberg receiver to recover the phase and amplitude of a single received RF signal, deriving a Floquet Hamiltonian that enforces an exact harmonic phase law and provides estimators and RMSE-optimized mixing-angle design rules, with extensions showing how DC-bias nonuniformity limits coherent phase gain and alters amplitude response.",
+      "zh": "本文提出一种利用直流斯塔克（DC-Stark）实现的洛（LO）自由赝相（Rydberg）接收器，用于从单个接收RF场中恢复信号的相位与幅度：作者推导了包含Floquet形式的有效哈密顿量并证明周期稳态满足精确的谐波相位定律，从而给出由解调后的探测谐波得到相位/幅度的估计方法及基于RMSE的混频角优化设计规则，并进一步在直流偏置非均匀情况下通过准静态空间平均分析其对相位相干增益与幅度响应斜率的影响，数值结果验证了相位定律与响应图反演及混频角权衡。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29309",
+    "category": "physics.atom-ph",
+    "title": "Spectroscopy of the $\\mathbf{X^2Σ^+(v=2) \\rightarrow A^2Π_{1/2}(v=1)}$ Transition in MgF: Hyperfine Structures and Spectroscopic Constants",
+    "abstract": "We report spectroscopic results of the \\(X^2\\Sigma^+(v=2) \\rightarrow A^2\\Pi_{1/2}(v=1)\\) transition in magnesium monofluoride (MgF). Using Doppler-free Laser-Induced Fluorescence (LIF) spectroscopy on the \\(X^2\\Sigma^+(v=2) \\rightarrow A^2\\Pi_{1/2}(v=1)\\) transition, we resolved 47 hyperfine components distributed over 11 transition lines in X and A states. An effective Hamiltonian -- comprising contributions from vibrational, rotational, \\(\\Lambda\\)-doubling, and hyperfine interactions -- was presented to model the energy structure of the \\(A^2\\Pi_{1/2}(v=1)\\) state. The spectroscopic parameters, including the rotational constant, the \\(\\Lambda\\)-doubling parameter, and the hyperfine interaction constants, were extracted using a least-square fitting and Markov Chain Monte Carlo (MCMC) procedure. Our study reveals that the spectroscopic constants show subtle changes compared to the \\(A^2\\Pi_{1/2}(v=0)\\) state. These results provide critical spectroscopic benchmarks for optimizing optical cycling schemes in MgF, thereby advancing optical cycling efficiency in the magneto-optical trapping of MgF.",
+    "url": "https://arxiv.org/abs/2603.29309",
+    "authors": [
+      {
+        "name": "Youngju Cho"
+      },
+      {
+        "name": "Yongwoong Lee"
+      },
+      {
+        "name": "Kikyeong Kwon"
+      },
+      {
+        "name": "Seunghwan Roh"
+      },
+      {
+        "name": "Giseok Lee"
+      },
+      {
+        "name": "Eunmi Chae"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph)",
+    "author_count": 6,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "magneto-optical trap"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Youngju Cho"
+      },
+      {
+        "name": "Yongwoong Lee"
+      },
+      {
+        "name": "Kikyeong Kwon"
+      },
+      {
+        "name": "Seunghwan Roh"
+      },
+      {
+        "name": "Giseok Lee"
+      },
+      {
+        "name": "Eunmi Chae"
+      }
+    ],
+    "summaries": {
+      "en": "The paper uses Doppler-free LIF spectroscopy to resolve 47 hyperfine components of the MgF X2Σ+(v=2)→A2Π1/2(v=1) transition, fits an effective Hamiltonian for the A2Π1/2(v=1) state to extract spectroscopic constants via least-squares and MCMC, and finds subtle differences from the v=0 state to provide benchmarks for improving optical cycling in MgF magneto-optical trapping.",
+      "zh": "论文采用多普勒无关的激光诱导荧光（LIF）光谱，解析了MgF中X2Σ+(v=2)→A2Π1/2(v=1)跃迁的47个超精细分量，并通过最小二乘拟合与MCMC对A2Π1/2(v=1)态建立的有效哈密顿量模型进行参数提取，发现其谱学常数相较A2Π1/2(v=0)态仅有细微变化，从而为MgF光学循环与磁光俘获优化提供关键基准。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2603.29580",
+    "category": "physics.atom-ph",
+    "title": "Rapid axial loading of a grating MOT with a cold-atom beam",
+    "abstract": "Laser-cooled atoms are increasingly being used to realise practical quantum devices, motivating the development of compact and robust atom sources. Grating magneto-optical traps (gMOTs) simplify the cold-atom source architecture but are typically vapour-loaded and provide limited atomic flux. Here we explore the loading of gMOTs from cold-atom beams. We numerically simulate loading to show that unbalanced diffracted beams deflect incoming atoms away from the trap centre, thereby strongly constraining radial loading. In contrast, axial loading injects atoms directly into the trapping volume and largely avoids these effects. We experimentally demonstrate rapid axial loading of a gMOT, achieving loading rates of $2.1 \\times 10^9$ atoms~s$^{-1}$ using a moving optical molasses to transfer atoms from a 2D MOT into the gMOT. These results establish axial loading as a robust route to high-flux gMOT operation for portable cold-atom systems.",
+    "url": "https://arxiv.org/abs/2603.29580",
+    "authors": [
+      {
+        "name": "Rachel Cannon"
+      },
+      {
+        "name": "Aidan S. Arnold"
+      },
+      {
+        "name": "Paul F. Griffin"
+      },
+      {
+        "name": "Erling Riis"
+      },
+      {
+        "name": "Oliver S. Burrow"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph)",
+    "author_count": 5,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "magneto-optical trap"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Rachel Cannon"
+      },
+      {
+        "name": "Aidan S. Arnold"
+      },
+      {
+        "name": "Paul F. Griffin"
+      },
+      {
+        "name": "Erling Riis"
+      },
+      {
+        "name": "Oliver S. Burrow"
+      }
+    ],
+    "summaries": {
+      "en": "The paper shows via simulations and experiments that axially loading a grating MOT using a moving optical molasses enables robust, high-flux operation—achieving loading rates of 2.",
+      "zh": "论文通过数值模拟与实验表明，将光栅磁光陷阱（gMOT）进行轴向装载并用移动光学莫洛斯完成2D莫洛斯向gMOT的原子转移，可以实现稳健且高通量的运行（装载速率达2."
+    },
+    "summary_source": "openai"
+  }
+]
