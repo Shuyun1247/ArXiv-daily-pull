@@ -1,0 +1,1373 @@
+[
+  {
+    "id": "2604.01319",
+    "category": "physics.optics",
+    "title": "Quasi-bandgap behavior in non-Hermitian photonic crystals",
+    "abstract": "We investigate non-Hermitian photonic crystals in which the lossy and lossless constituents share the same real permittivity and differ only in their imaginary part. We characterize the complex band structure and reflection response of both one-dimensional (1D) and two-dimensional (2D) systems, and show that introducing even a small amount of material loss opens a quasi bandgap at the Brillouin-zone boundary. This quasi bandgap, absent in the lossless limit of the same structure, gives rise to sharp reflectivity peaks whose origin we explain through second-order perturbation theory. As an application of this behavior, we demonstrate a selective reflector combining a conventional photonic-crystal waveguide with a non-Hermitian photonic crystal, achieving wavelength-selective reflection with broadband absorption.",
+    "url": "https://arxiv.org/abs/2604.01319",
+    "authors": [
+      {
+        "name": "Jin Xu"
+      },
+      {
+        "name": "Daniel Cui"
+      },
+      {
+        "name": "Aaswath P. Raman"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 3,
+    "topics": [
+      "Integrated Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "waveguide"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jin Xu"
+      },
+      {
+        "name": "Daniel Cui"
+      },
+      {
+        "name": "Aaswath P. Raman"
+      }
+    ],
+    "summaries": {
+      "en": "The paper studies non-Hermitian photonic crystals where loss and gainless/lossless materials have identical real permittivity but different imaginary parts, showing that even small loss creates a quasi bandgap at Brillouin-zone boundaries in both 1D and 2D systems, leading to sharp reflectivity peaks explained by second-order perturbation theory and enabling a selective reflector that combines a photonic-crystal waveguide with a non-Hermitian crystal for wavelength-selective reflection with broadband absorption.",
+      "zh": "论文研究了非厄米光子晶体，其中有损与无损组分具有相同实介电常数、仅虚部不同；结果表明在1D与2D系统中，即使引入少量材料损耗也会在布里渊区边界打开缺失于无损极限的准带隙，并通过二阶微扰理论解释由此产生的尖锐反射峰，进而演示将常规光子晶体波导与非厄米光子晶体结合的选择性反射器，可实现带宽吸收下的波长选择性反射。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01640",
+    "category": "physics.optics",
+    "title": "Few-picosecond pulse generation featuring ultrafast spectral dynamics in gain-switched surface-grating DFB lasers via impulsive optical pumping",
+    "abstract": "To investigate the physics of picosecond gain-switching dynamics in single-mode lasers under femtosecond optical pumping at room temperature, we designed and fabricated first-order surface-grating GaAs distributed-feedback (DFB) lasers with five systematically varied grating periods (120-124 nm), corresponding to lasing wavelengths of 825.7-849.5 nm (1.502-1.459 eV). The 124-nm-period device, closest to the quantum-well gain peak among the investigated devices, exhibited the highest output power and spectral bandwidth. Among all devices, the 122-nm-period DFB laser (838.2 nm, 1.480 eV) generated the shortest pulses, despite lasing at a higher photon energy and lower output power than the device closest to the gain peak. All devices exhibited characteristic down-chirp behavior that increased with excitation power. The shortest pulses had a chirped pulse width of 6.6 ps and a chirp rate of 0.13 meV/ps, whereas spectrally resolved measurements revealed a minimum pulse width of 3.8 ps (2.3 ps after deconvolution of the detection time resolution) near the central photon energy of the pulse spectrum. Numerical simulations revealed temporally and spatially resolved dynamics of photons, carriers, gain, and refractive index, reproducing the experimental results qualitatively and quantitatively. Furthermore, a mechanism for generating the shortest pulses at photon energies above the gain peak was identified and attributed to higher differential gain, saturation gain, and a higher transparency carrier density in the high-energy region of the gain spectrum. These experimental and theoretical results elucidate the intrinsic dynamics of picosecond pulse generation in gain-switched DFB lasers and provide design guidance for short-pulse generation and computational tools applicable to both optical and electrical pumping.",
+    "url": "https://arxiv.org/abs/2604.01640",
+    "authors": [
+      {
+        "name": "Yihan Qi"
+      },
+      {
+        "name": "Fuyi Cao"
+      },
+      {
+        "name": "Hidekazu Nakamae"
+      },
+      {
+        "name": "Changsu Kim"
+      },
+      {
+        "name": "Masataka Kobayashi"
+      },
+      {
+        "name": "Cong Wang"
+      },
+      {
+        "name": "To-Fan Pan"
+      },
+      {
+        "name": "Shaoqiang Chen"
+      },
+      {
+        "name": "Takashi Ito"
+      },
+      {
+        "name": "Hidefumi Akiyama"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 10,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yihan Qi"
+      },
+      {
+        "name": "Fuyi Cao"
+      },
+      {
+        "name": "Hidekazu Nakamae"
+      },
+      {
+        "name": "Shaoqiang Chen"
+      },
+      {
+        "name": "Takashi Ito"
+      },
+      {
+        "name": "Hidefumi Akiyama"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports room-temperature, femtosecond-impulsively pumped gain-switched GaAs surface-grating DFB lasers where device grating-period tuning and time-resolved modeling show shortest 6.",
+      "zh": "论文在室温下研究飞秒脉冲“冲击式”光泵浦的增益开关GaAs表面光栅DFB激光器，比较了五种系统变化光栅周期器件的光谱与脉冲动力学，并结合对光子、载流子、增益和折射率的时空分辨数值模拟发现：即使在高于增益峰的更高光子能量处也能产生最短脉冲（6."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01739",
+    "category": "physics.optics",
+    "title": "Goos-Hänchen Shift in $\\mathcal{PT}$-Symmetric and Passive Cavity Optomechanical Systems",
+    "abstract": "We theoretically investigate the control of the Goos-Hänchen shift (GHS) of a reflected weak probe field in both parity-time ($\\mathcal{PT}$)-symmetric and conventional optomechanical systems. The proposed scheme consists of a single optomechanical platform where a passive optical cavity is coupled to an active mechanical resonator, in contrast to standard passive-passive configurations. Analysis of the eigenfrequency spectrum reveals the emergence of an exceptional point under balanced gain-loss conditions at a tunable effective optomechanical coupling strength. Using the transfer-matrix method combined with stationary-phase analysis, we examine the GHS across broken and unbroken $\\mathcal{PT}$ phases and compare it with that in the conventional system. The lateral shift exhibits strong phase dependence: it is markedly enhanced in the unbroken regime relative to both the broken phase and the passive configuration. We further show that the GHS can be actively tuned through the cavity detuning and the intracavity medium length. These results provide a controlled means for manipulating beam shifts in optomechanical systems and suggest pathways toward tunable photonic components and precision optical sensing.",
+    "url": "https://arxiv.org/abs/2604.01739",
+    "authors": [
+      {
+        "name": "Shah Fahad"
+      },
+      {
+        "name": "Gao Xianlong"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Quantum Physics (quant-ph)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Shah Fahad"
+      },
+      {
+        "name": "Gao Xianlong"
+      }
+    ],
+    "summaries": {
+      "en": "The paper theoretically studies how to control the Goos–Hänchen shift of a weak reflected probe in both PT-symmetric and conventional optomechanical systems using a single platform with a passive optical cavity coupled to an active mechanical resonator, finding a tunable exceptional point at balanced gain–loss and showing that the lateral shift is strongly phase dependent and can be actively tuned via cavity detuning and intracavity length.",
+      "zh": "本文在一个把被动光学腔与主动机械谐振器耦合的单平台中，理论研究了弱反射探测光的戈斯-韩切尔位移在PT对称与常规光机系统中的可控性，发现当满足平衡增益-损耗时会出现随有效光机耦合强度可调的例外点，并表明位移对相位变化高度敏感且可通过腔失谐与腔内介质长度进行主动调谐，从而为可调光子器件与精密光学测量提供思路。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01772",
+    "category": "physics.optics",
+    "title": "Ultrasensitive Terahertz Metasurface Biosensor Based on Quasi-Bound States in the Continuum",
+    "abstract": "The terahertz (THz) spectral regime offers unique opportunities for next-generation biochemical sensing due to its non-destructive, label-free probing capability and strong sensitivity to molecular vibrations. However, conventional THz biosensors remain hampered by intrinsically low-quality factors and limited sensitivity, severely restricting their utility for trace-level biochemical and chemical detection. Here, we report an ultrasensitive THz metasurface biosensor that harnesses quasi-bound states in the continuum (QBICs) with sharp resonances and enhanced light-matter interactions to overcome these limitations. As a proof of concept, the device achieves label-free detection of a sulfur-containing amino acid cysteine, with an ultrahigh sensitivity of 492 GHz/RIU and an ultralow detection limit down to 0.00025 mg/mL. The synergy between QBIC-induced field confinement and meticulous structural optimization of the metasurface underpins this performance, marking a significant advance over conventional THz metasurface biosensing schemes. These results establish QBIC-based metasurfaces as a promising platform for ultrasensitive and high-precision biochemical and chemical sensing, with broad implications for medical diagnostics, food safety, and environmental monitoring.",
+    "url": "https://arxiv.org/abs/2604.01772",
+    "authors": [
+      {
+        "name": "Junhui Guo"
+      },
+      {
+        "name": "Bing Dong"
+      },
+      {
+        "name": "Eryong Zhang"
+      },
+      {
+        "name": "Qing-An Tu"
+      },
+      {
+        "name": "Xiaoyong He"
+      },
+      {
+        "name": "Xichuan Wu"
+      },
+      {
+        "name": "Mingjing Liu"
+      },
+      {
+        "name": "Maohua Gong"
+      },
+      {
+        "name": "Yan Meng"
+      },
+      {
+        "name": "Xiang Xi"
+      },
+      {
+        "name": "Hongcheng Wang"
+      },
+      {
+        "name": "Zhen Gao"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 12,
+    "topics": [
+      "Integrated Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "quality factor"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Junhui Guo"
+      },
+      {
+        "name": "Bing Dong"
+      },
+      {
+        "name": "Eryong Zhang"
+      },
+      {
+        "name": "Xiang Xi"
+      },
+      {
+        "name": "Hongcheng Wang"
+      },
+      {
+        "name": "Zhen Gao"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents an ultrasensitive terahertz metasurface biosensor that uses quasi-bound states in the continuum to achieve sharp resonances and stronger field–molecule interactions, enabling label-free cysteine detection with 492 GHz/RIU sensitivity and a 0.",
+      "zh": "论文提出一种基于连续谱中准束缚态（QBIC）的超灵敏太赫兹介质超表面生物传感器，通过产生尖锐共振并增强场—分子相互作用，实现对半胱氨酸的无标记检测，灵敏度达492 GHz/RIU，检出限低至0."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01801",
+    "category": "physics.optics",
+    "title": "Compressive hyperspectral phasor imaging with single-pixel detection for spectral tasks",
+    "abstract": "Spectral vision task plays a pivotal role in extracting discriminative spectral-spatial features from high-dimensional data, enabling fine-grained identification beyond human vision. Traditional methods usually involve first collecting rich spectral-spatial information and then using complex algorithms to digitally process it into scene classification and recognition. However, the complexity of processing massive three-dimensional (3D) hyperspectral datasets poses challenges for algorithms. Here, we demonstrate a compressive Hyperspectral Phasor Imaging with Single-pixel detection (HyPIS) that leverages highly compressed spatial-spectral data to achieve spectral task. Two optical encoders are used for wavelength-dependent sine- and cosine-encoding that transforms spectral signals into a two-dimensional (2D) phasor plot. By applying spatial-temporal illumination patterns, a single-pixel detector is enough to reconstruct the phasor image of the object. This allows to directly generate pixel-wise spectral task, bypassing 3D hyperspectral data. Our experiments show that HyPIS can perform real-time classification and recognition tasks of different scenes, reducing the required amount of data by two orders of magnitude, and it can still accurately classify under low light and uneven lighting conditions. This work develops a completely new spectral technology that enables spectral tasks to be performed without obtaining high-resolution hyperspectral datasets, holding promise for spectral applications in mobile devices, robotics, and satellite technologies.",
+    "url": "https://arxiv.org/abs/2604.01801",
+    "authors": [
+      {
+        "name": "Jiaqi Song"
+      },
+      {
+        "name": "Baolei Liu"
+      },
+      {
+        "name": "Muchen Zhu"
+      },
+      {
+        "name": "Yao Wang"
+      },
+      {
+        "name": "Yue Yu"
+      },
+      {
+        "name": "Zhaohua Yang"
+      },
+      {
+        "name": "Xiaolan Zhong"
+      },
+      {
+        "name": "Fan Wang"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Applied Physics (physics.app-ph)",
+    "author_count": 8,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jiaqi Song"
+      },
+      {
+        "name": "Baolei Liu"
+      },
+      {
+        "name": "Muchen Zhu"
+      },
+      {
+        "name": "Zhaohua Yang"
+      },
+      {
+        "name": "Xiaolan Zhong"
+      },
+      {
+        "name": "Fan Wang"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents compressive hyperspectral phasor imaging (HyPIS) using wavelength-dependent sine/cosine encoding and spatial-temporal illumination so that a single-pixel detector can reconstruct phasor images and enable pixel-wise spectral classification with two orders of magnitude less data, even under low and uneven lighting.",
+      "zh": "论文提出了一种压缩式高光谱相位成像（HyPIS）方法，通过波长相关的正弦/余弦编码与时空照明调制，使单像素探测器即可重建相位图并实现像素级光谱任务，实验表明所需数据量降低两个数量级且在弱光和非均匀照明下仍能准确分类。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01857",
+    "category": "physics.optics",
+    "title": "Enhanced Polarization Locking in VCSELs",
+    "abstract": "While optical injection locking (OIL) of vertical-cavity surface-emitting lasers (VCSELs) has been widely studied in the past, the polarization dynamics of OIL have received far less attention. Recent studies suggest that polarization locking via OIL could enable novel computational applications such as polarization-encoded Ising computers. However, the inherent polarization preference and limited polarization switchability of VCSELs hinder their use for such purposes. To address these challenges, we fabricate VCSELs with tailored oxide aperture designs and combine these with bias current tuning to study the overall impact on polarization locking. Experimental results demonstrate that this approach reduces the required injection power (to as low as 3.6 {\\mu}W) and expands the locking range. To investigate the impact of the approach, the spin-flip model (SFM) is used to analyze the effects of amplitude anisotropy and bias current on polarization locking, demonstrating strong coherence with experimental results.",
+    "url": "https://arxiv.org/abs/2604.01857",
+    "authors": [
+      {
+        "name": "Zifeng Yuan"
+      },
+      {
+        "name": "Dewen Zhang"
+      },
+      {
+        "name": "Lei Shi"
+      },
+      {
+        "name": "Yutong Liu"
+      },
+      {
+        "name": "Aaron Danner"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Computer Vision and Pattern Recognition (cs.CV)",
+    "author_count": 5,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "laser",
+        "lasers",
+        "optical",
+        "optics"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Zifeng Yuan"
+      },
+      {
+        "name": "Dewen Zhang"
+      },
+      {
+        "name": "Lei Shi"
+      },
+      {
+        "name": "Yutong Liu"
+      },
+      {
+        "name": "Aaron Danner"
+      }
+    ],
+    "summaries": {
+      "en": "The paper shows that by tailoring VCSEL oxide apertures and using bias current tuning, polarization locking in optical injection-locked VCSELs is improved, lowering the required injection power to 3.",
+      "zh": "论文表明，通过定制VCSEL的氧化物光阑并结合偏置电流调谐，可显著改善光注入锁定VCSEL的偏振锁定表现，使所需注入功率降至3."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01922",
+    "category": "physics.optics",
+    "title": "Understanding Intrinsic Loss in Thin-Film Lithium Niobate Ring Resonators via Adiabatic Coupling",
+    "abstract": "Thin-film lithium niobate (TFLN) has emerged as a versatile integrated photonics platform, combining strong electro-optic and nonlinear effects. Among TFLN devices, ring resonators play a central role in filtering, modulation, and nonlinear optical processes. However, intrinsic loss, which ultimately limits ring performance, is most often summarized by single-valued metrics, and its statistical variability across resonances has received limited attention. Here, we show that intrinsic loss rates in monolithic TFLN ring resonators follow a statistical distribution, comprising a baseline loss and a tail arising from discrete loss events. This behavior is revealed by characterizing 2233 resonances, using an adiabatic waveguide-ring coupling architecture that selectively excites the fundamental mode and yields clean spectra in the ultra-high-Qi regime. We find the most probable intrinsic loss rate ki = 2 pi x 10.4 MHz, indicating operation in a low-loss regime comparable to state-of-the-art thick silicon nitride platforms.",
+    "url": "https://arxiv.org/abs/2604.01922",
+    "authors": [
+      {
+        "name": "Xinrui Zhu"
+      },
+      {
+        "name": "Hana K. Warner"
+      },
+      {
+        "name": "Yunxiang Song"
+      },
+      {
+        "name": "Donald Witt"
+      },
+      {
+        "name": "Marko Loncar"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 5,
+    "topics": [
+      "Integrated Optics",
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "integrated photonic",
+        "integrated photonics",
+        "ring resonator",
+        "ring resonators",
+        "waveguide"
+      ],
+      "Nonlinear Optics": [
+        "nonlinear optical"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Xinrui Zhu"
+      },
+      {
+        "name": "Hana K. Warner"
+      },
+      {
+        "name": "Yunxiang Song"
+      },
+      {
+        "name": "Donald Witt"
+      },
+      {
+        "name": "Marko Loncar"
+      }
+    ],
+    "summaries": {
+      "en": "The paper characterizes intrinsic loss in monolithic thin-film lithium niobate ring resonators by analyzing 2233 selectively excited resonances and finds that loss rates follow a statistical distribution with a baseline and a tail from discrete loss events, yielding a most probable intrinsic loss rate of ki = 2π × 10.",
+      "zh": "论文通过分析2233个在绝热波导-环耦合架构下被选择性激发的共振，表明薄膜锂铌酸盐单片环形谐振器的本征损耗率具有统计分布特征：包含基线损耗以及由离散损耗事件引起的尾部，并在超高Q的低损耗工作区间中得到最可能本征损耗率 ki = 2π × 10."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02076",
+    "category": "physics.optics",
+    "title": "A time grating approach to ultrahigh-Q guided mode resonance",
+    "abstract": "Guided mode resonance (GMR), the resonant coupling of free-space light into leaky waveguide modes, is traditionally achieved with periodic patterned structures. However, this approach makes its key properties such as quality factor (Q-factor) fabrication-dependent and non-tunable. Here, we introduce a time grating platform, i.e., a homogeneous waveguide whose refractive index is modulated periodically in time, that allows tunable GMRs through temporal modulation engineering rather than spatial structural redesign. We show that the Q-factors of these GMRs diverge as the modulation depth vanishes. Furthermore, unconstrained by energy conservation, the resonances exhibit near-unity reflection for fundamental harmonics and values exceeding 40 for first-order harmonics. Our findings not only apply to yield a giant Goos-Hänchen shift over 103 times wavelength without sacrificing the reflection magnitude, but also open new avenues for related phenomena such as bound states in the continuum, unidirectional GMRs and beyond.",
+    "url": "https://arxiv.org/abs/2604.02076",
+    "authors": [
+      {
+        "name": "Youxiu Yu"
+      },
+      {
+        "name": "Xiaofeng Xu"
+      },
+      {
+        "name": "Yang Long"
+      },
+      {
+        "name": "Gui-Geng Liu"
+      },
+      {
+        "name": "Dongliang Gao"
+      },
+      {
+        "name": "Xiao Lin"
+      },
+      {
+        "name": "Hao Hu"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 7,
+    "topics": [
+      "Integrated Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "quality factor",
+        "waveguide"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Youxiu Yu"
+      },
+      {
+        "name": "Xiaofeng Xu"
+      },
+      {
+        "name": "Yang Long"
+      },
+      {
+        "name": "Dongliang Gao"
+      },
+      {
+        "name": "Xiao Lin"
+      },
+      {
+        "name": "Hao Hu"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a time-grating method for tunable guided mode resonances in homogeneous waveguides by periodically modulating refractive index in time, showing diverging Q-factors as modulation depth vanishes and near-unity reflection for fundamental harmonics with very high values for first-order harmonics, enabling effects like a giant Goos–Hänchen shift and motivating extensions to phenomena such as bound states in the continuum and unidirectional GMRs.",
+      "zh": "本文提出一种通过对均匀波导折射率进行周期性时间调制来实现可调导模共振（GMR）的时间光栅方法，并证明当调制深度趋于零时其Q因子会发散、且共振在基频谐波上具有接近1的反射率而在一阶谐波上可超过40，从而实现不牺牲反射幅度的超大Goos–Hänchen位移（超过103倍波长）并拓展到连续体束缚态、单向GMR等相关新现象。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02274",
+    "category": "physics.optics",
+    "title": "Temporal soliton generation in an ultra-high-effective-Q Kerr resonator enabled by Raman gain",
+    "abstract": "We demonstrate temporal pattern formation in a coherently driven fiber ring cavity whose effective finesse is continuously reconfigured using distributed Raman amplification. We achieve an effective finesse of up to $\\mathcal{F}_{\\mathrm{eff}}\\approx800$, corresponding to a linewidth of approximately 725 Hz ($Q\\approx2.7\\times10^{11}$) at 1555 nm. By exploiting the resulting increase in effective photon lifetime, we excite stable temporal cavity solitons and generate a low-repetition-rate frequency comb with a spacing of 580~kHz. Finally, we analyze the impact of the Raman loss-compensation mechanism, particularly its associated noise and show that a trade-off exists between soliton excitation threshold and stability.",
+    "url": "https://arxiv.org/abs/2604.02274",
+    "authors": [
+      {
+        "name": "Georges Semaan"
+      },
+      {
+        "name": "Yifan Sun"
+      },
+      {
+        "name": "Nicolas Englebert"
+      },
+      {
+        "name": "Simon-Pierre Gorza"
+      },
+      {
+        "name": "François Leo"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 5,
+    "topics": [
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "kerr"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Georges Semaan"
+      },
+      {
+        "name": "Yifan Sun"
+      },
+      {
+        "name": "Nicolas Englebert"
+      },
+      {
+        "name": "Simon-Pierre Gorza"
+      },
+      {
+        "name": "François Leo"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports generating stable temporal cavity solitons and a 580 kHz-spaced low-repetition-rate frequency comb in a coherently driven fiber ring resonator by continuously reconfiguring its ultra-high-effective-Q Kerr dynamics with distributed Raman amplification, achieving F_eff≈800 (linewidth ≈725 Hz, Q≈2.",
+      "zh": "论文通过在相干驱动的光纤环形谐振腔中利用分布式拉曼放大连续重构其超高有效Q的Kerr动力学，实现了稳定的时间腔孤子并产生1次间隔为580 kHz的低重复频率梳状谱：当有效精细度提高至约800（1555 nm处线宽约725 Hz，Q≈2."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01301",
+    "category": "quant-ph",
+    "title": "Numerically Optimizing Shortcuts to Adiabaticity: A Hybrid Control Strategy",
+    "abstract": "Achieving fast, excitation-free quantum control is a vital challenge in modern quantum technologies. In many cases, shortcuts to adiabaticity enable fast adiabatic-like protocols, yet determining control parameters that satisfy practical constraints is often challenging in complex systems. Here, we combine an analytical shortcut to adiabaticity approach with several numerical optimization methods to boost the performance of the protocol. As a proof-of-principle for this hybrid approach, we study a particularly intricate control problem, the separation of two trapped ions. We show that this analytical-numerical approach, along with the physical insight gained through the variety of suboptimal solutions, leads to the exploration of new solutions in a complex landscape that yield improvements of up to 3 orders of magnitude. Moreover, this improvement comes with no additional cost from an experimental point of view.",
+    "url": "https://arxiv.org/abs/2604.01301",
+    "authors": [
+      {
+        "name": "Bo Xing"
+      },
+      {
+        "name": "Jesús G. Parejo"
+      },
+      {
+        "name": "Sofía Martínez-Garaot"
+      },
+      {
+        "name": "Paola Cappellaro"
+      },
+      {
+        "name": "Mikel Palmero"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mathematical Physics (math-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing",
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum control"
+      ],
+      "AMO Physics": [
+        "trapped ion",
+        "trapped ions"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Bo Xing"
+      },
+      {
+        "name": "Jesús G. Parejo"
+      },
+      {
+        "name": "Sofía Martínez-Garaot"
+      },
+      {
+        "name": "Paola Cappellaro"
+      },
+      {
+        "name": "Mikel Palmero"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a hybrid strategy that combines an analytical shortcut-to-adiabaticity method with numerical optimization to find experimentally feasible, excitation-free fast control protocols, demonstrated on the complex task of separating two trapped ions with up to three orders of magnitude performance improvement at no extra experimental cost.",
+      "zh": "该论文提出一种将解析式“绝热通道”方法与数值优化相结合的混合策略，用于寻找满足实验可行约束的快速、无激发量子控制方案，并以将两束被俘离子分离这一复杂任务为例，结果在不增加实验代价的情况下，性能提升最高达三个数量级。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01369",
+    "category": "quant-ph",
+    "title": "Programmable recirculating bricks mesh architecture for quantum photonics",
+    "abstract": "General-purpose programmable photonic processors offer a flexible foundation for integrating various functionalities within a single chip. A two-dimensional hexagonal waveguide mesh of Mach Zehnder interferometers has been shown to have great potential in the field of microwave photonics. Additionally, they are a promising platform for the creation of unitary linear transformations, which are key elements in photonic neural networks, In this article, we expand the portfolio of available applications for recirculating bricks mesh architecture to quantum technologies. We will show that a single programmable optical system is capable of performing various functions depending on the requirements. In particular, we will focus in this work on boson sampling, a task that best demonstrates quantum advantage, as well as on tasks that enable the determination of photon indistinguishability, which plays a key role in photonic quantum technologies. We will also show that, in addition to spatial modes, the same optical system can be equally well-suited for work on temporal modes through the implementation of an appropriate number of loops.",
+    "url": "https://arxiv.org/abs/2604.01369",
+    "authors": [
+      {
+        "name": "Jacek Gosciniak"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Optics (physics.optics)",
+    "author_count": 1,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing",
+      "Optical Computing"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "waveguide"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "quantum photonics"
+      ],
+      "Optical Computing": [
+        "photonic neural network",
+        "photonic neural networks",
+        "photonic processor",
+        "photonic processors"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jacek Gosciniak"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a programmable recirculating hexagonal Mach–Zehnder interferometer waveguide mesh that can realize different quantum-photonic functions on one chip, focusing on boson sampling for quantum advantage and on measuring photon indistinguishability, with support for both spatial and temporal-mode processing via adjustable loop numbers.",
+      "zh": "论文提出一种可编程的回流式六边形马赫-曾德尔波导网格架构，可在同一芯片上实现不同量子光子功能，重点展示用于量子优势的玻色采样以及用于测量光子不可区分性的相关任务，并通过适当数量的回路同样支持空间与时间模式的处理。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01376",
+    "category": "quant-ph",
+    "title": "Resource Estimation via Efficient Compilation of Key Quantum Primitives",
+    "abstract": "Resource estimation is a significant challenge in evaluating fault tolerant quantum computers. Existing approaches often rely on either fixed architectural assumptions or coarse analytical models that fail to capture the interaction between hardware constraints and circuit compilation. This challenge is particularly acute for neutral atom quantum computers, where architectural features such as atom movement, measurement zones, and multi-species arrays introduce a broad design space for implementing fault tolerant computation. Addressing the need for a tighter feedback loop between hardware design and practical application development, we present a compilation-driven framework for quantum resource estimation that translates arbitrary quantum circuits into logical primitive operations with known physical resource costs. This framework allows for easily configurable hardware assumptions that enable rapid comparison of different architectural design choices. We apply our approach to two early fault tolerant quantum simulation and optimization workloads, assuming the use of the surface code, revealing several architectural trends. While the production of magic states continues to be the dominant source of overhead for these benchmarks, access to movement can save time on cultivation and important transversal gates. As problem size grows, routing and qubit movement become dominant bottlenecks, highlighting the need for movement-aware compiler optimizations and frugal routing strategies. Finally, our results suggest that neutral atom architectures combining dual-species arrays with controlled qubit movement offer a promising path toward near-term advantage on fault tolerant devices.",
+    "url": "https://arxiv.org/abs/2604.01376",
+    "authors": [
+      {
+        "name": "Colin Campbell"
+      },
+      {
+        "name": "Rich Rines"
+      },
+      {
+        "name": "Victory Omole"
+      },
+      {
+        "name": "Tina Oberoi"
+      },
+      {
+        "name": "Palash Goiporia"
+      },
+      {
+        "name": "Rayat Roy"
+      },
+      {
+        "name": "R. Peyton Cline"
+      },
+      {
+        "name": "Eric B. Jones"
+      },
+      {
+        "name": "Teague Tomesh"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 9,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "neutral atom"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Colin Campbell"
+      },
+      {
+        "name": "Rich Rines"
+      },
+      {
+        "name": "Victory Omole"
+      },
+      {
+        "name": "R. Peyton Cline"
+      },
+      {
+        "name": "Eric B. Jones"
+      },
+      {
+        "name": "Teague Tomesh"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a compilation-driven framework for fault-tolerant quantum resource estimation in neutral-atom systems by translating arbitrary circuits into logical primitives with known physical costs under configurable hardware assumptions, using it to analyze two simulation/optimization workloads and identifying trends such as magic-state overhead dominance, potential time savings from movement-enabled transversal gates, and routing/movement bottlenecks at larger sizes, suggesting dual-species arrays with controlled movement as promising.",
+      "zh": "本文提出一种面向中性原子架构的编译驱动量子资源估计框架：将任意量子电路转化为具有已知物理资源成本的逻辑原语，并在可配置的硬件假设下快速比较不同架构选择；作者以两项早期容错仿真/优化工作负载为例进行分析，发现魔法态制备仍是主要开销来源，但可通过可移动性节省培养时间并获得关键的保错横向门收益，且随规模增大路由与量子移动成为主要瓶颈，从而指出结合双物种阵列与受控移动的中性原子架构在容错设备上具有接近近期优势的潜力。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01722",
+    "category": "quant-ph",
+    "title": "A Differentiable Physical Framework for Goal-Driven Spin-State Engineering in Magnetic Resonance Spectroscopy",
+    "abstract": "Magnetic Resonance Spectroscopy (MRS) offers a unique non-invasive window into metabolic processes, yet its potential remains strictly constrained by severe spectral congestion and intrinsic insensitivity. Traditional pulse sequence design, tethered to human intuition, predominantly targets simple quantum states, thereby overlooking the vast majority of the exponentially scaling operator space which consists of complex spin superpositions. Here, we introduce a spectrum-driven, end-to-end differentiable physical framework that transcends these heuristic limitations. By integrating physical laws with automatic differentiation algorithm, our approach directly navigates the high-dimensional spin dynamics space, bypassing the intractable inverse problem of state preparation. This enables the discovery of non-intuitive, complex mixed states that simultaneously satisfy the dual objectives of selective excitation and interferometric signal enhancement. We validate this paradigm by achieving the robust separation of Glutamate and Glutamine, which is a longstanding neuroimaging challenge, in the human brain at 3T, demonstrating spectral fidelity superior to conventional methods. By unlocking the \"dark\" informational content of nuclear spin ensembles, our work establishes a generalizable paradigm for goal-driven quantum state engineering in magnetic resonance and beyond.",
+    "url": "https://arxiv.org/abs/2604.01722",
+    "authors": [
+      {
+        "name": "Gaocheng Fu"
+      },
+      {
+        "name": "Shiji Zhang"
+      },
+      {
+        "name": "Kai Huang"
+      },
+      {
+        "name": "Xue Yang"
+      },
+      {
+        "name": "Huilin Zhang"
+      },
+      {
+        "name": "Daxiu Wei"
+      },
+      {
+        "name": "Ye-Feng Yao"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Applied Physics (physics.app-ph); Medical Physics (physics.med-ph)",
+    "author_count": 7,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Gaocheng Fu"
+      },
+      {
+        "name": "Shiji Zhang"
+      },
+      {
+        "name": "Kai Huang"
+      },
+      {
+        "name": "Huilin Zhang"
+      },
+      {
+        "name": "Daxiu Wei"
+      },
+      {
+        "name": "Ye-Feng Yao"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents an end-to-end differentiable, physics-informed framework that uses automatic differentiation to engineer complex spin states in magnetic resonance spectroscopy for goal-driven selective excitation and signal enhancement, achieving improved Glutamate/Glutamine separation in vivo at 3T with superior spectral fidelity to conventional methods.",
+      "zh": "本文提出了一种端到端、物理定制且可微分的框架，通过将自动微分与物理规律结合来在磁共振波谱中进行目标驱动的复杂自旋态工程，实现选择性激发与干涉信号增强的同时优化，并在3T的人脑中实现比传统方法更高光谱保真度的谷氨酸/谷氨酰胺分离。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01773",
+    "category": "quant-ph",
+    "title": "Distribution of Bell State Entanglement in Qubit Networks via Collision Models",
+    "abstract": "We propose a general scheme to controllably distribute pairwise entanglement in a quantum network of qubits by exploiting environmental ancilla qubits interacting with the network nodes through tunable Hamiltonians. Our approach leverages collision models, in which a quantum syatem interacts sequentially with ancilla units. We explore two distinct scenarios within this framework: one in which the ancilla is reset to its initial coherent state after each interaction (the traditional collision model), and another where the ancilla is not reset but its state is simply carried over to the next interaction, which we dub the repeated interaction model. In both scenarios, we ensure that the system-ancilla correlations are discarded between steps. We also demonstrate how varying the ancilla-system interaction patterns enables selective generation of entanglement between different qubit pairs, including non-neighbouring nodes that do not directly interact. The scheme is analyzed in networks up to three qubits under both collision and repeated interaction dynamics, revealing the genaration of maximally entangled bell pairs even in configurations where the interacting ancilla couples to only a single node. Our results provide a systematic and physically implementable route to entanglement distribution, offering potential applications in quantum communication, metrology and modular quantum computing.",
+    "url": "https://arxiv.org/abs/2604.01773",
+    "authors": [
+      {
+        "name": "Mert Doğan"
+      },
+      {
+        "name": "Öner Faruk Ödemiş"
+      },
+      {
+        "name": "Elif Yunt"
+      },
+      {
+        "name": "Özgür E. Müstecaplıoğlu"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum network"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Mert Doğan"
+      },
+      {
+        "name": "Öner Faruk Ödemiş"
+      },
+      {
+        "name": "Elif Yunt"
+      },
+      {
+        "name": "Özgür E. Müstecaplıoğlu"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes using tunable, environment-ancilla collision (and repeated-interaction) models to controllably distribute Bell-state entanglement across qubit networks, including selective entanglement between non-neighboring qubit pairs, and shows via three-qubit analyses that maximally entangled Bell pairs can be generated even when each ancilla couples only to a single node.",
+      "zh": "论文提出利用可调谐环境辅助量子比特的碰撞模型（以及重复相互作用模型），在量子比特网络中可控地分配贝尔态纠缠；通过选择不同的辅助量子比特-系统相互作用模式，能够在非相邻节点之间实现选择性纠缠生成，并在三量子比特分析中表明即使每个辅助量子比特仅与单个节点耦合，也能产生最大纠缠的贝尔对。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02024",
+    "category": "quant-ph",
+    "title": "Compact system development of efficient quantum-entangled photon sources towards deployable and industrial devices",
+    "abstract": "Entangled photon pair sources are a key enabling technology for quantum communication and networking, yet their deployment beyond laboratory environments is hindered by system-level complexity, limited operational stability, and insufficient industry compatibility. Here, we demonstrate a rack-based, mobile quantum light source architecture based on a semiconductor quantum dot emitter that directly addresses these challenges through modular system integration and automated operation. The source generates polarization-entangled photon pairs with an entanglement negativity 2n of up to $0.98(1)$, confirming near-maximal entanglement quality. In continuous, hands-off operation over a six-hour time window, the system achieves an average single-photon emission rate of $697(8)$ kHz and a maximum rate of $740(7)$ kHz, while maintaining 2n-value of more than $95$ $\\%$. These results are enabled by the integration of optical excitation, collection, cryogenic operation, and control electronics within a standardized rack footprint, together with automated monitoring. By demonstrating simultaneously high entanglement quality, sustained brightness, and long-term operational stability in an industry-aligned system architecture, this work advances semiconductor quantum dot sources toward deployable entangled photon sources for applied quantum photonics.",
+    "url": "https://arxiv.org/abs/2604.02024",
+    "authors": [
+      {
+        "name": "Yared G. Zena"
+      },
+      {
+        "name": "Moritz Langer"
+      },
+      {
+        "name": "Ahmad Rahimi"
+      },
+      {
+        "name": "Abhishikth Dhurjati"
+      },
+      {
+        "name": "Pavel Ruchka"
+      },
+      {
+        "name": "Sara Jakovljevic"
+      },
+      {
+        "name": "Mandira Pal"
+      },
+      {
+        "name": "Frank H. P. Fitzek"
+      },
+      {
+        "name": "Harald Giessen"
+      },
+      {
+        "name": "Juergen Czarske"
+      },
+      {
+        "name": "Riccardo Bassoli"
+      },
+      {
+        "name": "Caspar Hopfmann"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+    "author_count": 12,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "entangled photon",
+        "photon pair",
+        "photon pairs",
+        "quantum photonics",
+        "single-photon"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yared G. Zena"
+      },
+      {
+        "name": "Moritz Langer"
+      },
+      {
+        "name": "Ahmad Rahimi"
+      },
+      {
+        "name": "Juergen Czarske"
+      },
+      {
+        "name": "Riccardo Bassoli"
+      },
+      {
+        "name": "Caspar Hopfmann"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a rack-based, modular, automated quantum light source using a semiconductor quantum-dot emitter that produces near-maximally polarization-entangled photon pairs (entanglement negativity up to 0.",
+      "zh": "本文提出一种基于半导体量子点发射器的机架式、模块化并自动化的量子光源系统，可产生近乎最大纠缠的偏振纠缠光子对（纠缠负性最高达0."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02033",
+    "category": "quant-ph",
+    "title": "High-threshold decoding of non-Pauli codes for 2D universality",
+    "abstract": "Topological codes have many desirable properties that allow fault-tolerant quantum computation with relatively low overhead. A core challenge for these codes, however, is to achieve a low-overhead universal gate set with limited connectivity. In this work, we explore a non-Pauli stabilizer code that can be used to complete a universal gate set on topological toric and surface codes in strictly two dimensions. Fault-tolerant syndrome extraction for the non-Pauli code requires mid-circuit $X$ corrections, a key difference to conventional Pauli codes. We construct and benchmark a just-in-time (JIT) matching decoder to reliably decide these corrections. Under a phenomenological error model with equally likely physical and measurement errors, we find a high threshold of $\\approx 2.5\\,\\%$, close to the $\\approx 2.9\\,\\%$ of a decoder with access to the full syndrome history. We also perform a finite-size scaling analysis to estimate how the logical error rate scales below threshold and verify an exponential suppression in both physical error rate and in the system size. A second global decoding step for $Z$ errors is required and the non-Clifford gates in the circuit reduce the threshold from $\\approx 2.9\\,\\%$ to $\\approx 1.8\\,\\%$ with a naive decoder. We show how $Z$ decoding can be improved using knowledge of the $X$ corrections, pushing the threshold to $\\approx 2.2\\,\\%$. Our results suggest non-Clifford logic in 2D codes could perform comparably to 2D quantum memory. Our formalism for efficient benchmarking and decoding directly generalizes to a broader family of CSS codes whose $X$ stabilizers are twisted by diagonal Clifford operators, and spacetime versions thereof, defined by CSS-like circuits enriched by $CCZ$, $CS$, and $T$ gates.",
+    "url": "https://arxiv.org/abs/2604.02033",
+    "authors": [
+      {
+        "name": "Julio C. Magdalena de la Fuente"
+      },
+      {
+        "name": "Noa Feldman"
+      },
+      {
+        "name": "Jens Eisert"
+      },
+      {
+        "name": "Andreas Bauer"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Strongly Correlated Electrons (cond-mat.str-el)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum memory"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Julio C. Magdalena de la Fuente"
+      },
+      {
+        "name": "Noa Feldman"
+      },
+      {
+        "name": "Jens Eisert"
+      },
+      {
+        "name": "Andreas Bauer"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes and benchmarks a non-Pauli stabilizer code that enables fault-tolerant 2D universal gate sets on top of toric/surface codes using mid-circuit X corrections decoded by a just-in-time matching decoder, achieving a high decoding threshold (~2.",
+      "zh": "该论文提出并基准测试一种非保利（non-Pauli）稳定子码，用于在二维平面内（仅限2D连接）叠加到拓扑Kitaev环/曲面码之上实现容错通用门集合：通过需要中途X校正的容错综合提取，并用即时（JIT）匹配解码器可靠地判定校正，在等概率的物理与测量误差模型下得到较高阈值约2."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02081",
+    "category": "quant-ph",
+    "title": "Photonic qubit encoding interconversion for heterogeneous quantum networking",
+    "abstract": "Quantum information processing, communication, and sensing networks are being developed with various qubit platforms that use different encoding schemes. Connecting quantum network nodes to distribute entanglement requires matching photon qubit basis encoding. In this work, we implement an interconversion protocol which converts photon qubit encoding from the polarization basis to the time-bin basis, transmits the photons through a transport fiber with large fluctuations in polarization, and converts back to polarization encoding for ease of measurement. This interconversion scheme faithfully transmits a polarization Bell state across the transport fiber by converting sources of infidelity to changes in transmission rate. These results illustrate a practical approach for interfacing distinct qubit platforms to enable modular and flexible operation in heterogeneous quantum networks.",
+    "url": "https://arxiv.org/abs/2604.02081",
+    "authors": [
+      {
+        "name": "Vedansh Nehra"
+      },
+      {
+        "name": "Richard J. Birrittella"
+      },
+      {
+        "name": "Christopher C. Tison"
+      },
+      {
+        "name": "Benjamin K. Malia"
+      },
+      {
+        "name": "Zachary S. Smith"
+      },
+      {
+        "name": "Dylan Heberle"
+      },
+      {
+        "name": "Nicholas J. Barton"
+      },
+      {
+        "name": "Amos Matthew Smith"
+      },
+      {
+        "name": "Andrew Brownell"
+      },
+      {
+        "name": "Michael L. Fanto"
+      },
+      {
+        "name": "James Schneeloch"
+      },
+      {
+        "name": "Erin Sheridan"
+      },
+      {
+        "name": "David Hucul"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 13,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "photonic qubit",
+        "quantum network"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Vedansh Nehra"
+      },
+      {
+        "name": "Richard J. Birrittella"
+      },
+      {
+        "name": "Christopher C. Tison"
+      },
+      {
+        "name": "James Schneeloch"
+      },
+      {
+        "name": "Erin Sheridan"
+      },
+      {
+        "name": "David Hucul"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a practical photonic-qubit encoding interconversion protocol that converts polarization to time-bin encoding, transmits through a polarization-fluctuating fiber, and converts back to polarization while faithfully preserving a Bell state, enabling interfacing heterogeneous quantum-network qubit platforms.",
+      "zh": "论文提出了一种实用的光子量子比特编码互转换方案：将偏振编码转换为时间隙编码后在极化大幅波动的传输光纤中传输，再转换回偏振编码，并通过把失真来源转化为传输速率变化来忠实保持偏振贝尔态，从而实现异构量子网络量子比特平台的对接与模块化灵活运行。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02083",
+    "category": "quant-ph",
+    "title": "Constrained Quantum Optimization via Iterative Warm-Start XY-Mixers",
+    "abstract": "The Quantum Approximate Optimization Algorithm (QAOA) is a leading hybrid heuristic for combinatorial optimization, but efficiently handling hard constraints remains a significant challenge. XY-mixers successfully confine quantum state evolution to a feasible subspace, such as the Hamming-weight-1 sector for one-hot constraints. On the contrary, warm-starting biases the search toward promising regions based on preliminary solutions. Combining these two techniques requires maintaining the essential alignment between the initial state and the mixer Hamiltonian to preserve convergence guarantees. Previous work demonstrated warm-starting with XY-mixers via a biased initial state, but relying only on standard mixer Hamiltonians. Consequently, the initial state is no longer a ground state of the mixer. In this work, we overcome these limitations by formulating a warm-started XY-mixer Hamiltonian for one-hot constraints and proving its ground-state properties. Furthermore, we provide a shallow circuit implementation suitable for NISQ implementations. We embed the warm-starting into a classical heuristic that iteratively updates the bias based on previous samples, called Iterative Warm-Starting (IWS). Extensive numerical simulations on Max-$k$-Cut and Traveling Salesperson Problem instances demonstrate that IWS-QAOA significantly accelerates the solution-finding process, increasing the probability of sampling optimal solutions by orders of magnitude compared to standard XY-QAOA. Finally, we validate our approach on the ibm_boston QPU using hardware-tailored 144-qubit problem instances. By coupling IWS-QAOA with a greedy steepest-descent post-processing strategy to repair infeasible measurements caused by hardware noise, we successfully identify optimal solutions on actual quantum devices.",
+    "url": "https://arxiv.org/abs/2604.02083",
+    "authors": [
+      {
+        "name": "David Bucher"
+      },
+      {
+        "name": "Maximilian Janetschek"
+      },
+      {
+        "name": "Michael Poppel"
+      },
+      {
+        "name": "Jonas Stein"
+      },
+      {
+        "name": "Claudia Linnhoff-Popien"
+      },
+      {
+        "name": "Sebastian Feld"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 6,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "David Bucher"
+      },
+      {
+        "name": "Maximilian Janetschek"
+      },
+      {
+        "name": "Michael Poppel"
+      },
+      {
+        "name": "Jonas Stein"
+      },
+      {
+        "name": "Claudia Linnhoff-Popien"
+      },
+      {
+        "name": "Sebastian Feld"
+      }
+    ],
+    "summaries": {
+      "en": "The paper introduces an Iterative Warm-Starting QAOA that combines constrained XY-mixers with a newly constructed warm-started XY-mixer Hamiltonian for one-hot constraints, provides its ground-state analysis and NISQ-ready circuit implementation, and shows via simulations and ibm_boston experiments that it greatly boosts the probability of sampling optimal solutions for Max-k-Cut and TSP while using post-processing to fix hardware-induced infeasibility.",
+      "zh": "本文提出一种迭代式暖启动（IWS）QAOA，将用于满足约束的XY-mixer与为一热(one-hot)约束构造的暖启动XY-mixer哈密顿量相结合，给出其基态性质与适合NISQ的浅电路实现，并通过Max-k-Cut与旅行商问题的数值仿真及ibm_boston实验表明该方法能显著提升采样到最优解的概率，同时结合后处理修复硬件噪声导致的不可行测量。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02112",
+    "category": "quant-ph",
+    "title": "Q2NS Demo: A Quantum Network Simulator Based on ns-3",
+    "abstract": "Q2NS is an open-source quantum network simulator built on ns-3, the de facto standard for classical network simulation. By inheriting ns-3's mature classical stack and event-driven execution model, Q2NS enables faithful co-simulation of quantum-network dynamics and classical signaling, a core requirement for the functioning of any quantum network. Its modular architecture is designed for extensibility, with pluggable quantum-state backends (state-vector, density matrix, stabilizer) and a clean separation between network control and node-level operations. Q2NS comes with a quantum network visualizer Q2NSViz, supporting interactive inspection of both physical- and entanglement-induced connectivity graphs, helping users interpret protocol behavior and entanglement manipulation processes. We present a demonstration of Q2NS, highlighting its ability to capture and simulate the coexistence of quantum and classical communication. The proposed demonstration presents quantum communication scenarios of increasing complexity: from entanglement distribution basics to multipartite graph-state manipulation, complemented by pre-loaded examples in Q2NSViz that require no prior quantum communication or coding experience.",
+    "url": "https://arxiv.org/abs/2604.02112",
+    "authors": [
+      {
+        "name": "Francesco Mazza"
+      },
+      {
+        "name": "Adam Pearson"
+      },
+      {
+        "name": "Marcello Caleffi"
+      },
+      {
+        "name": "Angela Sara Cacciapuoti"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Networking and Internet Architecture (cs.NI)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum network"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Francesco Mazza"
+      },
+      {
+        "name": "Adam Pearson"
+      },
+      {
+        "name": "Marcello Caleffi"
+      },
+      {
+        "name": "Angela Sara Cacciapuoti"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents Q2NS, an open-source quantum network simulator built on ns-3 with modular quantum-state backends and a visualizer, demonstrating faithful co-simulation of quantum-network dynamics alongside classical signaling across increasingly complex communication scenarios.",
+      "zh": "本文介绍了基于ns-3构建的开源量子网络模拟器Q2NS，通过可插拔的量子态后端和可视化工具实现量子网络动力学与经典信令的可信联合仿真，并通过从基础纠缠分发到多方图态操作的逐步复杂通信场景进行演示。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02169",
+    "category": "quant-ph",
+    "title": "The Phase Quantum Walk: A Unified Framework for Graph State Distribution in Quantum Networks",
+    "abstract": "Distributing arbitrary graph states across quantum networks is a central challenge for modular quantum computing and measurement-based quantum communication. I introduce the phase quantum walk (PQW), a discrete-time quantum walk in which the conventional position-permuting shift operator is replaced by a diagonal conditional phase (CZ) gate, enabling distribution of arbitrary graph states, not merely GHZ states, from elementary two-qubit resources. The Byproduct Lemma shows that each walk step teleports edge entanglement with a correctable Pauli byproduct; the Coin Invariance Theorem proves that the optimal fidelity F*(C,E) = F*(H,E) for all unitary coins C and noise channels E, with closed-form expressions F_dep = (1 - 3p/4)^k and F_pd = ((1 + sqrt(1 - p))/2)^k. Analytical correction formulas are derived for tree graphs (general theorem) and ring graphs (C4 case study), with F = 1.0 verified across eight topologies (up to 4096 outcomes). Hardware validation on ibm marrakesh (IBM Heron r2, CZ-native) yields F_cl = 0.924 for |GHZ4> and 0.922 for |L4>, statistically identical, providing the first experimental confirmation that fidelity is independent of graph topology as predicted by the Coin Invariance Theorem.",
+    "url": "https://arxiv.org/abs/2604.02169",
+    "authors": [
+      {
+        "name": "Soumyojyoti Dutta"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum network"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Soumyojyoti Dutta"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes the phase quantum walk (PQW), a discrete-time quantum walk using controlled-phase (CZ) shifts instead of position permutation to distribute arbitrary graph states in quantum networks, supported by a byproduct-correction analysis, a coin-invariance theorem yielding closed-form fidelity under noise, analytical corrections for tree and ring graphs, numerical validation across eight topologies, and IBM hardware experiments confirming topology-independent fidelity.",
+      "zh": "本文提出相位量子行走（PQW），用对角条件相位（CZ）代替传统位置置换的离散时间量子行走，用于在量子网络中从基本两量子比特资源分发任意图态而非仅限GHZ；并通过余量算符引理与“硬币不变性”定理给出可纠正的保真度解析表达与噪声下闭式公式、对树与环图的解析修正、以及跨八种拓扑（最多4096个结果）的数值验证，最后在IBM Marrakesh（CZ原生）实验中测得GHZ4与L4的保真度相同且与拓扑无关，从而首次实验性验证该定理的预测。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02218",
+    "category": "quant-ph",
+    "title": "High-bandwidth Coherence Cloning using Optical-Phase-Locking Feedforward",
+    "abstract": "Ultra-narrow-linewidth lasers with suppressed high-frequency phase noise are critical for quantum control and precision metrology. While optical phase locking (OPL) is the standard technique for cloning the coherence of such sources, its effectiveness is often limited at high frequencies by feedback latency. We present a robust feedforward architecture that overcomes this limitation by recycling and demodulating the existing master-slave beat signal to drive a single electro-optic modulator for near-instantaneous noise cancellation. This approach eliminates the extraneous sidebands and transmission losses typical of more complex modulators. Through active stabilization of the beat amplitude and demodulation phase, we demonstrate robust suppression exceeding 30 dB from 10 kHz to 10 MHz. This hardware-efficient framework is readily compatible with standard OPL setups, offering a scalable solution for high-fidelity coherent control.",
+    "url": "https://arxiv.org/abs/2604.02218",
+    "authors": [
+      {
+        "name": "Chen Jia"
+      },
+      {
+        "name": "Zhen-Xing Hua"
+      },
+      {
+        "name": "Yu-Xin Chao"
+      },
+      {
+        "name": "Meng Khoon Tey"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Quantum Gases (cond-mat.quant-gas); Optics (physics.optics)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum control"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Chen Jia"
+      },
+      {
+        "name": "Zhen-Xing Hua"
+      },
+      {
+        "name": "Yu-Xin Chao"
+      },
+      {
+        "name": "Meng Khoon Tey"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a hardware-efficient optical-phase-locking feedforward scheme that recycles the master–slave beat signal to drive a single electro-optic modulator, enabling near-instantaneous high-frequency phase-noise cancellation and achieving robust >30 dB suppression from 10 kHz to 10 MHz for ultra-narrow-linewidth lasers compatible with standard quantum-control optical phase-locking setups.",
+      "zh": "论文提出一种硬件高效的光学相位锁定前馈方案，通过回收主从拍频信号驱动单个电光调制器，实现近瞬时的高频相位噪声抵消，并在10 kHz到10 MHz范围内实现稳健的>30 dB抑制，与标准量子控制用光学相位锁定装置兼容且便于扩展高保真相干控制。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02234",
+    "category": "quant-ph",
+    "title": "Explicit constructions of mutually unbiased bases via Hadamard matrices",
+    "abstract": "We present a detailed computational and algebraic study of Mutually Unbiased Bases (MUBs) in finite-dimensional Hilbert spaces, with a particular focus on dimensions 2, 3, 4, and the challenging case of 6. Starting from the Hadamard-phase parametrization, we derive explicit analytical conditions for mutual unbiasedness in dimension 4, providing a tractable system of trigonometric constraints on the phase parameters. We then explore a tensor-product construction via Pauli operators, highlighting the algebraic and group-theoretical origin of MUBs in two-qubit systems, and demonstrating how these constructions yield a complete set of 5 MUBs in dimension 4. Extending our approach, we investigate the Fourier-family method in dimension 6, where the absence of a prime-power structure imposes strong rigidity constraints and limits the known constructions to sets of 3 MUBs. We provide a systematic computational framework for testing candidate phase vectors, bridging the gap between analytical insight and numerical exploration. Finally, we generalize the discussion to arbitrary prime-power dimensions, emphasizing the role of finite-field structures, Heisenberg-Weyl operators, and discrete symmetries in generating complete sets of MUBs. Our work offers a transparent, line-by-line verification methodology, highlighting both the geometric and algebraic richness of MUBs, and clarifying why certain dimensions resist full analytical constructions. This study serves as a comprehensive resource for researchers seeking both theoretical understanding and practical construction of MUBs in quantum information science.",
+    "url": "https://arxiv.org/abs/2604.02234",
+    "authors": [
+      {
+        "name": "Jean-Christophe Pain"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mathematical Physics (math-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jean-Christophe Pain"
+      }
+    ],
+    "summaries": {
+      "en": "The paper gives explicit algebraic and computational constructions of mutually unbiased bases in dimensions 2, 3, 4, and especially 6, deriving analytic phase conditions in dimension 4, producing a complete set of 5 MUBs for two-qubits via Pauli/tensor-product methods, showing strong rigidity in dimension 6 that restricts known sets to 3, and outlining a general prime-power approach using finite-field Heisenberg–Weyl operators and discrete symmetries with a systematic verification framework.",
+      "zh": "本文通过代数与计算相结合的方法研究有限维希尔伯特空间中的互相无偏基，重点处理维数2、3、4以及最具挑战性的维数6：在维数4中从Hadamard相位参数化出发推导互无偏的解析相位约束，在双比特情形利用Pauli算符的张量乘积构造得到维数4的5组完整MUB，并在维数6中借助傅里叶族方法揭示非素幂结构带来的强刚性使已知构造仅能到3组，同时给出候选相位向量的系统检验框架并将讨论推广到任意素幂维，强调有限域结构、Heisenberg–Weyl算符与离散对称性在生成完整MUB中的作用。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.02314",
+    "category": "quant-ph",
+    "title": "Towards High-Brightness Perfect Photon Blockade",
+    "abstract": "Single-photon sources with high single-photon purity and high brightness are key elements of many future quantum technologies. While photon blockade (PB) is widely exploited in the development of such sources, achieving the coexistence of high purity and high brightness remains a long-standing challenge. Here, we identify a novel mechanism for high-brightness PB and demonstrate that near-ideal purity and near-ideal brightness can be simultaneously achieved in an extended nondegenerate two-photon Jaynes-Cummings model with two-body and three-body interactions. This mechanism is underpinned by a distinctive energy-level structure arising from the combined action of the two interactions. The energy levels in the multi-excitation manifold essentially retain a harmonic ladder of degenerate doublets, whereas in the single-excitation subspace the doublet degeneracy is lifted, with a finite splitting between the two levels. Consequently, when one bosonic mode is driven by a coherent continuous-wave pump, the former degeneracy enables the other bosonic mode to exhibit near-perfect PB even in the strong driving regime, while the latter splitting allows the mean photon number of that mode to approach unity. Our proposed scheme overcomes the outstanding challenge and offers a promising pathway toward realizing ideal single-photon sources.",
+    "url": "https://arxiv.org/abs/2604.02314",
+    "authors": [
+      {
+        "name": "Zhi-Guang Lu"
+      },
+      {
+        "name": "Xin-You Lü"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "single-photon"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Zhi-Guang Lu"
+      },
+      {
+        "name": "Xin-You Lü"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes and demonstrates a new high-brightness photon-blockade mechanism in an extended nondegenerate two-photon Jaynes-Cummings model with two- and three-body interactions, whose combined energy-level structure preserves degenerate doublets in multi-excitation manifolds for strong blockade while lifting degeneracy in the single-excitation subspace, enabling near-ideal single-photon purity and brightness under coherent continuous-wave driving.",
+      "zh": "本文提出并验证了一种由两体与三体相互作用构成的扩展非简并两光子Jaynes-Cummings模型中的高亮度光子阻塞新机制：其独特能级结构在多激发流形中保留简并双态以实现强阻塞，同时在单激发子空间中解除简并并产生有限分裂，从而在相干连续波驱动下同时获得接近理想的单光子纯度与亮度。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2604.01513",
+    "category": "physics.atom-ph",
+    "title": "Low frequency electric field sensing with a Rydberg beam",
+    "abstract": "We present a method for performing low frequency electric field sensing via ionization detection of Rydberg atoms in a collimated atomic beam. A collimated beam avoids much of the electric field screening effects that are common in warm vapor cells due to the accumulation of alkali-metal atoms on glass surfaces. Further, a beam facilitates a spatially separated region for high signal-to-noise readout via ionization detection. Using this approach, we measure DC Stark shifts from external fields with frequencies as low as 1 Hz. The sensor demonstrates a sensitivity of better than 1 mV/m$\\sqrt{\\rm {Hz}}$ for frequencies above 20 Hz and $0.14(4)$ mV/m$\\sqrt{\\rm {Hz}}$ above 500 Hz with a linear dynamic range of over 50 dB.",
+    "url": "https://arxiv.org/abs/2604.01513",
+    "authors": [
+      {
+        "name": "Jeremy Glick"
+      },
+      {
+        "name": "John R Dickson"
+      },
+      {
+        "name": "Josie Wood"
+      },
+      {
+        "name": "Paul Kunz"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph)",
+    "author_count": 4,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "rydberg"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Jeremy Glick"
+      },
+      {
+        "name": "John R Dickson"
+      },
+      {
+        "name": "Josie Wood"
+      },
+      {
+        "name": "Paul Kunz"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a Rydberg-atom beam ionization detector for low-frequency electric-field sensing, avoiding common screening in warm vapor cells by using a collimated beam, enabling DC Stark-shift measurements down to 1 Hz and achieving sensitivities better than 1 mV/m√Hz (above 20 Hz) and 0.",
+      "zh": "论文提出了一种利用准直的瑞德堡原子束离子化探测来实现低频电场测量的方法，准直原子束可避免热玻璃池中常见的碱金属在玻璃表面积累带来的电场屏蔽效应，并通过离子化读出获得空间分离的高信噪区域；研究在外加电场下可将直流斯塔克位移测到最低1 Hz，灵敏度在20 Hz以上优于1 mV/m√Hz，在500 Hz以上为0."
+    },
+    "summary_source": "openai"
+  }
+]
