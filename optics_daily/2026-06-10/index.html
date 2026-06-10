@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArXiv Optics Daily - 2026-06-10</title>
+  <style>
+    :root {
+      --bg: #f2ece4;
+      --panel: rgba(255, 252, 247, 0.94);
+      --line: rgba(62, 45, 30, 0.14);
+      --text: #2c221c;
+      --muted: #6f5e50;
+      --accent: #8a3f2d;
+      --accent-2: #1c6270;
+      --shadow: 0 18px 48px rgba(58, 38, 24, 0.12);
+      --radius: 24px;
+      --ui-font: "Aptos", "Segoe UI", "Helvetica Neue", sans-serif;
+      --title-font: "Iowan Old Style", "Georgia", serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--ui-font);
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.82), transparent 34%),
+        radial-gradient(circle at 84% 12%, rgba(28,98,112,0.12), transparent 22%),
+        linear-gradient(180deg, #faf6ef 0%, var(--bg) 44%, #eee4d8 100%);
+      min-height: 100vh;
+    }
+    .shell { width: min(1240px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 64px; }
+    .hero {
+      padding: 30px;
+      border-radius: 30px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,248,240,0.76)),
+        linear-gradient(135deg, rgba(138,63,45,0.08), rgba(28,98,112,0.08));
+      box-shadow: var(--shadow);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.82);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    h1 {
+      margin: 18px 0 10px;
+      font-family: var(--title-font);
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 960px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.72;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+    .stat {
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.78);
+      border: 1px solid var(--line);
+    }
+    .stat .label { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+    .stat .value { font-size: 28px; font-weight: 700; letter-spacing: -0.03em; }
+    .controls {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background: rgba(249, 243, 235, 0.92);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 24px rgba(58, 38, 24, 0.08);
+    }
+    .control-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 16px;
+    }
+    .field { display: flex; flex-direction: column; gap: 10px; }
+    .field label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .search {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.92);
+      color: var(--text);
+      font: inherit;
+    }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 10px; }
+    .chip {
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.86);
+      color: var(--text);
+      font: inherit;
+      cursor: pointer;
+    }
+    .chip.active {
+      border-color: rgba(138,63,45,0.34);
+      background: rgba(138,63,45,0.12);
+      color: #5e2619;
+    }
+    .meta-row {
+      margin-top: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .meta-row a { color: var(--accent); text-decoration: none; }
+    .paper-grid {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 18px;
+    }
+    .paper {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 22px;
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: 0 10px 24px rgba(58, 38, 24, 0.06);
+    }
+    .paper-top { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .tag.category {
+      background: rgba(44,34,28,0.08);
+      color: var(--text);
+    }
+    .tag.topic {
+      background: rgba(28,98,112,0.1);
+      color: var(--accent-2);
+      border: 1px solid rgba(28,98,112,0.14);
+    }
+    .paper .id { color: var(--muted); font-size: 13px; }
+    .paper h2 {
+      margin: 0;
+      font-family: var(--title-font);
+      font-size: 23px;
+      line-height: 1.22;
+      letter-spacing: -0.02em;
+    }
+    .paper h2 a { color: inherit; text-decoration: none; }
+    .paper h2 a:hover { color: var(--accent); }
+    .subtle {
+      padding: 14px 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.7);
+    }
+    .subtle .label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .author-line,
+    .subject-line,
+    .abstract-line {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.68;
+    }
+    .summary-grid {
+      display: grid;
+      gap: 10px;
+    }
+    .summary-item {
+      padding: 14px 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.78);
+    }
+    .summary-item strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .summary-item p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.68;
+    }
+    details {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.74);
+      padding: 14px 16px;
+    }
+    details summary {
+      cursor: pointer;
+      list-style: none;
+      color: var(--accent-2);
+      font-weight: 700;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      line-height: 1.72;
+    }
+    .paper footer {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .paper footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .empty {
+      display: none;
+      margin-top: 24px;
+      padding: 28px;
+      text-align: center;
+      color: var(--muted);
+      border-radius: 22px;
+      border: 1px dashed var(--line);
+      background: rgba(255,255,255,0.72);
+    }
+    @media (max-width: 980px) {
+      .control-grid { grid-template-columns: 1fr; }
+      .controls { position: static; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div class="eyebrow">ArXiv Optics Daily · 2026-06-10</div>
+      <h1>Daily ArXiv Papers in Optics</h1>
+      <p>
+        Data comes from arXiv's daily <code>new submissions</code> pages across
+        <code>physics.optics</code>, <code>physics.app-ph</code>, <code>quant-ph</code>, <code>physics.atom-ph</code>.
+        This version focuses on quantum platforms, quantum information, and photonic design,
+        and provides one-sentence summaries in English and Chinese for each paper.
+      </p>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section class="controls">
+      <div class="control-grid">
+        <div class="field">
+          <label for="search">Search</label>
+          <input id="search" class="search" type="search" placeholder="Search by title, author, topic, abstract, or arXiv ID">
+        </div>
+        <div class="field">
+          <label>Category</label>
+          <div class="chip-row" id="category-filters"></div>
+        </div>
+        <div class="field">
+          <label>Topic</label>
+          <div class="chip-row" id="topic-filters"></div>
+        </div>
+      </div>
+      <div class="meta-row">
+        <div id="result-count">Loading...</div>
+        <div><a href="../index.html">Back to archive</a></div>
+      </div>
+    </section>
+
+    <section class="paper-grid" id="paper-grid"></section>
+    <section class="empty" id="empty-state">No papers matched your current filters.</section>
+  </div>
+
+  <script>
+    const papers = [{"id": "2606.10253", "category": "physics.optics", "title": "Multi-channel Optical Vision Model", "abstract": "Spatial multiplexing is one of the natural strengths of optics, yet in optical neural networks, it is often used mainly as parallel throughput. Here, we show that spatial multiplexing in an optical neural network can be used not only to process multiple inputs in parallel, but also to define a trainable representational coordinate of the model. In three implemented scenarios, parallel-input processing, class-code readout and channel-mixed feature interaction, spatial channels act as independent learners, structured code dimensions, and interacting feature groups. The programmable free-space optical processor is trained through an online physical-forward/surrogate-backward scheme, where measured optical outputs define the forward pass while a differentiable surrogate estimates gradients and is continually fine-tuned during training from newly acquired optical data. We demonstrate these channel roles in image classification and regression tasks using multi-layer architectures with more than one million trainable optical phase parameters. We further implement a hybrid optical-electronic vision-language model, in which the optical neural network provides visual tokens to a digital transformer decoder for controlled image-captioning tasks. These results establish spatially multiplexed optical channels as a programmable feature and readout space for hybrid optical vision models.", "url": "https://arxiv.org/abs/2606.10253", "authors": [{"name": "Ali Momeni"}, {"name": "Guillaume Noetinger"}, {"name": "Tim Tuuva"}, {"name": "Romain Fleury"}], "subjects": "Optics (physics.optics) ; Applied Physics (physics.app-ph)", "author_count": 4, "topics": ["Optical Computing"], "topic_hits": {"Optical Computing": ["optical neural network", "optical neural networks"]}, "featured_authors": [{"name": "Ali Momeni"}, {"name": "Guillaume Noetinger"}, {"name": "Tim Tuuva"}, {"name": "Romain Fleury"}], "summaries": {"en": "The paper demonstrates that spatial multiplexing in a programmable free-space optical neural network can be trained to act as a set of independent, structured, interacting feature and readout coordinates—using an online physical-forward/surrogate-backward learning scheme—to enable scalable image classification/regression and a hybrid optical-electronic vision-language model for controlled image captioning.", "zh": "该论文表明，可编程自由空间光学神经网络中的空间复用不仅能提升并行吞吐，还能通过在线“物理前向/代理反向”训练使空间通道充当可学习的独立特征与结构化读出坐标，从而实现百万量级光学相位参数的图像分类/回归，并构建用于受控图像描述的混合光学-电子视觉语言模型。"}, "summary_source": "openai"}, {"id": "2606.10898", "category": "physics.optics", "title": "A single-step lithography process for reconfigurable SiN photonics with TiN heaters and Al interconnects", "abstract": "Thermo-optic phase shifters are key building blocks in Silicon and Silicon Nitride-based reconfigurable photonic integrated circuits. They enable manipulating the phase of an optical signal by means of electrically-driven heating of an optical waveguide. Conventional fabrication schemes typically require dedicated lithographic steps to separately define the resistive heaters, the current transmission lines, and the electrical contact pads. This increases the process complexity and slows the standard complementary metal-oxide-semiconductor (CMOS) fabrication flows. In this work, we present a single-step lithographic process for the realization of Titanium Nitride thermo-optic phase shifters and Aluminum interconnects integrated on a Silicon Nitride photonic platform. A detailed electro-optical characterization, performed on two platforms operating at 810 nm and 1550 nm, revealed $\\pi$-shift powers of 92 $\\pm$ 2 mW and 120 $\\pm$ 10 mW, respectively. Alongside, modulation bandwidths of 8.5 $\\pm$ 0.3 kHz and 3.83 $\\pm$ 0.03 kHz were extracted from combined frequency- and time-domain analyses. Our results demonstrate that the proposed single-step lithographic metal definition process represents a robust, viable and cost-efficient route towards CMOS-compatible reconfigurable Silicon Nitride photonics.", "url": "https://arxiv.org/abs/2606.10898", "authors": [{"name": "Leonardo Limongi"}, {"name": "Rachele Favaretto"}, {"name": "Lorenzo Baldessarini"}, {"name": "Martino Bernard"}, {"name": "Yong Kwon"}, {"name": "Gioele Piccoli"}, {"name": "Alina Samusenko"}, {"name": "Georg Pucker"}, {"name": "Mher Ghulinyan"}], "subjects": "Optics (physics.optics)", "author_count": 9, "topics": ["Integrated Optics"], "topic_hits": {"Integrated Optics": ["photonic integrated circuit", "photonic integrated circuits", "waveguide"]}, "featured_authors": [{"name": "Leonardo Limongi"}, {"name": "Rachele Favaretto"}, {"name": "Lorenzo Baldessarini"}, {"name": "Alina Samusenko"}, {"name": "Georg Pucker"}, {"name": "Mher Ghulinyan"}], "summaries": {"en": "The paper presents a single-step lithography process to fabricate TiN thermo-optic phase shifters with Al interconnects on a SiN platform and reports electro-optical results at 810 and 1550 nm including π-shift powers of 92±2 mW and 120±10 mW and modulation bandwidths of 8.", "zh": "论文提出一种用于在SiN光子平台上以单步光刻工艺集成TiN热光相位调制器与Al互连的制造方法，并在810和1550 nm下给出电光表征结果：π相移功率分别为92±2 mW和120±10 mW，调制带宽分别为8."}, "summary_source": "openai"}, {"id": "2606.10437", "category": "physics.app-ph", "title": "Virtual-Array Operational Modal Analysis of Rolling Tires Using a Single Tire Cavity Accelerometer", "abstract": "The dynamics of rolling tires significantly influence the low-frequency (0-500 Hz) structure-borne noise within vehicles. Accurately characterizing these dynamics under realistic operating conditions remains challenging. Current state-of-the-art methods, primarily relying on Laser Doppler Vibrometers (LDV), are complex to implement, time-intensive, and generally limited to smooth tires in laboratory environments due to issues with speckle formation on treaded surfaces. This study introduces an innovative strategy for Operational Modal Analysis (OMA) of a rolling tire using a single wireless Tire Cavity Accelerometer (TCA) together with two optical sensors. The methodology leverages the non-integer ratio between the tire and drum diameters in a test rig to create a virtual sensor array. By utilizing optical sensors to time-stamp the cleat impact (on the drum) precisely and the TCA position (on the tire), the vibration responses from multiple revolutions are clustered according to the TCA's circumferential position at the moment of impact. This effectively synthesizes responses from an array of virtual sensors distributed around the tire circumference using data from a single test run. The clustered signals are conditioned using order tracking to remove periodic components arising from contact patch deformation. Both Frequency Domain Decomposition (FDD) and Covariance-based Stochastic Subspace Identification (SSI-Cov) were employed for modal identification. The SSI-Cov method proved more robust, successfully identifying 11 circumferential modes up to 240 Hz. The proposed approach offers a significantly more efficient, cost-effective method for characterizing rolling tire dynamics, which is readily applicable to treaded tires and adaptable for on-road testing.", "url": "https://arxiv.org/abs/2606.10437", "authors": [{"name": "Pradosh Pritam Dash"}, {"name": "Ricardo Burdisso"}, {"name": "Pablo A Tarazaga"}], "subjects": "Applied Physics (physics.app-ph) ; Data Analysis, Statistics and Probability (physics.data-an)", "author_count": 3, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["siv"]}, "featured_authors": [{"name": "Pradosh Pritam Dash"}, {"name": "Ricardo Burdisso"}, {"name": "Pablo A Tarazaga"}], "summaries": {"en": "The paper presents an efficient operational modal analysis method for rolling tires using a single wireless tire cavity accelerometer and two optical sensors to build a virtual circumferential sensor array, enabling robust identification of up to 11 circumferential vibration modes via SSI-Cov up to 240 Hz while avoiding limitations of LDV-based approaches and supporting treaded/on-road testing.", "zh": "本文提出了一种利用单个无线轮胎腔加速度计并配合两个光学传感器的虚拟周向传感阵列方法来进行滚动轮胎的操作模态分析，通过精确时间戳楔块冲击并按冲击瞬间的轮胎周向位置对多转振动响应进行聚类，结合阶次跟踪去除接触斑形变引起的周期分量，最终采用FDD与SSI-Cov进行模态识别，其中SSI-Cov更稳健可识别高达240 Hz的11个周向模态，从而比LDV方案更高效、更低成本且可适用于带花纹轮胎与道路测试。"}, "summary_source": "openai"}, {"id": "2606.10042", "category": "quant-ph", "title": "Quantum Non-Gaussian State Preparation of Levitated Particles via Time-Dependent Control of Weakly Nonharmonic Hybrid Potentials", "abstract": "Levitated high-mass quantum systems provide access to unprecedented regimes in both fundamental science and technological applications. However, deterministic generation and manipulation of quantum non-Gaussian states, which are central to many continuous-variable quantum advantages, remain elusive in such platforms. In this work, we propose a theoretical protocol for preparing a continuous-variable degree of freedom of a levitated massive object in a variety of quantum states, including Fock and Schrödinger cat states, without coupling to auxiliary two-level systems. Our approach enhances otherwise weak nonharmonic effects by transient wave-function delocalization and combines this with optimal control of the potential. Specifically, time-dependent modulation of the linear component of the potential, in the presence of a static cubic nonharmonicity, provides a route to universal control of the mode. We analyze quantum state preparation under such control and estimate the required nonharmonicity, motional delocalization, and maximum tolerable decoherence for generating target non-Gaussian states. The proposed optimal-control scheme can also be readily extended beyond single-particle state preparation, for example, to unitary transformations and nonlinear measurements. As a concrete example, we demonstrate mechanical Bell-state preparation for two interacting particles using only local modulation of weakly nonharmonic potentials, while the interparticle interaction remains effectively linear. We emphasize that the protocols presented here apply to different mechanical degrees of freedom, such as center-of-mass motion and libration, and can also be implemented in other weakly nonharmonic systems with a leading cubic nonharmonicity.", "url": "https://arxiv.org/abs/2606.10042", "authors": [{"name": "Piotr T. Grochowski"}, {"name": "Oriol Romero-Isart"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 2, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["siv"]}, "featured_authors": [{"name": "Piotr T. Grochowski"}, {"name": "Oriol Romero-Isart"}], "summaries": {"en": "The paper presents a theoretical optimal-control protocol to deterministically prepare continuous-variable non-Gaussian states, such as Fock and Schrödinger cat states, of levitated massive particles using time-dependent modulation of a weakly nonharmonic hybrid potential (with static cubic nonlinearity) without auxiliary two-level systems, including estimates of required nonlinearity, delocalization, and decoherence limits, and demonstrates extensions to multi-particle operations like mechanical Bell-state preparation via only local control.", "zh": "论文提出了一种理论上的最优控制方案，通过对弱非谐混合势的线性部分进行随时间调制（叠加静态三次非谐性）且不依赖辅助两能级系统，来实现对悬浮高质量粒子的连续变量非高斯态（如数态和薛定谔猫态）的确定性制备，并给出了生成目标态所需的非谐度、波函数瞬时离域与可容忍退相干的估算，同时表明可推广到多粒子操作（例如仅用局域调制实现机械贝尔态制备），且适用于质心运动、摆动等多种机械自由度或其他具主导三次非谐的弱非谐系统。"}, "summary_source": "openai"}, {"id": "2606.10114", "category": "quant-ph", "title": "A Cryogenic Hybrid Photonic/CMOS Controller Architecture for Scalable Superconducting Qubit Control", "abstract": "Scaling superconducting quantum computers toward thousands of qubits remains a difficult control hardware problem. It requires hardware that reduces room-temperature to cryogenic wiring and cryogenic power while preserving in-fridge programmability for microwave pulse generation. This work develops a 4 K hybrid photonic/CMOS control architecture in which optical fibers distribute shared shaped pulse templates, while local cryogenic CMOS (Cryo-CMOS) circuits provide transmission control, amplitude programming, sample-and-hold envelope shaping, LO-tone and phase selection, and microwave upconversion, enabling both single-qubit and two-qubit gate generation within the same control path. Compared with fully Cryo-CMOS controllers, this architecture reduces per-channel active dissipation by moving high-speed sampled RF/IF waveform synthesis and waveform-memory access out of each cryogenic channel. Compared with purely photonic-link qubit-control approaches, it adds local 4 K programmability for pulse selection, amplitude scaling, timing updates, and LO-phase control, while remaining compatible with room-temperature real-time feedback and quantum error correction (QEC) workflows. We present architecture-level first-order models for 4 K power dissipation, waveform-memory scaling, and controller-induced fidelity limits, and cross-check the dominant fidelity terms using a three-level transmon simulation. The analysis shows that shared optical pulse template distribution with local 4 K envelope programming is a feasible path toward scalable superconducting qubit control.", "url": "https://arxiv.org/abs/2606.10114", "authors": [{"name": "Bowen Liu"}, {"name": "Zhaoran Rena Huang"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 2, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["superconducting qubit", "two-qubit gate"]}, "featured_authors": [{"name": "Bowen Liu"}, {"name": "Zhaoran Rena Huang"}], "summaries": {"en": "The paper proposes a scalable 4 K hybrid photonic/CMOS controller architecture that uses optical fibers to distribute shared microwave pulse templates while local cryogenic CMOS circuits handle in-fridge programmability for transmission control, envelope shaping, LO selection, and microwave upconversion, reducing per-channel dissipation versus full Cryo-CMOS while retaining room-temperature feedback and QEC compatibility with analyzed fidelity limits via transmon simulation.", "zh": "论文提出一种面向可扩展性的4 K混合光子/CMOS控制架构：通过光纤分发共享的微波脉冲模板，同时由本地低温CMOS电路在4 K内完成传输控制、包络整形、LO选通与相位控制以及微波上变频，从而相比全Cryo-CMOS降低单通道功耗，并保持与室温实时反馈和QEC流程的兼容性，同时结合跨能级transmon仿真对功耗与保真度限制进行分析验证其可行性。"}, "summary_source": "openai"}, {"id": "2606.10318", "category": "quant-ph", "title": "Optomechanical system with tunable dissipative and dispersive couplings", "abstract": "We demonstrate an optomechanical system with tunable dissipative and dispersive couplings using a Fabry-Perot cavity and a string mechanical resonator. By varying the diameter and material of the mechanical resonator, and the relative location between the mechanical resonator and the cavity, the relative strengths of dissipative and dispersive coupling could be tuned continuously from dissipation-dominated regime to dispersion-dominated regime. In our experiments, the dissipative-to-dispersive coupling ratios of 1.3 and 0.6 are achieved by using two different mechanical resonators, corresponding to a transition from dissipation-dominated to dispersion-dominated optomechanical system. Theoretically, the coupling ratio could be tuned from 25 to 0.02 by optimizing the mechanical resonator, spanning over three orders of magnitude. These two distinct coupling regimes are achieved with the same experimental platform. The capability to freely adjust the coupling ratio provides a versatile platform for exploring quantum effects of massive mechanical resonators and quantum-limited measurements.", "url": "https://arxiv.org/abs/2606.10318", "authors": [{"name": "Quansen Wang"}, {"name": "Yuefan Wu"}, {"name": "Doudou Wang"}, {"name": "Genyuan Xu"}, {"name": "Jiawei Liang"}, {"name": "Qiang Zhang"}, {"name": "Yongmin Li"}], "subjects": "Quantum Physics (quant-ph) ; Optics (physics.optics)", "author_count": 7, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["siv"]}, "featured_authors": [{"name": "Quansen Wang"}, {"name": "Yuefan Wu"}, {"name": "Doudou Wang"}, {"name": "Jiawei Liang"}, {"name": "Qiang Zhang"}, {"name": "Yongmin Li"}], "summaries": {"en": "The paper reports a Fabry-Perot optomechanical setup where engineering the mechanical string resonator and its position enables continuously tunable dissipative versus dispersive coupling, experimentally reaching coupling ratios of 1.", "zh": "论文提出并实现了一个利用法布里-珀罗腔与弦式机械振子构成的光机电系统，通过改变机械振子的直径与材料并调整其相对位置，可在耗散耦合与色散耦合之间实现连续可调，实验中获得了耦合比1."}, "summary_source": "openai"}, {"id": "2606.10319", "category": "quant-ph", "title": "Nonreciprocal Photon Blockade in an Asymmetric Cavity", "abstract": "We propose a scheme to realize tunable and strong nonreciprocal photon blockade (PB) in an asymmetric Fabry-Pérot cavity. The setup consists of a single-mode optical cavity trapping a two-level atom, with the cavity coherently driven by a laser and the atom pumped by an auxiliary control field of the same frequency. By engineering quantum interference between multiple excitation pathways by adjusting the amplitude and relative phase of the control laser, we identify two distinct optimal control conditions that enable directional suppression of two-photon states. Under optimal control conditions, strong nonreciprocal PB is achieved, with a nonreciprocal ratio exceeding 30 dB over a broad operational bandwidth. The proposed protocol requires only standard coherent laser sources and is compatible with current cavity QED experimental setups, offering a practical and scalable platform for nonreciprocal quantum photonics.", "url": "https://arxiv.org/abs/2606.10319", "authors": [{"name": "Shao-Xiong Wu"}, {"name": "Jin-Na Fan"}, {"name": "Dan Yan"}, {"name": "Cheng-Hua Bai"}, {"name": "Qiannan Wu"}, {"name": "Mengwei Li"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 6, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["cavity qed", "quantum photonics"]}, "featured_authors": [{"name": "Shao-Xiong Wu"}, {"name": "Jin-Na Fan"}, {"name": "Dan Yan"}, {"name": "Cheng-Hua Bai"}, {"name": "Qiannan Wu"}, {"name": "Mengwei Li"}], "summaries": {"en": "The paper proposes an experimentally feasible scheme for tunable, strong nonreciprocal photon blockade in an asymmetric Fabry–Pérot cavity using a coherently driven cavity with a two-level atom whose excitations are controlled via an auxiliary, phase- and amplitude-adjustable field, yielding two-photon directional suppression with over 30 dB nonreciprocal ratio across a broad bandwidth.", "zh": "本文提出一种在非对称Fabry–Pérot腔中实现可调且强的非互易光子阻塞的方案：单模腔俘获两能级原子、腔由同频激光相干驱动，而原子由同频辅助控制场泵浦，通过调节控制场的振幅与相对相位来设计多激发路径的量子干涉，找到两组最优控制条件以实现对双光子态的定向抑制，并在宽工作带宽内获得超过30 dB的非互易比且所需器件为标准相干激光与现有腔QED实验兼容，便于扩展到非互易量子光子平台。"}, "summary_source": "openai"}, {"id": "2606.10379", "category": "quant-ph", "title": "Nonreciprocal photon bundle emission", "abstract": "Quantum squeezing, a cornerstone of quantum optics and photonics, has played a key role in achieving ultra-precision sensing and realizing nonreciprocal engineering. However, the nonreciprocal multiquanta emission has remained largely unexplored by using directional quantum squeezing. Here, the one-way photon-photon bundle emission in a compound system consisted of two coupled optical resonators and a two-level atom is investigated. It is found that the directional quantum squeezing induces the asymmetric frequency detuning and photon hopping interaction between the two resonators, leading to the directional excitation of the two-photon super-Rabi oscillation. In particular, by harnessing intrinsic dissipation of the system, two types of two-photon bundle emission can be selectively induced for the probe field input from one direction while it is prohibited with the probe from the other direction. This finding bridges the broad fields ranging from nonreciprocal physics to quantum squeezing optics and multiquanta emission control through an all-optical approach, which can enable potential applications in chiral quantum emitters and backscattering-immune photonic communications.", "url": "https://arxiv.org/abs/2606.10379", "authors": [{"name": "Baijun Li"}, {"name": "Jing-Xue Liu"}, {"name": "Tian-Xiang Lu"}, {"name": "Le-Man Kuang"}, {"name": "Chaohong Lee"}, {"name": "Hui Jing"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 6, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["quantum emitter", "quantum emitters", "quantum optics"]}, "featured_authors": [{"name": "Baijun Li"}, {"name": "Jing-Xue Liu"}, {"name": "Tian-Xiang Lu"}, {"name": "Le-Man Kuang"}, {"name": "Chaohong Lee"}, {"name": "Hui Jing"}], "summaries": {"en": "The paper studies one-way two-photon bundle emission in a compound system of two coupled resonators and a two-level atom and shows that directional quantum squeezing creates asymmetric detuning and photon-hopping that enable directional two-photon super-Rabi oscillations, with intrinsic dissipation used to selectively allow bundle emission from one input direction while suppressing it from the other.", "zh": "该论文研究由两个耦合光学谐振腔与一个两能级原子构成的复合系统中的单向双光子束发射，结果表明定向量子压缩会引入非对称失谐与光子跃迁相互作用，从而实现定向的双光子超拉比振荡，并利用系统固有耗散在从一侧输入探测场时选择性产生两类双光子束发射而在另一侧输入时被禁止。"}, "summary_source": "openai"}, {"id": "2606.10436", "category": "quant-ph", "title": "Analytical performance evaluation of quantum radar architectures: From single-photon to entangled-noise radars", "abstract": "This article presents a comprehensive analysis of two classes of quantum radars, including quantum direct-detection and quantum-entangled noise radars. In the first case, inspired by the well-established concept of single-photon LiDARs, we investigated the performance of single-photon radars, in which state-of-the-art single microwave-photon detectors are employed to enhance the detection sensitivity and enable the detection of weaker signals. We derived analytical expressions for the maximum detection range of both classes of quantum radars in terms of the Lambert W function, by considering all relevant system, target, and environmental parameters. Our formulation facilitates direct comparison of noise radars with direct-detection radars and suggests that a quantum-entangled noise radar can be regarded as an enhanced direct-detection radar with an effective threshold signal-to-noise ratio. Furthermore, we applied this framework to classical-correlated noise radars and defined the parameter range enhancement factor (REF) to quantify the superiority of quantum-entangled noise radars over their classical counterparts. Moreover, we introduced a rule-of-thumb for approximating the REF. We also examined the influence of limitations imposed by various microwave detection technologies. Our analysis shows that the conventional antennas limit the potential benefits of quantum-entangled noise radar systems. We also demonstrated that the optimal detection method for these radars is a microwave detector based on a quantum transducer combined with a single optical-photon detector. We showed that, with the current technology, implementing a quantum-entangled noise radar with the maximum detection range on the order of few kilometers is possible. Finally, we explored the potential applications of quantum-entangled noise radars.", "url": "https://arxiv.org/abs/2606.10436", "authors": [{"name": "Hossein Allahverdi"}, {"name": "Ali Motazedifard"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 2, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["single-photon", "siv"]}, "featured_authors": [{"name": "Hossein Allahverdi"}, {"name": "Ali Motazedifard"}], "summaries": {"en": "The paper analytically compares quantum direct-detection and quantum-entangled-noise radar architectures by deriving Lambert W–based maximum detection-range expressions, establishing entangled-noise radars as effectively enhanced direct-detection systems, quantifying their advantage over classically correlated noise radars via a parameter-range enhancement factor (REF) and a rule-of-thumb, and assessing how microwave-detector constraints affect performance while concluding that conventional antennas are limiting and that an optimal readout uses a quantum transducer with a single optical-photon detector enabling few-kilometer range demonstrations with current technology and suggesting applications.", "zh": "本文对量子直接探测雷达与量子纠缠噪声雷达两类架构进行了系统的解析比较：通过用拉姆伯特W函数推导两者最大探测距离的表达式，给出“纠缠噪声雷达可视为具有等效阈值信噪比的增强型直接探测雷达”的结论，并通过参数范围增强因子REF及其经验近似量化纠缠噪声雷达相对经典相关噪声雷达的优势，同时评估微波探测技术限制对性能的影响，指出传统天线会抑制潜在收益、最优探测方案应采用“量子换能器+单个光子探测器”的组合，并表明在当前技术条件下可实现量级几公里的最大探测距离且具有潜在应用前景。"}, "summary_source": "openai"}, {"id": "2606.10510", "category": "quant-ph", "title": "Single-photon scattering in a dissipative superconducting-qubit--SSH lattice hybrid", "abstract": "We study single-photon scattering in a Su--Schrieffer--Heeger (SSH) photonic lattice locally coupled to a superconducting qubit with tunable loss or gain. Working in the single-excitation sector, we derive an explicit real-space scattering formulation for the full energy-dependent scattering matrix $S(E)$ and identify how its eigenvalues encode coherent perfect absorption, amplification, and spectral singular behavior. The analytical results are benchmarked against time-domain wave-packet simulations, which reproduce the stationary scattering probabilities with high accuracy. We show that the SSH dimerization, the qubit-induced non-Hermitian self-energy, and the synthetic gauge phase cooperate to reshape the reflection and transmission spectra in a highly selective way. In particular, changing the dimerization can switch the system between transmission-dominated and reflection-dominated regimes, while the flux provides a direct handle on interference and symmetry-controlled response. We also find a robust loss--gain correspondence in the reflection landscape and show that the linewidth broadening is governed predominantly by the magnitude $|\\gamma|$ of the non-Hermitian coupling. These results establish a compact and experimentally relevant framework for topological scattering in superconducting quantum networks.", "url": "https://arxiv.org/abs/2606.10510", "authors": [{"name": "Xiao-Xue Zhang"}, {"name": "Jie Zhou"}, {"name": "Xi-Zheng Zhang"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 3, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["quantum network", "single-photon", "superconducting qubit"]}, "featured_authors": [{"name": "Xiao-Xue Zhang"}, {"name": "Jie Zhou"}, {"name": "Xi-Zheng Zhang"}], "summaries": {"en": "The paper derives and validates an energy-dependent real-space scattering matrix for single-photon scattering in an SSH photonic lattice coupled to a superconducting qubit with tunable loss/gain, showing how dimerization, non-Hermitian qubit self-energy, and an applied gauge flux jointly control coherent perfect absorption/amplification and spectral singularities and reshape reflection–transmission spectra in topological superconducting quantum networks.", "zh": "论文在单激发子空间中推导并用时域波包模拟验证了单光子在可调失/增益的超导量子比特与SSH光子晶格局域耦合系统里的能量相关实空间散射矩阵，揭示了二聚化、量子比特诱导的非厄米自能以及合成规范相位如何协同调控相干完美吸收/增益与谱奇点，并选择性地重塑反射—透射谱，从而为超导量子网络中的拓扑散射提供了紧凑且实验可用的框架。"}, "summary_source": "openai"}, {"id": "2606.10555", "category": "quant-ph", "title": "Non-Hermitian scattering in SSH superconducting waveguides: exact Green-function reduction and dimerization-sensitive microwave functionalities", "abstract": "We formulate an exact Green-function theory for non-Hermitian single-microwave-photon scattering by finite superconducting circuit subsystems embedded in an SSH waveguide. The structured SSH environment is integrated out exactly and enters the local scattering problem as an energy-dependent matrix self-energy, reducing the full open system to a finite-dimensional effective non-Hermitian Hamiltonian. This reduction places scattering amplitudes, exceptional-point diagnostics, coherent-perfect-absorption conditions, and lasing thresholds within one unified framework. Within this approach we analyze two superconducting devices. A flux-controlled two-qubit interferometric scatterer exhibits a broad bright branch and a narrow quasi-dark branch whose interference is reshaped by the SSH environment and changes qualitatively across the two dimerizations. A mediator-assisted two-qubit scatterer generates an additional energy-dependent complex coupling, reorganizes the dressed spectrum, and produces clearer dimerization-sensitive transparency-versus-absorption windows together with a pronounced separation between zero-like and pole-like scattering branches. In the active regime, near-exceptional-point hybridization enhances the pole-dominated response while deepening the singular-value valley associated with near-coherent perfect absorption. These results show how structured topological waveguides can be used not only to host scattering, but also to design non-Hermitian superconducting microwave functionalities.", "url": "https://arxiv.org/abs/2606.10555", "authors": [{"name": "Jie Zhou"}, {"name": "Xiao-Xue Zhang"}, {"name": "Xi-Zheng Zhang"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 3, "topics": ["Integrated Optics"], "topic_hits": {"Integrated Optics": ["waveguide", "waveguides"]}, "featured_authors": [{"name": "Jie Zhou"}, {"name": "Xiao-Xue Zhang"}, {"name": "Xi-Zheng Zhang"}], "summaries": {"en": "The paper develops an exact Green-function reduction for non-Hermitian scattering of a single microwave photon through finite superconducting subsystems embedded in an SSH waveguide, yielding a unified effective non-Hermitian Hamiltonian that reveals dimerization-dependent features such as exceptional points, coherent-perfect absorption, and lasing thresholds for two example superconducting devices.", "zh": "论文提出了一种用于将嵌入SSH拓扑波导中的有限超导电路子系统外推消去的精确格林函数方法，用能量依赖矩阵自能把开放体系化为有限维非厄米有效哈密顿量，并在统一框架下分析两类超导器件中与二聚化相关的本征点、相干完美吸收与激光阈值等非厄米散射特性。"}, "summary_source": "openai"}, {"id": "2606.10585", "category": "quant-ph", "title": "Anomalous mobility edges and extended-localized transition in a quasiperiodic emitter-cavity array", "abstract": "The manipulation of localization in quasiperiodic systems by mobility edges or localization transition holds significant physical importance. In this letter, we demonstrated that the dissipation can induce the emergence of anomalous mobility edges and extended-localized transition in emitter-cavity arrays controlled by quasiperiodic potentials. Specifically, we observe that the localization properties of emitters is governed by the nature of quantum bound states, either discrete or embedded in continuum, providing a unified mechanism linking the emitter-photon bound physics to quasiperiodic criticality. Depending on the bound state discrete or continuumlike, the induced effective excitation hopping exhibits either exponentially decaying or sinusoidally oscillating, giving rise to the formation of localized or critical states, respectively. Through a generalized duality transformation, we analytically determine the anomalous mobility edges and the critical strength of potential, enabling the construction of a full phase diagram. The study reveals that the physical characteristics of cavity exert a significant influence on excitation localization. Therefore, the manipulation of excitation localization can be achieved solely by adjusting the cavity fields.", "url": "https://arxiv.org/abs/2606.10585", "authors": [{"name": "H. T. Cui"}, {"name": "H. Z. Shen"}, {"name": "M. Qin"}, {"name": "X. X. Yi"}], "subjects": "Quantum Physics (quant-ph) ; Disordered Systems and Neural Networks (cond-mat.dis-nn)", "author_count": 4, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["cavity array"]}, "featured_authors": [{"name": "H. T. Cui"}, {"name": "H. Z. Shen"}, {"name": "M. Qin"}, {"name": "X. X. Yi"}], "summaries": {"en": "This paper shows that in quasiperiodic emitter–cavity arrays, dissipation can create anomalous mobility edges and an extended–localized transition governed by whether emitter–photon bound states are discrete or embedded in the continuum, which in turn leads to either exponentially decaying or sinusoidally oscillating effective hopping and allows analytic determination of mobility edges and critical quasiperiodic strength via a duality transformation, yielding a full phase diagram and demonstrating that cavity-field tuning alone can control excitation localization.", "zh": "本文表明，在准周期发射体-腔阵列中，耗散可诱导出现异常迁移率边界以及扩展-局域跃迁，其物理来源取决于发射体-光子束缚态是离散态还是嵌入连续体的态，从而导致有效激发跳跃呈指数衰减或正弦振荡并分别形成局域或临界态；作者借助广义对偶变换解析得到异常迁移率边界与准周期势的临界强度以构建完整相图，并指出仅通过调控腔场即可实现激发局域性的操纵。"}, "summary_source": "openai"}, {"id": "2606.10700", "category": "quant-ph", "title": "Certification of Network Quantum Sensing", "abstract": "The distribution of quantum sensors on quantum networks is a key enabler of quantum technologies in interferometry, gravimetry, timekeeping, biological monitoring, and beyond. Yet, guaranteeing the security of these distributed sensors over noisy, insecure networks remains a formidable challenge. Previous efforts to combine quantum metrology and cryptography have encountered an apparently unavoidable tension, proposing bounds for security which are only loosely tied to the achievable measurement performance. Here we introduce a quantum remote sensing protocol that can rigorously certify privacy and integrity of the estimation. By employing offline bilateral Pauli-twirling, our approach forces the effective quantum channel into a Bell-diagonal form, independently of the attack. Surprisingly, this also preserves metrological sensitivity without introducing additional experimental overhead. Relying solely on public communication alongside an insecure quantum link, the protocol enables legitimate users to exactly quantify their estimation error relative to an eavesdropper controlling the channels. We experimentally demonstrate this framework by estimating an optical phase using entangled photons, observing that the users' precision consistently surpasses the eavesdropper's capabilities across a broad parameter regime. By unifying quantum cryptography and metrology, our results provide a practical pathway to achieve simultaneous quantum-limited precision and rigorous information security in real-world quantum networks.", "url": "https://arxiv.org/abs/2606.10700", "authors": [{"name": "Matteo Rosati"}, {"name": "Gabriele Bizzarri"}, {"name": "Marco Barbieri"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 3, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["entangled photon", "entangled photons", "quantum network"]}, "featured_authors": [{"name": "Matteo Rosati"}, {"name": "Gabriele Bizzarri"}, {"name": "Marco Barbieri"}], "summaries": {"en": "The paper proposes a quantum remote sensing protocol for networked quantum sensors that uses offline bilateral Pauli-twirling to transform any effective channel into a Bell-diagonal form, thereby rigorously certifying privacy and integrity of estimation while preserving metrological sensitivity without extra experimental overhead and experimentally demonstrating that users can quantify and outperform an eavesdropper’s phase-estimation ability using entangled photons.", "zh": "论文提出了一种用于量子网络中量子传感器的量子远程遥感协议：通过离线双边Pauli抽样使任意有效信道被转换为Bell对角形式，从而在不增加额外实验开销的情况下严格认证估计的隐私与完整性并保持计量灵敏度；作者仅依赖公共通信与不安全量子链路，实现了用户相对于窃听者的估计误差的可精确定量，并通过纠缠光子实验验证在广泛参数范围内用户的相位估计精度持续优于窃听者。"}, "summary_source": "openai"}, {"id": "2606.10719", "category": "quant-ph", "title": "Ultra-high Q-factor superconducting tantalum resonators on 300 mm Si wafers", "abstract": "Superconducting resonators are central to superconducting quantum information technologies and essential for bosonic qubit architectures, where long-lived storage modes enable hardware-efficient error correction. Achieving ultra-high quality factors in scalable planar circuits is challenging because multiple dissipation channels contribute to the total loss. Here we report planar $\\alpha$-Ta resonators fabricated on 300 mm ultra-high-resistivity ($>10$ k$\\Omega$ cm) intrinsic silicon using industrial processes, achieving median internal Q factors exceeding 40 million and maxima above 60 million. Energy-participation-ratio analysis identifies a dominant participation-controlled interface loss mechanism and places conservative upper bounds on substrate-associated dissipation. For the best-performing substrate, the inferred substrate loss tangent is below $1.0 \\times 10^{-8}$, establishing industrial MCZ silicon among the lowest-loss substrate platforms reported for superconducting resonators. At the same time, the exceptionally low losses show no clear correlation with commonly cited silicon substrate metrics such as room-temperature resistivity or impurity concentrations. More broadly, these studies establish industrial 300 mm processing, careful interface engineering, and 300 mm MCZ silicon substrates as a promising platform for resonator-heavy superconducting quantum architectures with ultra-high quality factors.", "url": "https://arxiv.org/abs/2606.10719", "authors": [{"name": "R. Acharya"}, {"name": "D. Perez Lozano"}, {"name": "Ts. Ivanov"}, {"name": "S. Massar"}, {"name": "C. Vrancken"}, {"name": "Y. Canvel"}, {"name": "Y. Li"}, {"name": "A.M. Vadiraj"}, {"name": "J. Van Damme"}, {"name": "S. Aghaeimeibodi"}, {"name": "A. Khalajhedayati"}, {"name": "M. Mongillo"}, {"name": "O. Painter"}, {"name": "D. Wan"}, {"name": "A. Potočnik"}, {"name": "K. De Greve"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 16, "topics": ["Integrated Optics"], "topic_hits": {"Integrated Optics": ["quality factor"]}, "featured_authors": [{"name": "R. Acharya"}, {"name": "D. Perez Lozano"}, {"name": "Ts. Ivanov"}, {"name": "D. Wan"}, {"name": "A. Potočnik"}, {"name": "K. De Greve"}], "summaries": {"en": "The paper reports planar superconducting α-Ta resonators fabricated on 300 mm high-resistivity intrinsic silicon using industrial processes, achieving median internal quality factors over 40 million (max >60 million) and using energy-participation-ratio analysis to attribute losses primarily to interface mechanisms with very low inferred substrate loss (tangent <1.", "zh": "论文在300毫米高电阻率本征硅上采用工业工艺制备了平面α-Ta超导谐振器，获得中位内部品质因子超过4000万（最高>6000万），并通过能量参与率分析表明损耗主要由界面机制控制且推断的衬底损耗极低（损耗正切<1."}, "summary_source": "openai"}, {"id": "2606.10826", "category": "quant-ph", "title": "The fidelity of controlled quantum teleportation in a noisy environment", "abstract": "In this work, we investigate controlled quantum teleportation in the presence of noisy channels acting on the three-qubit resource state. We employ a series of generalized noisy channels that bridge the dephasing channels and amplitude damping channels while encompassing extensive intermediate scenarios. We provide an in-depth analysis of the degradation of the maximal average fidelity and the optimal average fidelity in controlled quantum teleportation induced by such noisy channels by deriving the analytical expression and examining several special cases. The analytical expression shows that attaining the optimal average fidelity requires Charlie's cooperation in performing a measurement at suitably chosen angles, and is also related to the initial state and the channel parameters. Our analysis reveals that the optimal average fidelity does not always decrease monotonically with the evolution parameter, instead, it first decreases and then increases. This non-monotonic behavior depends on the entanglement of the initial resource state, as well as on the parameters of the channel traversed by the first qubit.", "url": "https://arxiv.org/abs/2606.10826", "authors": [{"name": "Wen-Jing Wei"}, {"name": "Feng-Li Yan"}, {"name": "Ting Gao"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 3, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["siv"]}, "featured_authors": [{"name": "Wen-Jing Wei"}, {"name": "Feng-Li Yan"}, {"name": "Ting Gao"}], "summaries": {"en": "The paper analyzes controlled quantum teleportation using a three-qubit resource state under noisy channels interpolating between dephasing and amplitude damping, deriving analytical expressions for how the maximal and optimal average fidelities degrade and showing that achieving optimal fidelity requires Charlie’s measurement at specific angles with dependence on the initial entanglement and channel parameters, including a non-monotonic fidelity versus evolution parameter behavior.", "zh": "本文研究了在作用于三量子比特资源态的噪声信道存在时的受控量子隐形传态，使用连接去相干与振幅阻尼的广义噪声信道覆盖多种中间情形，推导了受控隐形传输中最大平均保真度与最优平均保真度的解析表达并讨论退化规律，指出获得最优平均保真度需要查理按合适角度进行测量且与初始态及信道参数相关，同时发现保真度随演化参数不一定单调下降，而是先减小后增大，这种非单调性取决于初始资源态的纠缠以及第一比特所经信道的参数。"}, "summary_source": "openai"}, {"id": "2606.10970", "category": "quant-ph", "title": "Inherent flux crosstalk and coupler-driven single-qubit gates in superconducting circuits", "abstract": "Crosstalk refers to unwanted qubit addressing. This is particularly detrimental when scaling up quantum information systems because unintended interactions limit their overall performance. For superconducting qubits, tunable couplings and frequency tunability achieved through externally applied magnetic fluxes enable high-fidelity entangling gates; however, they also introduce crosstalk through unintended flux coupling. In this work, we investigate the impact of time-dependent external magnetic fluxes in quantized circuits on superconducting qubit couplings. We find that non-trivial cross-voltage driving emerges between capacitively linked qubits when the magnetic flux threading the SQUID loop of a qubit varies in time, in a manner analogous to Faraday's law of induction. Crucially, we show that this effect enables fast single qubit control through the coupler element in standard tunable-coupler architectures, potentially eliminating the need for individual microwave $XY$ control lines.", "url": "https://arxiv.org/abs/2606.10970", "authors": [{"name": "Balázs Gulácsi"}, {"name": "Guido Burkard"}], "subjects": "Quantum Physics (quant-ph) ; Superconductivity (cond-mat.supr-con)", "author_count": 2, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["entangling gate", "superconducting qubit"]}, "featured_authors": [{"name": "Balázs Gulácsi"}, {"name": "Guido Burkard"}], "summaries": {"en": "The paper shows that time-dependent magnetic flux applied to SQUID loops in superconducting tunable-coupler circuits can generate Faraday-like, capacitively mediated cross-voltage driving between qubits, but also uses this inherent flux crosstalk to enable fast coupler-driven single-qubit gates that may remove the need for separate microwave XY control lines as systems scale.", "zh": "论文表明，在超导可调耦合器架构中对量子比特的SQUID回路施加随时间变化的磁通会像法拉第感应定律一样，在电容耦合的比特间产生非平凡的交叉电压驱动；同时作者利用这种固有的磁通串扰实现通过耦合器的快速单比特门，从而可能在扩展时免除对独立微波XY控制线的需求。"}, "summary_source": "openai"}, {"id": "2606.10983", "category": "quant-ph", "title": "Robust self-testing based on Gisin's arbitrary-input Bell inequality", "abstract": "Self-testing refers to the strongest device-independent (DI) certification method that validates the nature of a quantum system and devices solely based on the observed statistics. We demonstrate the self-testing of state and measurements based on the Gisin Bell inequality (GBI) featuring arbitrary inputs for both parties. We introduce a systematic and elegant sum-of-squares (SOS) approach that enables the dimension-independent derivation of the optimal quantum violation of GBI. We derive the state and the interrelation between the local observables directly from the optimization condition. Since the practical experimental scenario involves inevitable noise and imperfection, we present a comprehensive strategy for robust self-testing.", "url": "https://arxiv.org/abs/2606.10983", "authors": [{"name": "Rajdeep Paul"}, {"name": "Alok Kumar Pan"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 2, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["siv"]}, "featured_authors": [{"name": "Rajdeep Paul"}, {"name": "Alok Kumar Pan"}], "summaries": {"en": "The paper presents a dimension-independent, sum-of-squares method for robustly self-testing the quantum state and measurements from the Gisin arbitrary-input Bell inequality, deriving the optimal violation and the corresponding observable relations from the optimization conditions while accounting for experimental noise.", "zh": "论文提出一种基于和平方（SOS）的维度无关方法，用于利用具有任意输入的 Gisin 贝尔不等式对量子态与测量进行鲁棒自测试；其通过优化条件推导 GBI 的最优违背及相应的局域观测关联，并给出考虑实验噪声与不完善的自测试策略。"}, "summary_source": "openai"}, {"id": "2606.11000", "category": "quant-ph", "title": "Analog Quantum Asynchronous Event-Based Graph Neural Network", "abstract": "Asynchronous, event-based graph neural networks (AEGNNs) have recently emerged as an efficient paradigm for processing the sparse and high-temporal-resolution data from event cameras. In this paper, we propose quantum analog AEGNNs (QA-AEGNNs), a novel framework to implement an AEGNN on a neutral-atom quantum computer. Neutral-atom quantum processors offer a programmable analog quantum computing platform based on controllable Rydberg-atom interactions. To this end, we map the streaming event data to an array of trapped neutral atoms, where each atom represents a graph node (event) and is positioned such that geometric proximity reflects the spatio-temporal neighborhood of events. The native Rydberg Hamiltonian of the quantum processor is programmed to mirror the message-passing computations of the AEGNN, with atomic qubit states serving as node feature embeddings and inter-atom interactions realizing graph edges. Furthermore, we propose a hybrid quantum-classical training scheme in which the analog Hamiltonian parameters (e.g., laser pulse amplitudes and detunings) are optimized using classical feedback to learn the quantum AEGNN model from data. Our approach leverages the continuous Hamiltonian dynamics and massive parallelism of neutral-atom quantum systems to natively execute event-based graph computations with potential accuracy improvements", "url": "https://arxiv.org/abs/2606.11000", "authors": [{"name": "Kristian Sotirov"}, {"name": "Shaheen Acheche"}, {"name": "Antonio A. Gentile"}, {"name": "Osvaldo Simeone"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 4, "topics": ["Quantum Optics & Quantum Computing", "AMO Physics"], "topic_hits": {"Quantum Optics & Quantum Computing": ["neutral-atom quantum", "siv"], "AMO Physics": ["neutral atom", "neutral atoms", "rydberg"]}, "featured_authors": [{"name": "Kristian Sotirov"}, {"name": "Shaheen Acheche"}, {"name": "Antonio A. Gentile"}, {"name": "Osvaldo Simeone"}], "summaries": {"en": "The paper proposes quantum analog asynchronous event-based graph neural networks implemented on a neutral-atom quantum computer by mapping event streams to trapped Rydberg-atom nodes and programming the native Rydberg Hamiltonian to perform message passing, trained via a hybrid quantum-classical parameter optimization scheme with classical feedback to potentially improve accuracy.", "zh": "本文提出一种量子模拟异步事件驱动图神经网络，通过将事件流映射到中性原子Rydberg体系中的俘获原子节点，并编程原生Rydberg哈密顿量来实现消息传递，同时采用混合量子-经典的参数优化方案（利用经典反馈调节激光脉冲幅度与失谐等）从数据中学习该模型，从而利用中性原子体系的连续哈密顿动力学与大规模并行性原生执行事件式图计算并可能提升精度。"}, "summary_source": "openai"}, {"id": "2606.11010", "category": "quant-ph", "title": "Bosonic Cyclic Codes: Trading Stabilizers for Gaussian Non-Clifford Phase Gates", "abstract": "Bosonic codes offer hardware-efficient approaches to quantum error correction, with the best encodings offering effective protection of idle quantum information against loss and dephasing - particularly rotation-symmetric codes, which include the cat and binomial code families. However, rotation-symmetric codes are only naturally endowed with a single logical Pauli gate, while other logical gates require the use of non-linear operations, obstructing the utility of these codes for realizing quantum algorithms. Here, we balance error protection with controllability by introducing bosonic cyclic codes: a generalization of rotation-symmetric codes that enable the measured tradeoff of error protection properties for fault-tolerant logical phase gates. Through our general construction, we find that sacrificing the detectability of a single photon loss relative to a rotation-symmetric code can yield a number of logical phase gates commensurate with the original rotation symmetry order of the code, all achievable via passive Gaussian rotations. Giving the corresponding generalizations of cat and binomial codes - which we dub cyclic cat and Vandermonde codes, respectively - we further find that many of the desirable properties of these codes transfer to the bosonic cyclic code setting. We go on to discuss the larger $SU(2)$ symmetry and rotation gates of the codes, which yield additional stabilizers and logical Pauli gates, as well as new non-Clifford gates for the smallest `kitten' binomial code, and provide a new error detection protocol. Finally, we introduce a general paradigm for converting higher-order stabilizers to logical gates, as in our generalization of rotation-symmetric codes, and apply it to several multimode bosonic codes.", "url": "https://arxiv.org/abs/2606.11010", "authors": [{"name": "Owen C. Wetherbee"}, {"name": "Yijia Xu"}, {"name": "Victor V. Albert"}, {"name": "Baptiste Royer"}, {"name": "Valla Fatemi"}], "subjects": "Quantum Physics (quant-ph)", "author_count": 5, "topics": ["Quantum Optics & Quantum Computing"], "topic_hits": {"Quantum Optics & Quantum Computing": ["single photon", "siv"]}, "featured_authors": [{"name": "Owen C. Wetherbee"}, {"name": "Yijia Xu"}, {"name": "Victor V. Albert"}, {"name": "Baptiste Royer"}, {"name": "Valla Fatemi"}], "summaries": {"en": "The paper introduces bosonic cyclic codes that generalize rotation-symmetric bosonic codes to trade some photon-loss detectability for the ability to implement fault-tolerant logical phase gates using passive Gaussian operations, yielding cyclic versions of cat and binomial codes with preserved useful properties, additional stabilizers/Pauli gates from larger SU(2) symmetry, new non-Clifford gates and error-detection protocols, and a general method to convert higher-order stabilizers into logical gates across multimode bosonic code families.", "zh": "本文提出一种将旋转对称的无玻色子码推广为“玻色子循环码”的方法，通过牺牲部分单光子损失的可检测性来换取可用被动高斯旋转实现的容错逻辑相位门能力，并给出猫码与二项码的循环推广（分别称为循环猫码与范德蒙德码）及其性质迁移，进一步利用更大的SU(2)对称性获得额外的稳定子/逻辑泡利门、最小“cat/binned kitten”二项码上的新非Clifford门和新的纠错检测协议，最后提出一种将高阶稳定子转换为逻辑门的一般范式并应用于多模式玻色子码。"}, "summary_source": "openai"}, {"id": "2606.10151", "category": "physics.atom-ph", "title": "Profiling a Rydberg-Atom Electric Field Sensor for Off-Resonant Detection of Sub-100 MHz RF Signals", "abstract": "We present a Rydberg-Atom electric field sensor optimized to detect signals at sub-100 MHz carrier frequencies. The sensing setup employs a sapphire vapor cell that allows for detection of signals below 100~MHz -- typical vapor cells made of glass or quartz demonstrate strong screening of radio frequency (RF) signals in this frequency regime. Applied signals are detected by observing AC Stark shifts in the atomic vapor energy levels. As a test case for the commercial utility of this receiver, we perform our tests at several carrier frequencies in the Industrial, Scientific, and Medical (ISM) band. At each carrier frequency, we report sensitivity, minimum detectable field, and detectable electric-field dynamic range. We also present a routine for optimizing off-resonant signal detection by tuning experimental parameters such as Rydberg coupler laser detuning and RF local oscillator strength. This Python-based optimization routine, which can be used at any off-resonant carrier frequency, is shared on Github for others to use in their own investigations.", "url": "https://arxiv.org/abs/2606.10151", "authors": [{"name": "Michael A. Viray"}, {"name": "Abby Halasi-Kun"}, {"name": "Baran N. Kayim"}, {"name": "Brian C. Sawyer"}, {"name": "Robert Wyllie"}, {"name": "David S. La Mantia"}], "subjects": "Atomic Physics (physics.atom-ph)", "author_count": 6, "topics": ["AMO Physics"], "topic_hits": {"AMO Physics": ["rydberg"]}, "featured_authors": [{"name": "Michael A. Viray"}, {"name": "Abby Halasi-Kun"}, {"name": "Baran N. Kayim"}, {"name": "Brian C. Sawyer"}, {"name": "Robert Wyllie"}, {"name": "David S. La Mantia"}], "summaries": {"en": "The paper presents a Rydberg-atom electric field sensor using a sapphire vapor cell to detect sub-100 MHz RF signals via AC Stark shifts, benchmarks it across several ISM-band carrier frequencies by reporting sensitivity, minimum detectable field, and dynamic range, and provides a Python-optimized procedure for tuning laser detuning and RF local-oscillator strength for off-resonant detection (shared on GitHub).", "zh": "论文提出了一种利用蓝宝石蒸汽池的里德堡原子电场传感器，可通过观测原子能级的交流斯塔克位移来探测低于100 MHz的射频信号；作者在ISM频段的多个载频上给出灵敏度、最小可探测电场与可探测动态范围的测试结果，并提供了可用于任意非共振载频的Python优化流程，用于调节里德堡耦合激光失谐与射频本振强度来提高非共振信号检测效果（并在GitHub共享）。"}, "summary_source": "openai"}, {"id": "2606.10514", "category": "physics.atom-ph", "title": "Ytterbium lattice clock with uncertainty of $1.1\\times 10^{-18}$ and instability of low $10^{-19}$", "abstract": "We report an optical lattice clock based on $^{171}$Yb atoms with a total systematic uncertainty of $1.1\\times 10^{-18}$. In-vacuum buildup cavity was employed to enhance the lattice light power. Differential frequency measurement between two identical clocks facilitate the evaluation of systematic shifts. Synchronous comparison of the two clocks reached a stability level of $2.7\\times 10^{-19}$ in an averaging time of 216,000 s. The magic frequency $\\nu_{\\mathrm{zero}}$ was determined to be 394 798 258.3(1) MHz. Under typical operating conditions, the lattice light shift is controlled at an uncertainty level of $3\\times 10^{-19}$. The blackbody radiation (BBR) shield which is placed in vacuum provides a well-characterized BBR environment, enabling an uncertainty contribution of $8.7\\times 10^{-19}$ from the BBR Stark shift. Other systematic shifts have also been evaluated. The two clocks will be used for remote frequency comparisons between Shanghai and Wuhan.", "url": "https://arxiv.org/abs/2606.10514", "authors": [{"name": "Qiang Zhu"}, {"name": "Jingran Shi"}, {"name": "Yuechen Zhang"}, {"name": "Xiatian Xu"}, {"name": "Bing Wang"}, {"name": "Dezhi Xiong"}, {"name": "Zhuanxian Xiong"}, {"name": "Pengcheng Fang"}, {"name": "Qunfeng Chen"}, {"name": "Lingxiang He"}, {"name": "Baolong Lyu"}], "subjects": "Atomic Physics (physics.atom-ph)", "author_count": 11, "topics": ["Quantum Optics & Quantum Computing", "AMO Physics"], "topic_hits": {"Quantum Optics & Quantum Computing": ["erbium"], "AMO Physics": ["optical lattice"]}, "featured_authors": [{"name": "Qiang Zhu"}, {"name": "Jingran Shi"}, {"name": "Yuechen Zhang"}, {"name": "Qunfeng Chen"}, {"name": "Lingxiang He"}, {"name": "Baolong Lyu"}], "summaries": {"en": "The paper presents a ^171Yb optical lattice clock with a total systematic uncertainty of 1.", "zh": "论文报道了一种基于^171Yb原子的光晶格钟：通过真空腔体增强晶格光功率，并使用两台相同钟的同步比较评估系统涨落，实现了在216000 s内达到2."}, "summary_source": "openai"}, {"id": "2606.10603", "category": "physics.atom-ph", "title": "Quantum study of ultracold atom-ion excitation exchange", "abstract": "The quantum dynamics of ultracold collisions between rubidium atoms and excited metastable strontium ions is treated in the laboratory frame, enlightening the importance of the coupling between internal angular momenta of the particles and their mutual rotation. The study reveals a subtle competition between electronic excitation exchange and fine structure quenching, with no charge exchange, which is found to be very sensitive to the details of ion-atom interactions. The rate constant for electronic excitation exchange is found in agreement with the experimental results of Ben-Shlomi \\textit{et al.} (Phys. Rev. A \\textbf{102}, 031301(R) (2020)), while the rate for fine structure quenching is predicted to strongly depend on the initial polarization of the reactants.", "url": "https://arxiv.org/abs/2606.10603", "authors": [{"name": "Tibor Jónás"}, {"name": "Romain Vexiau"}, {"name": "Nadia Bouloufa-Maafa"}, {"name": "Eliane Luc-Koenig"}, {"name": "Olivier Dulieu"}, {"name": "Andrea Orbán"}], "subjects": "Atomic Physics (physics.atom-ph)", "author_count": 6, "topics": ["AMO Physics"], "topic_hits": {"AMO Physics": ["cold atom", "ultracold atom"]}, "featured_authors": [{"name": "Tibor Jónás"}, {"name": "Romain Vexiau"}, {"name": "Nadia Bouloufa-Maafa"}, {"name": "Eliane Luc-Koenig"}, {"name": "Olivier Dulieu"}, {"name": "Andrea Orbán"}], "summaries": {"en": "This paper models quantum ultracold Rb–metastable Sr+ collisions in the laboratory frame and finds that electronic excitation exchange competes with fine-structure quenching (with no charge exchange), with the excitation-exchange rate matching Ben-Shlomi et al.", "zh": "本文在实验室坐标系中量子研究了Rb与激发态亚稳Sr+离子之间的超冷碰撞，发现电子激发交换与精细结构猝灭之间存在微妙竞争（且无电荷交换），其中电子激发交换的速率与Ben-Shlomi等人的实验结果一致，而精细结构猝灭速率会显著依赖反应物的初始极化并对离子-原子相互作用细节高度敏感。"}, "summary_source": "openai"}, {"id": "2606.11048", "category": "physics.atom-ph", "title": "Colloquium: Nuclear clocks", "abstract": "The Th-229 nuclear isomeric state has the lowest energy of all known nuclear excited states, placing it within the reach of current table-top laser technology. This extraordinary property has made this nuclear isomer an attractive candidate for a nuclear optical clock of incredibly high precision and accuracy, both as isolated trapped Th-229 ions and embedded into solid-state platforms. Activity around Th-229 has surged in recent years, driven by breakthroughs in its direct laser excitation. The underlying nuclear physics that gives rise to this unique isomer will be elucidated, as well as the nearly half-century of efforts that led to its direct excitation. The design and systematics of a Th-229 nuclear clock will be discussed, both in ion traps and in the solid-state. These systematics, such as frequency shifts and quenching channels, can be leveraged both to probe the local chemical environment, and as a control knob during clock operation. Finally, the nuclear clock's high sensitivity to the variations of fundamental constants will be discussed.", "url": "https://arxiv.org/abs/2606.11048", "authors": [{"name": "Andrei Derevianko"}, {"name": "R. Elwell"}, {"name": "Eric R. Hudson"}], "subjects": "Atomic Physics (physics.atom-ph) ; Nuclear Experiment (nucl-ex); Quantum Physics (quant-ph)", "author_count": 3, "topics": ["AMO Physics"], "topic_hits": {"AMO Physics": ["ion trap", "ion traps", "optical clock"]}, "featured_authors": [{"name": "Andrei Derevianko"}, {"name": "R. Elwell"}, {"name": "Eric R. Hudson"}], "summaries": {"en": "The paper reviews how the exceptionally low-energy Th-229 nuclear isomer enables ultra-precise nuclear optical clocks, covering its excitation history, the nuclear physics behind it, design and systematic effects in both trapped-ion and solid-state implementations, and its potential to probe fundamental-constant variations and local environments.", "zh": "论文综述了由于Th-229核异构态具有极低能量而实现超高精度核光钟的原因，涵盖其直接激发的历史与背后的核物理、在离子阱与固态平台中的钟设计及系统误差（如频移和猝灭通道），并讨论其对基本常数变化及局部环境的高敏感性。"}, "summary_source": "openai"}];
+    const categoryOrder = ["physics.optics", "physics.app-ph", "quant-ph", "physics.atom-ph"];
+    const topicOrder = ["Integrated Optics", "Nonlinear Optics", "Quantum Optics & Quantum Computing", "Optical Computing", "Optical Imaging", "AMO Physics", "Other Optics"];
+    const state = {
+      search: "",
+      categories: new Set(categoryOrder),
+      topics: new Set(topicOrder),
+    };
+
+    const statsEl = document.getElementById("stats");
+    const gridEl = document.getElementById("paper-grid");
+    const resultCountEl = document.getElementById("result-count");
+    const emptyStateEl = document.getElementById("empty-state");
+    const searchEl = document.getElementById("search");
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function statCard(label, value) {
+      return `<article class="stat"><div class="label">${label}</div><div class="value">${value}</div></article>`;
+    }
+
+    function renderStats() {
+      const categoryCounts = Object.fromEntries(categoryOrder.map((cat) => [cat, 0]));
+      const topicCounts = Object.fromEntries(topicOrder.map((topic) => [topic, 0]));
+      papers.forEach((paper) => {
+        categoryCounts[paper.category] = (categoryCounts[paper.category] || 0) + 1;
+        (paper.topics || []).forEach((topic) => {
+          topicCounts[topic] = (topicCounts[topic] || 0) + 1;
+        });
+      });
+      statsEl.innerHTML = [
+        statCard("Papers", papers.length),
+        ...categoryOrder.map((cat) => statCard(cat, categoryCounts[cat] || 0)),
+        ...topicOrder.map((topic) => statCard(topic, topicCounts[topic] || 0)),
+      ].join("");
+    }
+
+    function renderChips(containerId, values, selectedSet, onToggle) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = values.map((value) => {
+        const active = selectedSet.has(value) ? "active" : "";
+        return `<button class="chip ${active}" type="button" data-value="${escapeHtml(value)}">${escapeHtml(value)}</button>`;
+      }).join("");
+      container.querySelectorAll(".chip").forEach((button) => {
+        button.addEventListener("click", () => onToggle(button.dataset.value));
+      });
+    }
+
+    function toggleFromSet(set, value) {
+      if (set.has(value)) {
+        if (set.size > 1) set.delete(value);
+      } else {
+        set.add(value);
+      }
+    }
+
+    function matches(paper) {
+      const authorText = (paper.authors || []).map((author) => author.name).join(" ");
+      const summaryText = [paper.summaries?.en, paper.summaries?.zh].join(" ");
+      const topicText = (paper.topics || []).join(" ");
+      const haystack = [
+        paper.id,
+        paper.category,
+        paper.title,
+        paper.abstract,
+        paper.subjects,
+        authorText,
+        topicText,
+        summaryText,
+      ].join(" ").toLowerCase();
+      const topicMatch = (paper.topics || []).some((topic) => state.topics.has(topic));
+      return state.categories.has(paper.category) && topicMatch && haystack.includes(state.search);
+    }
+
+    function renderPapers() {
+      const filtered = papers.filter(matches);
+      resultCountEl.textContent = `Showing ${filtered.length} of ${papers.length} papers`;
+      emptyStateEl.style.display = filtered.length ? "none" : "block";
+      gridEl.innerHTML = filtered.map((paper) => {
+        const safeUrl = escapeHtml(paper.url);
+        const authors = (paper.featured_authors || []).map((author) => author.name).join(", ") || "Unknown";
+        const topics = (paper.topics || []).map((topic) => `<span class="tag topic">${escapeHtml(topic)}</span>`).join("");
+        const subjectHtml = paper.subjects
+          ? `<div class="subtle"><div class="label">Subjects</div><p class="subject-line">${escapeHtml(paper.subjects)}</p></div>`
+          : "";
+        return `
+        <article class="paper">
+          <div class="paper-top">
+            <span class="tag category">${escapeHtml(paper.category)}</span>
+            ${topics}
+          </div>
+          <div class="id">arXiv:${escapeHtml(paper.id)}</div>
+          <h2><a href="${safeUrl}" target="_blank" rel="noreferrer">${escapeHtml(paper.title)}</a></h2>
+          <div class="subtle">
+            <div class="label">Authors</div>
+            <p class="author-line">${escapeHtml(authors)}</p>
+          </div>
+          ${subjectHtml}
+          <div class="summary-grid">
+            <section class="summary-item">
+              <strong>English Summary</strong>
+              <p>${escapeHtml(paper.summaries?.en || "")}</p>
+            </section>
+            <section class="summary-item">
+              <strong>Chinese Summary</strong>
+              <p>${escapeHtml(paper.summaries?.zh || "")}</p>
+            </section>
+          </div>
+          <details>
+            <summary>Abstract</summary>
+            <p>${escapeHtml(paper.abstract)}</p>
+          </details>
+          <footer>
+            <span>Summary source: ${escapeHtml(paper.summary_source || "fallback")}</span>
+            <a href="${safeUrl}" target="_blank" rel="noreferrer">Open on arXiv</a>
+          </footer>
+        </article>`;
+      }).join("");
+    }
+
+    function rerenderFilters() {
+      renderChips("category-filters", categoryOrder, state.categories, (value) => {
+        toggleFromSet(state.categories, value);
+        rerenderFilters();
+        renderPapers();
+      });
+      renderChips("topic-filters", topicOrder, state.topics, (value) => {
+        toggleFromSet(state.topics, value);
+        rerenderFilters();
+        renderPapers();
+      });
+    }
+
+    searchEl.addEventListener("input", (event) => {
+      state.search = event.target.value.trim().toLowerCase();
+      renderPapers();
+    });
+
+    renderStats();
+    rerenderFilters();
+    renderPapers();
+  </script>
+</body>
+</html>
