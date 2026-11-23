@@ -1,0 +1,1531 @@
+[
+  {
+    "id": "2611.26821",
+    "category": "physics.optics",
+    "title": "Feshbach Projection Formalism for Resonant Electrodynamics",
+    "abstract": "Open resonant photonic systems are widely described by effective non-Hermitian formalisms, such as temporal coupled-mode theory, which capture radiative decay through complex eigenfrequencies. In conventional formulations, however, these effective models remain largely phenomenological, lacking a direct microscopic connection to the underlying Maxwell equations. To bridge this gap, we present an analytically tractable light-matter framework based on the Feshbach projection formalism applied to classical electrodynamics. Starting from a coupled system of mechanical oscillator and a one-dimensional electromagnetic field, we construct a strictly Hermitian first-order Hamiltonian. We demonstrate that rigorously eliminating the electromagnetic degrees of freedom via the outgoing Green's function automatically generates a non-Hermitian mechanical operator. Crucially, the resulting radiative damping is determined by the local electromagnetic response rather than introduced ad hoc. Furthermore, we extend this framework to two spatially separated dipoles and show how field retardation transforms a finite set of discrete modes into a countably infinite Fabry-Perot-like spectrum as the separation deviates from zero. The proposed framework provides an intuitive yet rigorous foundation for deriving effective non-Hermitian dynamics directly from conservative light-matter interactions.",
+    "url": "https://arxiv.org/abs/2611.26821",
+    "authors": [
+      {
+        "name": "Nikolai A. Vlasov"
+      },
+      {
+        "name": "Ekaterina E. Maslova"
+      },
+      {
+        "name": "Andrey Novitsky"
+      },
+      {
+        "name": "Mikhail V. Rybin"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 4,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "light-matter",
+        "optics",
+        "photonic"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Nikolai A. Vlasov"
+      },
+      {
+        "name": "Ekaterina E. Maslova"
+      },
+      {
+        "name": "Andrey Novitsky"
+      },
+      {
+        "name": "Mikhail V. Rybin"
+      }
+    ],
+    "summaries": {
+      "en": "The paper develops a microscopic, Feshbach-projection-based classical electrodynamics framework that starts from a strictly Hermitian light–matter Hamiltonian and derives effective non-Hermitian resonant dynamics—including radiative damping and retardation-induced mode spectra—by eliminating electromagnetic degrees of freedom via the outgoing Green’s function.",
+      "zh": "本文提出一种基于Feshbach投影的微观经典电动力学框架：从严格的厄米光—物质哈密顿量出发，通过用外向格林函数消去电磁自由度，严格推导出有效非厄米的共振动力学，包括辐射阻尼以及由传播延迟引起的模式谱变化（两空间分离偶极时从有限离散模转变为类似Fabry–Perot的无穷多模）。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.26878",
+    "category": "physics.optics",
+    "title": "Coherence Lengths of Laser Pointers",
+    "abstract": "We report on the coherence lengths of low-cost green laser pointers in the midst of multimodal behavior using an optical interferometer based on noncollinear beam geometries and a CMOS detector array. Examined devices include three diode lasers and a frequency-doubled neodymium-emission diode-pumped solid state (DPSS) laser. Coherence length measurements are variable among devices, but values can nevertheless regularly exceed 10 cm. The work serves as a template for an advanced undergraduate physics laboratory experiment and may inspire new kinds of laser pointer devices utilizing interference effects as operative principles.",
+    "url": "https://arxiv.org/abs/2611.26878",
+    "authors": [
+      {
+        "name": "Vaishnavi Rao Namakkal Ranga Rao"
+      },
+      {
+        "name": "Marissa R. Godoy"
+      },
+      {
+        "name": "Mark D. Sotnikov"
+      },
+      {
+        "name": "Justin L. Oliver"
+      },
+      {
+        "name": "Ayane Gomi"
+      },
+      {
+        "name": "Bo Eickelberg"
+      },
+      {
+        "name": "Mariana Rojas-Montoya"
+      },
+      {
+        "name": "Henry B. Wahhab"
+      },
+      {
+        "name": "Christopher L. Smallwood"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Physics Education (physics.ed-ph); Instrumentation and Detectors (physics.ins-det)",
+    "author_count": 9,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "laser",
+        "lasers",
+        "optical",
+        "optics"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Vaishnavi Rao Namakkal Ranga Rao"
+      },
+      {
+        "name": "Marissa R. Godoy"
+      },
+      {
+        "name": "Mark D. Sotnikov"
+      },
+      {
+        "name": "Mariana Rojas-Montoya"
+      },
+      {
+        "name": "Henry B. Wahhab"
+      },
+      {
+        "name": "Christopher L. Smallwood"
+      }
+    ],
+    "summaries": {
+      "en": "The paper measures the coherence lengths of several low-cost green laser pointers using a noncollinear interferometer with a CMOS detector, finding device-dependent coherence that often exceeds 10 cm and presenting the method as a template for an advanced undergraduate lab and potential basis for new pointer designs leveraging interference effects.",
+      "zh": "论文使用带CMOS探测器的非共线干涉仪测量多种低成本绿色激光指示器的相干长度，发现不同器件间相干性差异明显但数值通常可超过10 cm，并将该方法作为高阶本科实验模板，同时可能启发利用干涉效应作为工作原理的新型指示器设计。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.26887",
+    "category": "physics.optics",
+    "title": "Dissipative erasure of pulse-to-pulse dispersion imbalance in ultrafast burst-mode lasers",
+    "abstract": "Ultrafast GHz bursts enable laser-matter interactions where successive excitations collectively build sustained nonequilibrium states and efficient material interactions. However, directly generating pulse trains at GHz rates remains challenging. Alternatively, repetition-rate multipliers (RRMs) divide each oscillator pulse into equidistant replicas, but either suffer from dispersion imbalances that prevent simultaneous compression or are limited to few pulses per burst. Here, we introduce dissipative erasure, which first suppresses the differences by spectral filtering and then regenerates the optical bandwidth via nonlinear amplification without restoring the erased differences. We derive two scaling results: as the repetition rate increases geometrically with RRM stages, maximum path differences approach a finite limit; meanwhile, dispersive differences weaken quadratically with filtering. We demonstrate dissipative erasure experimentally, generating 100-$\\mu$J bursts, comprising thousands of 100-fs pulses at 51.3 GHz, from a Yb-fiber amplifier. Dissipative erasure has diverse potential applications for suppressing deterministic or stochastic differences before recovering desired optical properties.",
+    "url": "https://arxiv.org/abs/2611.26887",
+    "authors": [
+      {
+        "name": "Mesut Laçin"
+      },
+      {
+        "name": "Paul Repgen"
+      },
+      {
+        "name": "Umut Aydemir"
+      },
+      {
+        "name": "Fatih Ömer Ilday"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Mesut Laçin"
+      },
+      {
+        "name": "Paul Repgen"
+      },
+      {
+        "name": "Umut Aydemir"
+      },
+      {
+        "name": "Fatih Ömer Ilday"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a technique called dissipative erasure that removes pulse-to-pulse dispersion imbalance in ultrafast burst-mode lasers using spectral filtering followed by nonlinear amplification, yielding scalable performance as repetition rates increase and enabling experimentally generation of 51.",
+      "zh": "论文提出“耗散消除”方法，通过先用光谱滤波抑制脉冲间色散失配、再用非线性放大恢复光带宽而不再恢复被消除的差异，实现随RRM级联重复频率提升的可扩展控制，并在实验中从Yb光纤放大器实现51."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27230",
+    "category": "physics.optics",
+    "title": "Probabilistic image generation conditioned on an optical latent code",
+    "abstract": "While diffractive optical networks compress images into compact representations, such measurements have predominantly served discriminative inference or deterministic reconstruction. Here we demonstrate probabilistic image generation conditioned solely on a 16_bit binary optical latent code (OLC) formed by a diffractive encoder and binarized camera readout. The intentionally many-to-one mapping makes each OLC specify a class of OLC-compatible images rather than a unique reconstruction target. An OLC_conditioned conditional variational autoencoder (CVAE) learns this distribution, while optical re-encoding promotes consistency between generated images and the measured OLC. Numerical characterization and proof-of-concept acquisition with a spatial light modulator_camera system establish the OLC as a physically accessible generative condition. On MNIST, samples generated from a single OLC vary in morphology while preserving class identity, and their optical-recognition accuracy reaches 81.6%, close to the 81.9% obtained from the source OLCs. These results link compact optical sensing to probabilistic synthesis of optically recognizable images.",
+    "url": "https://arxiv.org/abs/2611.27230",
+    "authors": [
+      {
+        "name": "Yu Shao"
+      },
+      {
+        "name": "Haiqi Gao"
+      },
+      {
+        "name": "Fuyan Wu"
+      },
+      {
+        "name": "Ziyan Zhang"
+      },
+      {
+        "name": "Junren Wen"
+      },
+      {
+        "name": "Yuchuan Shao"
+      },
+      {
+        "name": "Weidong Shen"
+      },
+      {
+        "name": "Chenying Yang"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 8,
+    "topics": [
+      "Optical Computing"
+    ],
+    "topic_hits": {
+      "Optical Computing": [
+        "diffractive optical network"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Yu Shao"
+      },
+      {
+        "name": "Haiqi Gao"
+      },
+      {
+        "name": "Fuyan Wu"
+      },
+      {
+        "name": "Yuchuan Shao"
+      },
+      {
+        "name": "Weidong Shen"
+      },
+      {
+        "name": "Chenying Yang"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents a probabilistic image-generation method that uses a compact 16-bit optical latent code from a diffractive encoder and binarized camera readout as a many-to-one conditioning signal for an OLC-conditioned CVAE, with optical re-encoding ensuring consistency between generated images and the measured code, verified numerically and on an SLM–camera setup on MNIST where single-OLC samples vary in morphology but preserve class identity and achieve 81.",
+      "zh": "论文提出一种基于紧凑的16比特光学潜码（由衍射编码器与二值化相机读出获得）的概率式图像生成方法：该潜码通过有意的多对一映射作为条件信号来训练OLC条件CVAE，并借助光学再编码保证生成图像与测得潜码的一致性，数值表征和SLM-相机原型实验证明了潜码作为可物理获取的生成条件；在MNIST上，从单个潜码生成的样本在形态上会变化但保持类别一致性，光学识别准确率达到81."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27311",
+    "category": "physics.optics",
+    "title": "Composite Dielectric-Loaded Metallic Metagratings for Dual-Polarized Transmissive Beam Manipulation",
+    "abstract": "We present and experimentally demonstrate a comprehensive analytical suite for the design of transmissive metal-based metagratings (MGs) for dual-polarized anomalous refraction. Considering a composite configuration of perforated metallic slabs with controlled dielectric loading, we develop a rigorous mode-matching formulation tying the various MG degrees of freedom to the various reflected and transmitted Floquet-Bloch modes, enabling efficient beam deflection for both transverse electric (TE) and transverse magnetic (TM) polarizations. Inherently versatile, the analytical framework accurately models single-layer and double-layer constructs with multiple rectangular perforations per unit cell, each potentially loaded with dielectric material. We harness this degree-of-freedom abundance to devise diverse polarization-sensitive transmissive MGs, ranging from all-metallic single-layer and double-layer structures for single-polarized (TM or TE) perfect anomalous refraction, to dielectric-loaded architectures implementing dual-polarized routing of the incident wave. Beyond highlighting concrete paths to address TE-polarized fields in such formations, our results, validated via full-wave simulations and experiments at K band, showcase the great potential of metal-based MGs for manipulating fields in transmission, facilitating effective synthesis of durable dual-polarized beamforming superstrates for environmentally demanding and high power antenna applications.",
+    "url": "https://arxiv.org/abs/2611.27311",
+    "authors": [
+      {
+        "name": "Vitali Specktor"
+      },
+      {
+        "name": "Yuval Singer"
+      },
+      {
+        "name": "Ilya Varenisov"
+      },
+      {
+        "name": "Ariel Epstein"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Applied Physics (physics.app-ph)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Vitali Specktor"
+      },
+      {
+        "name": "Yuval Singer"
+      },
+      {
+        "name": "Ilya Varenisov"
+      },
+      {
+        "name": "Ariel Epstein"
+      }
+    ],
+    "summaries": {
+      "en": "The paper develops and validates an analytical, mode-matching design framework for composite dielectric-loaded metallic metagratings that enable dual-polarized transmissive anomalous refraction by controlling resonant modes via perforated slab configurations, supporting both single- and double-layer multi-perforation unit cells and routing TE and TM beams with K-band experiments and simulations.",
+      "zh": "论文提出并通过K波段仿真与实验验证了一套用于复合介质加载金属超栅（metagratings）的分析式模态匹配设计框架，通过调控穿孔金属板结构中的谐振模实现双偏振透射型非标准折射，并可适用于单层与双层、多矩形开孔的单元，同时实现TE与TM波的定向路由以用于高功率天线场合的耐久双偏振波束合成超表面。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27333",
+    "category": "physics.optics",
+    "title": "Monolithic ultraviolet-to- near infrared photodetection enabled by an aluminium oxide photonic platform",
+    "abstract": "Broadband photonic integrated circuits require waveguide platforms that combine low optical loss across a wide spectral range with integrated photodetection. Here we demonstrate a monolithically integrated atomic-layer-deposited (ALD) aluminium oxide (Al$_2$O$_3$)-on-silicon platform enabling waveguide-coupled photodetection from the ultraviolet to the near-infrared. The architecture employs evanescent coupling between low-loss Al$_2$O$_3$ waveguides and silicon p-i-n photodiodes. The platform supports photodetection at 375, 658 and 780 nm, extending integrated silicon photodetection into the ultraviolet. The devices exhibit linear photocurrent scaling with optical power, dark currents of approximately 2 pA at 50 V reverse bias and nanosecond-scale temporal response. We further demonstrate centimetre-scale ultraviolet Mach-Zehnder interferometer circuits with integrated photodiodes. The same detector architecture is implemented with Si$_3$N$_4$ waveguides, whereas the lower ultraviolet propagation loss of Al$_2$O$_3$ enables an approximately 15-fold higher photodetection response at 375 nm. These results establish ALD Al$_2$O$_3$ as a broadband integrated photonics platform for sensing, spectroscopy and quantum technologies.",
+    "url": "https://arxiv.org/abs/2611.27333",
+    "authors": [
+      {
+        "name": "Firehun T. Dullo"
+      },
+      {
+        "name": "Marco Povoli"
+      },
+      {
+        "name": "Ozhan Koybasi"
+      },
+      {
+        "name": "Michael N.Getz"
+      },
+      {
+        "name": "Daniel N.Wright"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Applied Physics (physics.app-ph)",
+    "author_count": 5,
+    "topics": [
+      "Integrated Optics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "integrated photonic",
+        "integrated photonics",
+        "photonic integrated circuit",
+        "photonic integrated circuits",
+        "waveguide",
+        "waveguides"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Firehun T. Dullo"
+      },
+      {
+        "name": "Marco Povoli"
+      },
+      {
+        "name": "Ozhan Koybasi"
+      },
+      {
+        "name": "Michael N.Getz"
+      },
+      {
+        "name": "Daniel N.Wright"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates a monolithically integrated ALD Al2O3-on-silicon photonic platform that evanescently couples low-loss Al2O3 waveguides to silicon p-i-n photodiodes for waveguide-coupled photodetection from 375 nm UV to near-infrared, achieving linear power-dependent photocurrent, ~2 pA dark current at 50 V, nanosecond response, and centimeter-scale UV Mach–Zehnder interferometer circuits with an ~15× stronger 375 nm response than Si3N4 due to lower UV propagation loss.",
+      "zh": "论文展示了一种基于ALD沉积Al2O3-on-silicon的单片式集成光子平台，通过波导的倏逝耦合将低损耗Al2O3波导与硅p-i-n光电二极管集成，实现从375 nm紫外到近红外的波导耦合光检测，并实现随光功率线性变化的光电流、50 V反偏下约2 pA的暗电流、纳秒级响应以及带有集成光电二极管的厘米尺度紫外马赫-曾德尔干涉仪电路，同时由于紫外传播损耗更低，在375 nm处的探测响应比Si3N4高约15倍。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27439",
+    "category": "physics.optics",
+    "title": "Single-shot holographic gradients for training wavefronts through disorder",
+    "abstract": "Training optical systems in situ needs the gradient of their loss, yet a camera records only intensity and the medium is never exactly known. We show that one off-axis hologram gives this gradient, an approach we call holographic gradients. Light passes through the medium only forward; the hologram measures the error, and a compact adjoint, fitted to ten probes, is refreshed in seconds during train- ing. Each step costs one modulated pattern. Through a thin diffuser, it focuses light and forms images as well as a measured transmission matrix, without its thousands of patterns. Under controlled drift, refreshing the adjoint recovers a grating to 17.6 dB, against 9.1 dB for a frozen model and 19.5 dB without drift, and training succeeds through a thick diffuser. Trained offline, the reference beam becomes a computing layer that plays a video game. Holographic gradients let optical systems learn while they operate, from imaging through dynamic media to self-correcting processors.",
+    "url": "https://arxiv.org/abs/2611.27439",
+    "authors": [
+      {
+        "name": "Kerem Ekec"
+      },
+      {
+        "name": "Bahadır Utku Kesgin"
+      },
+      {
+        "name": "Uğur Teğin"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 3,
+    "topics": [
+      "Optical Imaging"
+    ],
+    "topic_hits": {
+      "Optical Imaging": [
+        "holographic"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Kerem Ekec"
+      },
+      {
+        "name": "Bahadır Utku Kesgin"
+      },
+      {
+        "name": "Uğur Teğin"
+      }
+    ],
+    "summaries": {
+      "en": "The paper introduces “holographic gradients,” showing that a single off-axis hologram can provide in situ loss gradients for training optical wavefronts through unknown disordered media by using a compact adjoint updated in seconds with one modulated pattern per step, achieving improved grating and successful training through thick diffusers and enabling offline-trained optical systems to function as computing layers during operation.",
+      "zh": "论文提出“全息梯度”，证明单幅离轴全息图即可在未知的无序介质中通过使用可在数秒内刷新的紧凑伴随算子来获得损失梯度、实现波前的在位训练，每一步仅需一个调制图案，并在薄/厚弥散器中分别实现更好的衍射条纹恢复与训练成功，且将离线训练的参考光束转化为可在运行中作为计算层的“计算能力”。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27452",
+    "category": "physics.optics",
+    "title": "Emergent Fourfold Symmetry in Polarization Images: Local Origin and Diffractive Breakdown",
+    "abstract": "A polarization image can gain or lose rotational symmetry with no change in material symmetry. In axisymmetric anisotropic systems, covariance restricts the field to azimuthal orders $m=0,\\pm2$, guaranteeing twofold but not fourfold symmetry; pointwise unitarity adds fourfold symmetry, which diffraction can destroy. Holographic Jones fields of liquid-crystal torons show propagation shifts the twofold--fourfold balance; for the same director, a marching-wave model qualitatively reproduces the twofold morphology missed by a local model. This establishes a symmetry hierarchy for polarization imaging.",
+    "url": "https://arxiv.org/abs/2611.27452",
+    "authors": [
+      {
+        "name": "Igor S. Lobanov"
+      },
+      {
+        "name": "Tikhon V. Reztsov"
+      },
+      {
+        "name": "Artem N. Shalev"
+      },
+      {
+        "name": "Tetiana Orlova"
+      },
+      {
+        "name": "Elena V. Aksenova"
+      },
+      {
+        "name": "Valery M. Uzdin"
+      },
+      {
+        "name": "Nikolay V. Petrov"
+      },
+      {
+        "name": "Aleksey V. Chernykh"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Soft Condensed Matter (cond-mat.soft)",
+    "author_count": 8,
+    "topics": [
+      "Optical Imaging"
+    ],
+    "topic_hits": {
+      "Optical Imaging": [
+        "holographic"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Igor S. Lobanov"
+      },
+      {
+        "name": "Tikhon V. Reztsov"
+      },
+      {
+        "name": "Artem N. Shalev"
+      },
+      {
+        "name": "Valery M. Uzdin"
+      },
+      {
+        "name": "Nikolay V. Petrov"
+      },
+      {
+        "name": "Aleksey V. Chernykh"
+      }
+    ],
+    "summaries": {
+      "en": "The paper explains how polarization images can exhibit or lose fourfold rotational symmetry without changes in material symmetry, attributing twofold versus fourfold behavior to field covariance constraints, pointwise unitarity, and their disruption by diffraction, with liquid-crystal toron holographic Jones fields showing propagation-dependent shifts that a marching-wave model captures better than a purely local one.",
+      "zh": "论文指出偏振成像的四重旋转对称性可以在材料对称性不变的情况下出现或消失，原因在于场的协变性对方位阶数的限制产生两重而非四重对称，点位单一（unitarity）可补足四重对称但会被衍射破坏，并通过液晶半涡子的全息琼斯场观察到传播导致两重—四重平衡随之变化，且行波模型能比局域模型更好地再现其缺失的两重形貌。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27600",
+    "category": "physics.optics",
+    "title": "Forbidden T-symmetry breaking in time-dependent non-Hermitian systems with gain and loss",
+    "abstract": "Parity-time ($PT$) symmetry has attracted significant interest in photonics and related fields in recent years. With sufficiently weak gain and loss, these systems typically exhibit entirely real energy levels, with all corresponding wave functions remaining $PT$ symmetric. As the strength of gain and loss increases, complex-conjugate energy levels are expected to emerge, signaling the onset of $PT$ symmetry breaking. Similar properties can be found in non-Hermitian systems with other antilinear symmetries as well, where parity is replaced by another operator such as rotation ($R$) or simply the identity operator, resulting in $RT$-symmetric and $T$-symmetric non-Hermitian systems. In this work, we demonstrate that this typical scenario of non-Hermitian symmetry breaking in a finite Hilbert space is forbidden in a class of time-dependent systems with gain and loss and $T$ symmetry: the system remains in its $T$-symmetric phase as we increase the strength of gain and loss, even when the spatial distribution of gain and loss is random. Furthermore, this behavior is also independent of the duration or period of the temporal modulation. In contrast, this forbidden non-Hermitian symmetry breaking does not occur when the same systems are modified to display $PT$ symmetry instead. Our findings highlight contrasting behaviors in time-dependent and time-independent non-Hermitian systems, creating new possibilities and opportunities for future investigations.",
+    "url": "https://arxiv.org/abs/2611.27600",
+    "authors": [
+      {
+        "name": "Li Ge"
+      }
+    ],
+    "subjects": "Optics (physics.optics) ; Quantum Physics (quant-ph)",
+    "author_count": 1,
+    "topics": [
+      "Other Optics"
+    ],
+    "topic_hits": {
+      "Other Optics": [
+        "optics",
+        "photonic",
+        "photonics"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Li Ge"
+      }
+    ],
+    "summaries": {
+      "en": "The paper shows that in certain time-dependent non-Hermitian gain–loss systems with T symmetry, increasing gain and loss (even with random spatial distributions and any modulation duration/period) does not trigger the usual antilinear-symmetry breaking to complex eigenvalues, unlike the same systems when modified to have PT symmetry.",
+      "zh": "论文表明，在一类具有T对称性的时变非厄米增益—损耗系统中，即使增益和损耗强度增加（且增减益的空间分布可随机、调制持续时间或周期任意），也不会出现通常的反线性对称性破缺到复本征值的现象；相反，当将同一类系统改为具有PT对称性时则不会遵循这种“禁止”的破缺行为。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27697",
+    "category": "physics.optics",
+    "title": "Ultrasensitive measurement of phase dynamics by time-holographic dark-port readout of a marginally imbalanced interferometer",
+    "abstract": "Resolving displacements and surface irregularities far below a nanometer is now indispensable across fields, from precision manufacturing and biotechnology to nanoscience and fundamental metrology. High-precision optical interferometry reaches this $\\lambda/1{,}000$ regime by reading out optical power, which provides a smooth response over the measurement range. Here we instead read out the complex dark-port field of a marginally imbalanced interferometer, whose phase response to small internal phase deviations $\\phi_{\\textrm{in}}$ near destructive interference becomes extremely steep. For a small arm-amplitude imbalance $\\mu$, the tangent $T_{\\textrm{out}}$ of the dark-port phase reduces to $\\mu^{-1}\\phi_{\\textrm{in}}$, defining a phase magnification $M=\\mu^{-1}$. Crucially, this tangent estimator stays linear over a range $|\\phi_{\\textrm{in}}|\\lesssim\\sqrt{|\\mu|}$---much larger than the imbalance $|\\mu|$ itself for $|\\mu|\\ll1$---so that fine temporal substructure is resolved within much larger phase excursions. $T_{\\textrm{out}}$ is synthesized from the dark-port complex field by optical time-domain holography and Fourier demodulation---a heterodyne readout that is intrinsically immune to laser relative-intensity noise at any magnification, and gives time-resolved access to phase dynamics. In a proof-of-principle Mach--Zehnder experiment, without optimization or environmental isolation, we demonstrate $|M|>10^3$ and optical-path resolution better than $\\lambda/100{,}000$ ($\\approx5~\\textrm{pm}$), with a shot-noise floor orders of magnitude below this environment-limited value. The approach is compact, tunable, and compatible with existing interferometric platforms, offering a practical route to enhanced phase sensitivity in metrology, sensing, and optical instrumentation.",
+    "url": "https://arxiv.org/abs/2611.27697",
+    "authors": [
+      {
+        "name": "F. Silva"
+      },
+      {
+        "name": "A. Molina"
+      },
+      {
+        "name": "A. Esteban-Martín"
+      },
+      {
+        "name": "J. García-Monreal"
+      },
+      {
+        "name": "G. J. de Valcárcel"
+      }
+    ],
+    "subjects": "Optics (physics.optics)",
+    "author_count": 5,
+    "topics": [
+      "Optical Imaging"
+    ],
+    "topic_hits": {
+      "Optical Imaging": [
+        "holographic",
+        "holography"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "F. Silva"
+      },
+      {
+        "name": "A. Molina"
+      },
+      {
+        "name": "A. Esteban-Martín"
+      },
+      {
+        "name": "J. García-Monreal"
+      },
+      {
+        "name": "G. J. de Valcárcel"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes a marginally imbalanced interferometer with time-holographic dark-port readout that converts tiny internal phase deviations into a highly steep, tunable phase-magnified estimator linear over a larger range, enabling sub-picometer optical-path resolution in a Mach–Zehnder demonstration while remaining immune to laser relative-intensity noise.",
+      "zh": "该论文提出利用“轻微失配”的迈克耳逊/马赫-曾德尔干涉仪结合基于时间全息的暗端口读出，将微小的内部相位偏差转化为高度陡峭且可调的相位放大线性估计器，并在比失配量更大的范围内保持线性；在马赫-曾德尔实验中实现了优于0."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.26928",
+    "category": "physics.app-ph",
+    "title": "Galvanometer Mirror Based Femtosecond-Laser Volumetric Displays",
+    "abstract": "Femtosecond-laser-induced plasma enables self-emissive voxels to be generated directly in air for drawing three-dimensional images. Galvanometer-mirror-based beam scanning provides a method for rapidly moving plasma voxels using a relatively simple optical configuration. However, the generated plasma voxels are not ideal points but luminous regions with finite lengths and widths. Variations in voxel shape and orientation caused by focusing and scanning conditions may therefore affect the appearance of rendered points and lines. Nevertheless, quantitative relationships between focusing and scanning conditions and plasma-voxel geometry remain insufficiently characterized in systems using a two-axis galvanometer mirror and a single focusing lens. Here, we quantitatively investigate how focal length and two-axis galvanometer scan angle affect the shape of plasma voxels and the projected inclination of their principal axes. For focal lengths ranging from 75 to 300 mm, the mean plasma length increased from 1.39 to 4.64 mm. These results indicate that increasing the focal length produces more elongated and anisotropic plasma voxels. The projected inclination of the plasma principal axis varied approximately linearly with the corresponding scan angle, although the response differed between the two scanning axes. These results provide quantitative design data for selecting focusing conditions and correcting voxel shape and orientation according to scanning conditions in galvanometer-mirror-based aerial volumetric displays.",
+    "url": "https://arxiv.org/abs/2611.26928",
+    "authors": [
+      {
+        "name": "Katsuhito Muroi"
+      },
+      {
+        "name": "Ryosei Kojima"
+      },
+      {
+        "name": "Tatsuki Fushimi"
+      },
+      {
+        "name": "Yoichi Ochiai"
+      }
+    ],
+    "subjects": "Applied Physics (physics.app-ph) ; Optics (physics.optics)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Katsuhito Muroi"
+      },
+      {
+        "name": "Ryosei Kojima"
+      },
+      {
+        "name": "Tatsuki Fushimi"
+      },
+      {
+        "name": "Yoichi Ochiai"
+      }
+    ],
+    "summaries": {
+      "en": "The paper quantitatively analyzes how changing focal length and two-axis galvanometer scan angles in a single-lens, two-axis scanning system affects femtosecond-laser plasma voxel geometry—showing that longer focal lengths produce more elongated, anisotropic voxels and that the voxel principal-axis inclination depends roughly linearly on scan angle (with different responses for each axis), providing design guidance for correcting shape and orientation in galvanometer-mirror aerial volumetric displays.",
+      "zh": "论文定量研究了在单透镜、双轴振镜的系统中，飞秒激光等离子体体素的几何形状如何随焦距和双轴扫描角度变化，结果表明增大焦距会使体素更拉伸且各向异性，并且体素主轴的倾角随扫描角度近似线性变化（两扫描轴的响应不同），为振镜式空中体显示中按扫描条件校正体素形状与取向提供了设计数据。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27480",
+    "category": "physics.app-ph",
+    "title": "Sprouting Fields of Conducting Polymer Dendrites as Evolving Organic Electrochemical Frameworks to Interconnect Electrode Arrays",
+    "abstract": "Balancing high performance with sustainability in microelectronics is challenged by energy-intensive processes, scarce materials and limited recyclability. Inspired by nature, a promising solution relies on the evolution of the foundry model to transient microelectronics, using electrochemistry to grow adaptive circuits on demand and during operation. To this end, this study explores how to harness the morphogenesis of conducting polymer dendrites between stacks of micro-electrode arrays to dynamically interconnect them with voltage pulses. Using propylene carbonate as a solvent, we investigated the dynamics of the electroconvective growth of poly(3,4-ethylenedioxythiophene) (PEDOT), revealing strong structural dependencies between the morphology of the electrogenerated polymer and the confinement of the micro-electrodes. As the system evolves from 2D flat patterns to 3D dendritic structures, the capability of the conducting polymer to locally interconnect specific nodes heavily depends on the size and density of the arrays which directly impact the flow distribution during growth. By unraveling how a device geometry enables the growth of dendritic interconnections on integrated micro-electrode arrays, the morphogenesis of conducting polymer dendrites not only addresses the longstanding issue of heterogeneous integration in microelectronics, but also opens the way to a paradigm where electronic devices learn as they grow in our pockets.",
+    "url": "https://arxiv.org/abs/2611.27480",
+    "authors": [
+      {
+        "name": "Antoine Baron"
+      },
+      {
+        "name": "Ewelina Cechosz"
+      },
+      {
+        "name": "Konrad Szaciłowski"
+      },
+      {
+        "name": "Enrique H. Balaguera"
+      },
+      {
+        "name": "Sébastien Pecqueur"
+      }
+    ],
+    "subjects": "Applied Physics (physics.app-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Antoine Baron"
+      },
+      {
+        "name": "Ewelina Cechosz"
+      },
+      {
+        "name": "Konrad Szaciłowski"
+      },
+      {
+        "name": "Enrique H. Balaguera"
+      },
+      {
+        "name": "Sébastien Pecqueur"
+      }
+    ],
+    "summaries": {
+      "en": "The paper shows that voltage-pulse-driven electrochemical growth of PEDOT dendrites between micro-electrode arrays can dynamically interconnect electrode stacks, with growth morphology and node-bridging capability strongly determined by electrode array geometry and how the conductive polymer evolves from 2D patterns to 3D dendrites.",
+      "zh": "论文表明，通过电压脉冲驱动的电化学生长PEDOT树枝状体能够在微电极阵列之间实现动态互连，而导电聚合物从二维图案向三维树枝结构演化过程中，其形貌以及对特定节点的桥接能力会显著依赖电极阵列的几何结构与生长过程中的流场分布。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.26816",
+    "category": "quant-ph",
+    "title": "Frequency-bin-encoded quantum secret sharing with fast basis switching",
+    "abstract": "Frequency-bin encoding offers unique opportunities for fiber-native quantum information processing, yet its full potential has been hampered by challenges in rapid state control and protocol scaling. Leveraging high-speed microwave processing, we overcome several extant hurdles and unlock new fundamental capabilities in frequency-based quantum communications. First, we demonstrate three-party quantum secret sharing, representing, to our knowledge, the first multiparty ($N\\geq 3$ users) quantum communication protocol implemented entirely with frequency encoding. Second, we demonstrate active, pseudorandom switching of frequency-bin quantum states and measurement bases at 20 MHz symbol rates, enabling real-time protocol operation without relying on hardware-intensive passive basis-selection schemes. Even under fast switching, we preserve high-contrast three-party correlations ($\\geq 0.91$) and low quantum bit error rates ($\\leq 4.5\\%$). Our work extends frequency-bin quantum communication beyond static, two-party protocols, opening a pathway toward scalable, reconfigurable, and real-time spectrally encoded quantum networking.",
+    "url": "https://arxiv.org/abs/2611.26816",
+    "authors": [
+      {
+        "name": "Chen-You Su"
+      },
+      {
+        "name": "Suparna Seshadri"
+      },
+      {
+        "name": "Hsuan-Hao Lu"
+      },
+      {
+        "name": "Jason D. McKinney"
+      },
+      {
+        "name": "Andrew M. Weiner"
+      },
+      {
+        "name": "Joseph M. Lukens"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Optics (physics.optics)",
+    "author_count": 6,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum network",
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Chen-You Su"
+      },
+      {
+        "name": "Suparna Seshadri"
+      },
+      {
+        "name": "Hsuan-Hao Lu"
+      },
+      {
+        "name": "Jason D. McKinney"
+      },
+      {
+        "name": "Andrew M. Weiner"
+      },
+      {
+        "name": "Joseph M. Lukens"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports fiber-native frequency-bin quantum secret sharing for three parties and demonstrates 20 MHz active pseudorandom switching of frequency-bin states and measurement bases using microwave control, maintaining strong three-party correlations (≥0.",
+      "zh": "论文实现了三方频率编码量子秘密共享，并借助微波高速控制在20 MHz下对频率bin量子态及测量基进行主动伪随机切换，在快切换条件下仍保持高对比度三方关联（≥0."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27019",
+    "category": "quant-ph",
+    "title": "Augmenting Quantum Neural Networks with Contractive Layers",
+    "abstract": "Classical neural networks combine diverse layers with complementary roles to achieve rich expressive capabilities across complex learning tasks. Rapid advances in quantum science and technology have motivated growing interest in their quantum counterparts, quantum neural networks, raising the question of how their expressivity can be enhanced through the design of new quantum layers. Of particular interest are layers that enrich the accessible function space while introducing only a small number of additional trainable parameters. In this Letter, we introduce the contractive layer as a promising building block for quantum neural networks. This layer comprises all-to-all couplings governed by a single trainable parameter, enabling efficient control of quantum information flow while maintaining experimental relevance to Rydberg atom arrays. Using observable learning as a benchmark, we show that contractive layers enhance expressivity more efficiently than simply increasing the depth of conventional brick-wall circuits. This advantage stems from a systematic increase in the accessible target-space dimension per trainable parameter. We further demonstrate similar improvements in image recognition tasks. These results highlight contractive layers as a practical route to expressive quantum neural networks on near-term quantum devices.",
+    "url": "https://arxiv.org/abs/2611.27019",
+    "authors": [
+      {
+        "name": "Bolin Huang"
+      },
+      {
+        "name": "Pengfei Zhang"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Quantum Gases (cond-mat.quant-gas)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing",
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ],
+      "AMO Physics": [
+        "rydberg"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Bolin Huang"
+      },
+      {
+        "name": "Pengfei Zhang"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes contractive layers for quantum neural networks, using all-to-all couplings controlled by a single trainable parameter to efficiently boost expressivity with few parameters—outperforming greater circuit depth and improving results on observable learning and image recognition in Rydberg-atom-relevant settings.",
+      "zh": "论文提出用于量子神经网络的收缩层结构，通过由单个可训练参数控制的全连接耦合来以极少参数高效提升可表达性，并在可观测学习与图像识别任务中优于单纯增加常规电路深度，同时保持对雷狄堡原子阵列等近现实验方案的相关性。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27140",
+    "category": "quant-ph",
+    "title": "Physical Learning for Autonomous Tuning of Spin Qubits in Electrostatically Defined Quantum Dots",
+    "abstract": "Tuning electrostatically defined quantum dots remains a primary bottleneck in the scalability of semiconductor spin qubits. While existing solutions rely on machine learning algorithms, these approaches require global information, introduce latency bottlenecks, and tax the limited cooling power available at cryogenic stages. Here, we demonstrate an FPGA-in-the-loop learning paradigm that bypasses digital computing overhead by utilizing multiplexed gradient descent (MGD) for tuning. Implemented on an FPGA and an emulated quantum dot device, our system autonomously tracks environmental drift, dynamically recovers from discrete charge jumps, and maintains steady-state stabilization in low signal-to-noise ratio regimes, without prior knowledge of the device's cross-capacitance matrix. The system also navigates the charge-stability landscape to stabilize the quantum dot around optimal operating points. These results demonstrate a ``compute-in-place'' platform, with a logic and power footprint suited to future cryo-CMOS integration, that provides autonomous stabilization of quantum dots at desired operating points, creating an auto-tuning system for spin qubits that is resilient to electrostatic drifts, changing noise profiles, and two-level fluctuations.",
+    "url": "https://arxiv.org/abs/2611.27140",
+    "authors": [
+      {
+        "name": "Leonardo Gaytan"
+      },
+      {
+        "name": "Bradley Lloyd"
+      },
+      {
+        "name": "Paul Kliewer"
+      },
+      {
+        "name": "Chandler Wilburn"
+      },
+      {
+        "name": "Lincoln D. Carr"
+      },
+      {
+        "name": "Adam McCaughan"
+      },
+      {
+        "name": "Sonia Buckley"
+      },
+      {
+        "name": "Meenakshi Singh"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+    "author_count": 8,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "spin qubit"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Leonardo Gaytan"
+      },
+      {
+        "name": "Bradley Lloyd"
+      },
+      {
+        "name": "Paul Kliewer"
+      },
+      {
+        "name": "Adam McCaughan"
+      },
+      {
+        "name": "Sonia Buckley"
+      },
+      {
+        "name": "Meenakshi Singh"
+      }
+    ],
+    "summaries": {
+      "en": "The paper presents an FPGA-in-the-loop “compute-in-place” learning approach using multiplexed gradient descent to autonomously tune and stabilize electrostatically defined semiconductor spin qubits without prior device models, while tracking drift, recovering from charge jumps, and operating robustly in low signal-to-noise regimes on an emulated quantum dot platform.",
+      "zh": "论文提出了一种基于FPGA闭环的“就地计算”学习方法，利用多路复用梯度下降在无需先验器件交叉电容矩阵的情况下自主调谐并稳定静电定义的半导体自旋量子比特，并能在低信噪比下稳健跟踪环境漂移、从离散电荷跃迁中恢复，同时在仿真的量子点平台上实现对理想工作点的导航与稳定。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27200",
+    "category": "quant-ph",
+    "title": "Unconventional Photon Blockade in Second-Order Nonlinearity Coupled Cavities with Asymmetric Dissipation",
+    "abstract": "We investigate the unconventional photon blockade in a second-order nonlinearity coupled double-cavity system with asymmetric dissipation. By treating the cavity decay rates as independent parameters, we analytically derive two exact families of optimal blockade conditions. While the first family recovers and generalizes the symmetric-dissipation results of previous studies, the second family, arising uniquely from an asymmetric dissipation ratio of $\\kappa_B = 2\\kappa_A$, completely locks the relative phase of the interference pathways. Importantly, we find that this asymmetric dissipation not only renders the optimal blockade condition strictly immune to frequency detuning, but also enhances the blockade depth by an order of magnitude compared to the resonant case. Furthermore, the mean photon number remains almost unaffected, proving that this enhanced robustness is achieved without sacrificing the brightness of the single-photon source. These findings offer a promising route toward robust single-photon generation in passive cavities with second-order nonlinearity.",
+    "url": "https://arxiv.org/abs/2611.27200",
+    "authors": [
+      {
+        "name": "Zhi-Qiang Zhang"
+      },
+      {
+        "name": "Xiao-Ai Zhang"
+      },
+      {
+        "name": "Yan-Zhe Song"
+      },
+      {
+        "name": "Meng-Li Guo"
+      },
+      {
+        "name": "Yan-Hui Zhou"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Optics (physics.optics)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "single-photon",
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Zhi-Qiang Zhang"
+      },
+      {
+        "name": "Xiao-Ai Zhang"
+      },
+      {
+        "name": "Yan-Zhe Song"
+      },
+      {
+        "name": "Meng-Li Guo"
+      },
+      {
+        "name": "Yan-Hui Zhou"
+      }
+    ],
+    "summaries": {
+      "en": "The paper analytically studies unconventional photon blockade in a second-order nonlinear, asymmetrically dissipative double-cavity system and derives two exact sets of optimal conditions, including one unique to an asymmetry (κB=2κA) that phase-locks interference pathways and yields detuning-immune, order-of-magnitude stronger blockade without reducing the single-photon brightness.",
+      "zh": "论文解析研究了二阶非线性耦合双腔且存在非对称耗散时的非传统光子阻塞，并推导出两组精确的最优条件，其中κB=2κA对应的非对称耗散情形能锁定干涉路径的相对相位、实现对频率失谐严格免疫的强阻塞增强（量级提升），同时几乎不影响平均光子数，从而不牺牲单光子源的亮度。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27251",
+    "category": "quant-ph",
+    "title": "Stinespring's Dilation, Universal-NOT, and Limitations of Quantum Uncoupled Learning",
+    "abstract": "Uncoupled learning, in which players know only their own payoff, are a standard model of decentralized learning toward Nash equilibrium. We study their quantum counterpart, where strategies are quantum states and, in each round, a player receives a physical copy of their opponent's current strategy and updates their own state by a quantum channel. This adds to uncoupledness a constraint with no classical analogue: every update must be physically realizable. In fact, this constraint is decisive in conjugation games, in which Bob has a strictly dominant pure strategy and Alice's unique best response is its transpose. In this work, we show some limitations of uncoupled (learning) dynamics in finding the Nash equilibrium for conjugation games. First, we prove that no autonomous, memoryless, uncoupled dynamics converge to Nash equilibrium in a family of four single-qubit conjugation games. Specifically, any memoryless channel that keeps all four equilibria fixed will leave Alice's strategy frozen. This result also extends to $4^n$ games on $n$-qubit registers. Second, we show that this barrier disappears with a small classical memory: for any finite family of $L$ pure targets, a guess-and-test rule with $O(\\log L)$ classical bits converges to equilibrium, with an explicit bound on its convergence rate. Finally, we prove that no finite memory, classical or quantum, suffices for the continuum of all pure-qubit targets. Our proof of the impossibility for memoryless channels relies on Stinespring's dilation theorem, while the impossibility for finite-memory channels relies on the optimal universal-NOT (in)fidelity bound by Bužek, Hillery, and Werner.",
+    "url": "https://arxiv.org/abs/2611.27251",
+    "authors": [
+      {
+        "name": "Emmanouil-Vasileios Vlatakis-Gkaragkounis"
+      },
+      {
+        "name": "Pucheng Xiong"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Computer Science and Game Theory (cs.GT); Optimization and Control (math.OC)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Emmanouil-Vasileios Vlatakis-Gkaragkounis"
+      },
+      {
+        "name": "Pucheng Xiong"
+      }
+    ],
+    "summaries": {
+      "en": "The paper analyzes quantum uncoupled learning where each player updates a quantum state using a physically realizable channel, proving that for conjugation games no autonomous memoryless uncoupled dynamics converge to Nash equilibrium (they freeze Alice’s state), showing convergence becomes possible with O(log L) classical memory for finitely many targets, and proving that finite memory cannot handle the continuum of all pure-qubit targets using Stinespring dilation and optimal universal-NOT fidelity limits.",
+      "zh": "论文研究量子“解耦学习”：玩家仅依据自己与物理上可实现的量子信道来更新量子态，证明在共轭博弈中不存在能收敛到纳什均衡的自治无记忆解耦动力学（会使爱丽丝的策略被冻结），并表明对有限个目标（规模为 L）的情形，小型经典记忆 O(log L) 足以通过猜测与检验规则收敛，同时证明对所有纯量子比特目标的连续情形，无论经典还是量子记忆有限都不够，论证分别依赖 Stinespring 扩张定理与通用非态（universal-NOT）的最优保真度界。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27295",
+    "category": "quant-ph",
+    "title": "Consecutive Supersymmetric Quantum Mechanical Algorithms for Resolving the Spectra of Legendre-type Differential Operators",
+    "abstract": "Quite comprehensive iterative algorithms based on consecutive supersymmetric quantum mechanics (SUSYQM) have been constructed heuristically, for resolving the eigenspectra of the Legendre operator and its associates parametrized in various coordinates, \\emph{without receiving any input from traditional analytical methods}. On building these algorithms, the two symmetries \\text{--} supersymmetry and shape invariance symmetry \\text{--} hidden in these operators are brought to the fore as the only two governing principles, with the aids of the newly devised algebraic techniques such as the \\emph{active supersymmetrization transformations}, \\emph{momentum operator maps} as well as plain and \\emph{higher-order spin matrix maps}. In view of their algebraic simplicity and elegance, high efficiency, as well as independence of traditional methods, some of these algorithms become the promising candidates to supplant the popular power series approach to the eigenspectra of Legendre-type operators.",
+    "url": "https://arxiv.org/abs/2611.27295",
+    "authors": [
+      {
+        "name": "Tianchun Zhou"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Mathematical Physics (math-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Tianchun Zhou"
+      }
+    ],
+    "summaries": {
+      "en": "The paper develops heuristic iterative eigenspectrum algorithms for Legendre-type differential operators using only supersymmetry and shape-invariance symmetries, enabled by new algebraic tools like active supersymmetrization, momentum-operator maps, and spin-matrix mapping, aiming to provide efficient alternatives to power-series methods without relying on traditional analytical inputs.",
+      "zh": "本文在仅依赖超对称（SUSY）与形不变（shape invariance）两种对称性的基础上，借助主动超对称化变换、动量算符映射以及自旋矩阵映射等新的代数技术，构建了用于求解莱让德型微分算符及其变形的特征值谱的启发式连续SUSYQM迭代算法，并期望凭借其代数简洁高效及不依赖传统分析方法的特点，替代常用的幂级数谱求解思路。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27486",
+    "category": "quant-ph",
+    "title": "Practical insights into controlling exponential concentration in quantum machine learning",
+    "abstract": "Quantum Machine Learning (QML) models are often limited by exponential concentration, where quantum observables become insensitive to input variations as system size increases. In this work, we provide a comparative empirical study of this phenomenon across Fidelity Quantum Kernels (FQK), Projected Quantum Kernels (PQK), and Quantum Extreme Learning (QEL), within a unified observable-based framework based on expectation-value variance. We investigate how measurement locality, entanglement, and circuit expressivity shape concentration across different architectures. Global fidelity-based kernels exhibit strong concentration driven by Hilbert space dimensionality, whereas local-observable approaches reduce but do not eliminate this effect. In PQK and QEL, concentration is primarily governed by entanglement and quantum dynamical expressivity, with reservoir depth emerging as a key factor in QEL architectures. We further study bandwidth scaling as a general mechanism for controlling encoding expressivity across all models. Our results indicate that bandwidth scaling effectively reduces concentration in moderate regimes by restricting the effective expressivity of the encoding, though this protective effect diminishes in highly expressive structural settings.",
+    "url": "https://arxiv.org/abs/2611.27486",
+    "authors": [
+      {
+        "name": "Fernando Mondragon-Sampedro"
+      },
+      {
+        "name": "Diego Alvarez-Estevez"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Machine Learning (cs.LG)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Fernando Mondragon-Sampedro"
+      },
+      {
+        "name": "Diego Alvarez-Estevez"
+      }
+    ],
+    "summaries": {
+      "en": "This paper empirically compares exponential concentration in fidelity quantum kernels, projected quantum kernels, and quantum extreme learning using a unified expectation-value variance framework, showing that global fidelity kernels concentrate mainly due to Hilbert-space dimensionality while local-observable methods mitigate but cannot remove concentration, whereas in PQK/QEL concentration is driven by entanglement and expressivity (with reservoir depth key for QEL) and bandwidth scaling can reduce concentration in moderate regimes by limiting encoding expressivity but not in highly expressive settings.",
+      "zh": "本文在统一的期望值方差框架下，对保真度量子核、投影量子核与量子极限学习的指数性集中现象进行对比实证研究，发现全局保真度核的集中主要由希尔伯特空间维数驱动而局部可观测方法虽能缓解但难以完全消除集中；而在PQK/QEL中，集中主要受纠缠与量子动力学表达力影响（其中QEL的储层深度是关键因素），并且带宽缩放可在中等条件下通过限制编码的有效表达力来降低集中，但在高度表达性的结构设置中这种保护作用会减弱。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27523",
+    "category": "quant-ph",
+    "title": "Actively stabilized Fabry-Pérot notch filters for correlated photons from cold two-level atoms",
+    "abstract": "We report two actively stabilized Fabry-Pérot cavities operated as reflection-mode notch filters for biphotons generated by spontaneous four-wave mixing in a cold two-level atomic ensemble. In this source, elastic scattering at the excitation frequency increases the single-detector count rates and the accidental-coincidence background, thereby limiting the observed nonclassical correlations. One cavity is placed in each photon-collection mode. An acousto-optic modulator frequency-dithers an auxiliary field, and synchronous demodulation of the transmitted power provides the locking discriminator. Light resonant with the auxiliary field is transmitted, whereas the detuned components are reflected toward the photon detectors. By tuning the auxiliary field to the same frequency as the excitation field, we filter these components and direct a larger portion of the quantum-correlated sidebands to the detection. The cavities have linewidths of approximately 2 MHz and remain locked for longer than a typical correlation acquisition. The measured Cauchy-Schwarz parameter exceeds unity in both configurations, with a higher central value with filtering ($\\overline{R} = 4.15 \\pm 0.93$) than without ($\\overline{R} = 2.33 \\pm 0.20$). This architecture provides actively stabilized rejection of a narrow spectral interval, simultaneously, for two fields detected in different directions. Filter performance could be further improved by adjusting the cavity linewidth to better match the spectral width of the central component and by reducing losses in the filters.",
+    "url": "https://arxiv.org/abs/2611.27523",
+    "authors": [
+      {
+        "name": "G. C. Borges"
+      },
+      {
+        "name": "M. Duclerc"
+      },
+      {
+        "name": "G. Palacios"
+      },
+      {
+        "name": "A. A. C. de Almeida"
+      },
+      {
+        "name": "N. R. de Melo"
+      },
+      {
+        "name": "D. Felinto"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Optics (physics.optics)",
+    "author_count": 6,
+    "topics": [
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "four-wave mixing"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "G. C. Borges"
+      },
+      {
+        "name": "M. Duclerc"
+      },
+      {
+        "name": "G. Palacios"
+      },
+      {
+        "name": "A. A. C. de Almeida"
+      },
+      {
+        "name": "N. R. de Melo"
+      },
+      {
+        "name": "D. Felinto"
+      }
+    ],
+    "summaries": {
+      "en": "The paper demonstrates two actively stabilized Fabry–Pérot reflection-mode notch filters that suppress elastic-scattering noise in correlated biphotons from a cold two-level atomic ensemble, improving the measured Cauchy–Schwarz parameter (4.",
+      "zh": "论文提出并实现了两个主动稳定的法布里-珀罗反射式凹陷滤波器，用以抑制冷两能级原子系中由自发四波混频产生的相干双光子中与弹性散射相关的噪声，从而将Cauchy–Schwarz参数提升到4."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27548",
+    "category": "quant-ph",
+    "title": "Communication advantages of a quantum switch of two pure-loss channels",
+    "abstract": "The quantum switch can enable communication through otherwise unusable channels, a phenomenon known as causal activation. We show that a switch of two identical pure-loss channels can achieve strictly greater energy-constrained classical and quantum capacities than their sequential use, even when two-way classical communication is available. Remarkably, the switch also activates quantum communication over a range of transmissivities for which the sequential channel has zero quantum capacity.",
+    "url": "https://arxiv.org/abs/2611.27548",
+    "authors": [
+      {
+        "name": "Carlo Marconi"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "siv"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Carlo Marconi"
+      }
+    ],
+    "summaries": {
+      "en": "The paper shows that a quantum switch connecting two identical pure-loss channels can strictly outperform their sequential use by achieving higher energy-constrained classical and quantum capacities and even activating quantum communication where the sequential channel has zero quantum capacity despite the availability of two-way classical communication.",
+      "zh": "论文表明，将两条相同纯损耗信道通过量子开关连接可以严格优于顺序使用：在即使允许双向经典通信的情况下，仍能获得更高的能量受限经典与量子容量，并且还能在顺序信道量子容量为零的传输率范围内激活量子通信。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27634",
+    "category": "quant-ph",
+    "title": "Quantum control of an electrically levitated nanoparticle with a trapped ion",
+    "abstract": "Quantum control of levitated nanoparticles offers a route towards macroscopic quantum states. Here we propose a novel way to achieve it for a nanoparticle levitated electrically in a linear Paul trap together with a single ion, a system recently realized experimentally. By suitably engineering the trap's AC potential, one can parametrically modulate the ion-nanoparticle distance and thus the Coulomb coupling to enable a resonant interaction. For realistic parameters, we calculate that this enables sympathetic cooling of the nanoparticle to its motional ground state by a single, continuously laser-cooled ion. Additional AC drives enable the preparation of squeezed nanoparticle states and of ion-nanoparticle entanglement. Moreover, non-Gaussian states such as Fock and cat states, prepared in the ion with standard trapped-ion techniques, can be transferred to the nanoparticle with high fidelities. We provide complete protocols for each of these states, including all known decoherence sources. Our results establish electrically trapped ion-nanoparticle systems as a platform for quantum control of levitated matter.",
+    "url": "https://arxiv.org/abs/2611.27634",
+    "authors": [
+      {
+        "name": "Bernard Faulend"
+      },
+      {
+        "name": "Dmitry S. Bykov"
+      },
+      {
+        "name": "Tracy E. Northup"
+      },
+      {
+        "name": "Carlos Gonzalez-Ballestero"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 4,
+    "topics": [
+      "Quantum Optics & Quantum Computing",
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum control"
+      ],
+      "AMO Physics": [
+        "trapped ion"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Bernard Faulend"
+      },
+      {
+        "name": "Dmitry S. Bykov"
+      },
+      {
+        "name": "Tracy E. Northup"
+      },
+      {
+        "name": "Carlos Gonzalez-Ballestero"
+      }
+    ],
+    "summaries": {
+      "en": "The paper proposes using engineered AC potentials in a system where an electrically levitated nanoparticle in a Paul trap is Coulomb-coupled to a single trapped ion to enable resonant interactions that sympathetically cool the nanoparticle to its motional ground state, generate squeezed and entangled states, and transfer non-Gaussian Fock and cat states with high fidelity, with full protocols accounting for decoherence.",
+      "zh": "论文提出在一个由保留在保罗陷阱中的电学悬浮纳米粒子与单个囚禁离子通过库仑耦合构成的系统中，通过设计陷阱的交流电势来调制离子-纳米粒子距离并实现共振相互作用，从而借助单个连续激光冷却的离子使纳米粒子被冷却到运动基态，制备压缩态与离子-纳米粒子纠缠态，并以高保真度将离子中的非高斯Fock态和猫态转移到纳米粒子，同时给出包含已知退相干来源的完整制备协议，证明电学囚禁的离子-纳米粒子体系可作为对悬浮物质进行量子控制的平台。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27703",
+    "category": "quant-ph",
+    "title": "Single-realization Pauli twirling for suppressing coherent error accumulation in structured quantum circuits",
+    "abstract": "Pauli twirling is conventionally understood as an ensemble-level noise-tailoring procedure which suppresses coherent components of the error channel by averaging over randomized compilations. This picture does not by itself determine whether a single realization of Pauli-dressed circuit can outperform its bare counterpart, nor does it predict when such an advantage should occur. In this work, we present single-realization based framework for the standard Pauli dressing of two-qubit Clifford gates in structured quantum circuits. This is afforded by the key insight that for weak coherent errors, the leading gate infidelity is governed by the variance of some accumulated error generator. Through both simulations and theoretical considerations, we verify that coherent errors accumulated at different entangling gates can produce $\\Theta(L^2)$ variance growth in a bare circuit, whereas independent Pauli dressing eliminates the cross-layer contribution on average and yields an $O(L)$ variance bound at any fixed confidence level for a single randomly sampled realization. We then develop a covariance diagnostic that predicts when this mechanism is effective in error mitigation. We find a strong Pauli twirling advantage for coherent errors whose transported generators have large off-diagonal covariance, and little advantage when the covariance matrix is nearly diagonal. Hardware experiments on IBM superconducting processors demonstrate fidelity improvements for GHZ-state preparation and reduced observable errors in Trotterized transverse-field Ising dynamics. These results indicate that single realizations of Pauli twirling without ensemble averaging is a useful coherent-error suppression technique for structured circuits containing repeated nontrivial two-qubit operations.",
+    "url": "https://arxiv.org/abs/2611.27703",
+    "authors": [
+      {
+        "name": "Dihang Sun"
+      },
+      {
+        "name": "Tianqi Chen"
+      },
+      {
+        "name": "Jin Ming Koh"
+      },
+      {
+        "name": "Nannan Ma"
+      },
+      {
+        "name": "Jiangbin Gong"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph)",
+    "author_count": 5,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "entangling gate"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Dihang Sun"
+      },
+      {
+        "name": "Tianqi Chen"
+      },
+      {
+        "name": "Jin Ming Koh"
+      },
+      {
+        "name": "Nannan Ma"
+      },
+      {
+        "name": "Jiangbin Gong"
+      }
+    ],
+    "summaries": {
+      "en": "The paper introduces a framework for single-realization Pauli twirling of two-qubit Clifford gates in structured circuits, showing that for weak coherent errors the gate infidelity depends on accumulated-error-generator variance, where independent Pauli dressing reduces variance from Θ(L^2) to O(L) for a single random realization and is predicted to be effective by a covariance diagnostic—supported by simulations and IBM hardware experiments that improve GHZ preparation and Trotterized transverse-field Ising results.",
+      "zh": "本文提出在结构化量子电路中对两比特Clifford门进行单次实现的Pauli涂抹框架，表明对弱相干误差而言门保真度主要由累积误差生成器的方差决定，而独立的Pauli涂抹可将单次随机实现下的方差由Θ(L^2)降低到O(L)，并通过协方差诊断预测其有效性——通过仿真与IBM硬件实验验证了其在GHZ制备与横场Ising的Trotter化动力学中的保真度改进。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27787",
+    "category": "quant-ph",
+    "title": "Penalty-Free Constrained Optimization on Dynamic Quantum Circuits via Phase-Protected Tunneling and Closed-Loop Spectral Ratchets",
+    "abstract": "Embedding hard operational constraints into an unconstrained Hamiltonian via large penalty multipliers induces quadratic spectral aliasing during phase estimation and increases two-qubit gate depth. This paper proposes a penalty-free, closed-loop dynamic quantum circuit scheme, designated as Zeno-decoupled gauge-ratchet optimization (Z-GRO), for constrained binary optimization without outer-loop training. Reversible feasibility phase operators within symmetric dynamical-decoupling echoes confine evolution to the feasible subspace, while an interaction-correlated commutator gauge operator resolves initial symmetry stall. Directional cooling couples the unpenalized objective Hamiltonian to a reusable ancilla with a zero-two-qubit-gate threshold offset, bypassing echoed tunneling gates on retained branches. A survival-filtered Ramsey controller advances the threshold from a linear-programming bound with automatic overshoot rollback. Exact density-matrix and trajectory simulations on spin-glass and quadratic knapsack ensembles show a single-check discrimination gain above four orders of magnitude, improving ground-state probability by factors of 3.0 to 4.3 over quantum Zeno dynamics and 11.4 to 22.5 over penalized schemes. Z-GRO reduces the spin-glass time-to-solution scaling base to 1.529 (compared to 1.684 for quantum Zeno dynamics and 1.909 to 2.047 for penalized schemes) and lowers 14-qubit knapsack time-to-solution by factors of 2.4 to 14.5. For two-qubit gate error rates between $5 \\times 10^{-4}$ and $5 \\times 10^{-3}$, Z-GRO achieves 2.9 to 7.0 times the optimal probability of noisy penalized feedback, while majority shielding limits loss to 6.3% at a 5.0% readout bit-flip rate, recording 0/24, 0/25, 0/96, 3/25, and 2/80 overshoots.",
+    "url": "https://arxiv.org/abs/2611.27787",
+    "authors": [
+      {
+        "name": "Chia-Ho Ou"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Optimization and Control (math.OC); Computational Physics (physics.comp-ph)",
+    "author_count": 1,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "two-qubit gate"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Chia-Ho Ou"
+      }
+    ],
+    "summaries": {
+      "en": "The paper introduces Z-GRO, a penalty-free dynamic quantum circuit method that uses Zeno-decoupled reversible feasibility phases, phase-protected tunneling via closed-loop spectral ratchets, and directional cooling with survival-filtered Ramsey control to solve constrained binary optimization without outer-loop training, achieving large simulation improvements over quantum Zeno and penalized approaches in time-to-solution and ground-state probability under realistic gate/readout errors.",
+      "zh": "本文提出Z-GRO，这是一种用于受约束二值优化的无惩罚动态量子电路方法，通过Zeno解耦的可逆可行性相位、相位保护隧穿以及闭环谱振荡（spectral ratchets）的控制，并结合定向冷却与带存活过滤的Ramsey门控，可在不需要外层训练的情况下求解约束优化，在自旋玻璃与二次背包等仿真任务中相较量子Zeno与惩罚式方案显著提升解的概率和时间到解，且在现实的门与读出误差下同样表现更优。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27896",
+    "category": "quant-ph",
+    "title": "Optimised 8th-Order Trotter-Suzuki Schemes for Quantum Simulation",
+    "abstract": "Simulating quantum dynamics in many-body systems is one of the most promising applications of quantum computers. Product formulas are a natural choice for this task, since they map directly onto quantum gates, and increasing their order $n$ could lead to reduced gate depths, provided the parameters are chosen efficiently. So far, schemes beyond $6^{\\textrm{th}}$ order have only been built as compositions of second-order schemes, while more general product formulas are known only up to $6^{\\textrm{th}}$ order. In this work, we extend our optimisation framework to order $n = 8$, and find both more efficient compositions and the first $8^{\\textrm{th}}$ order general schemes. Our formulas improve on the theoretical efficiency of the state-of-the-art schemes by Morales et al and we recommend two schemes explicitly. In simulations of the Heisenberg XZ chain one of our recommended schemes always outperforms those by Morales et al, though it is not always the same scheme that performs best. More generally, we observe that for Hamiltonians split into many non-commuting operators the uniformity of a Trotter decomposition becomes the main indicator of a scheme's performance. To assess the schemes' use on quantum hardware, we simulate noisy circuits with our new Qiskit plugin qiskit-omelyan. At current noise levels, the Leapfrog scheme remains the best choice, but as noise rates decrease toward fault tolerance, our recommended schemes become competitive.",
+    "url": "https://arxiv.org/abs/2611.27896",
+    "authors": [
+      {
+        "name": "Marko Maležič"
+      },
+      {
+        "name": "Johann Ostmeyer"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Statistical Mechanics (cond-mat.stat-mech); Strongly Correlated Electrons (cond-mat.str-el); High Energy Physics - Lattice (hep-lat)",
+    "author_count": 2,
+    "topics": [
+      "Quantum Optics & Quantum Computing"
+    ],
+    "topic_hits": {
+      "Quantum Optics & Quantum Computing": [
+        "quantum gate",
+        "quantum gates"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Marko Maležič"
+      },
+      {
+        "name": "Johann Ostmeyer"
+      }
+    ],
+    "summaries": {
+      "en": "The paper optimizes and introduces eighth-order (and improved) Trotter-Suzuki product-formula schemes for quantum simulation, yielding more efficient gate-depth performance than prior methods on the Heisenberg XZ chain and showing that for Hamiltonians split into many non-commuting terms, Trotter uniformity predicts performance, with noisy-circuit tests indicating qiskit-omelyan-based results where Leapfrog is best at present noise but the new recommended schemes become competitive as errors decrease toward fault tolerance.",
+      "zh": "论文对用于量子仿真的八阶（及改进的）Trotter-Suzuki 乘积公式进行优化并提出新方案，在海森堡 XZ 链上相较既有方法实现更高效的门深表现；同时发现当哈密顿量被拆分为许多相互不对易的算符时，Trotter 分解的均匀性是性能的主要预测指标，并通过 qiskit-omelyan 的噪声电路仿真表明：在当前噪声水平下 Leapfrog 最优，但随着误差向容错门限降低，作者推荐的新方案将变得具有竞争力。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27942",
+    "category": "quant-ph",
+    "title": "A Microwave-Photonics Formulation of the Rydberg-Atom Receiver",
+    "abstract": "The performance of Rydberg-atom receivers is seldom stated as a radio-frequency (RF) link budget. The receiver is shown to be an intensity-modulated direct-detection analog optical link whose modulator is the laser-driven vapor. The transmission of a warm vapor is derived in closed form by averaging the four-level response over atomic velocities. The conversion gain, noise figure, bandwidth, intercept points, and spurious-free dynamic range follow from this one function. For a weak probe the instantaneous bandwidth is half the width of the transparency window in two-photon detuning. The local-oscillator beat places the second-order intercept near twice the local-oscillator field, so the local oscillator sets the even-order linearity. For a rubidium transition at 17.04 GHz the closed forms agree with a velocity-resolved density-matrix model to 1% for the slope and the intercepts and to 10% for the bandwidth. They underestimate the group delay by a third. The response is tied to atomic constants, and the sensing volume escapes the Chu limit. However, the noise figure of a warm vapor rules it out as a general replacement for an antenna and low-noise amplifier.",
+    "url": "https://arxiv.org/abs/2611.27942",
+    "authors": [
+      {
+        "name": "David Rosser"
+      }
+    ],
+    "subjects": "Quantum Physics (quant-ph) ; Signal Processing (eess.SP); Applied Physics (physics.app-ph); Atomic Physics (physics.atom-ph)",
+    "author_count": 1,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "rydberg"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "David Rosser"
+      }
+    ],
+    "summaries": {
+      "en": "The paper develops a microwave-photonics link-budget model for a Rydberg-atom receiver by deriving closed-form transmission and related metrics (gain, noise figure, bandwidth, intercept points, and spurious-free dynamic range) from a velocity-averaged four-level response, validating it against density-matrix simulations at 17.",
+      "zh": "本文提出了针对赖伯原子接收器的微波光子链路预算模型，通过对四能级响应进行速度平均得到闭式传输表达式，并据此推导增益、噪声系数、带宽、截点和无杂散动态范围等指标，随后以17."
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.26834",
+    "category": "physics.atom-ph",
+    "title": "Multiconfigurational and Spin-Orbit Extensions of the BSR-RMT Interface",
+    "abstract": "We report the extension of the B-spline R-matrix (BSR) to R-matrix with time dependence (RMT) interface to include support for multiconfiguration target states and $jK$ coupling, including the one-body spin-orbit (SO) interaction. Inner-region input data generated by BSR are transformed through the interface for time propagation in RMT. Two examples demonstrate the working interface: high-order harmonic generation in helium and weak-field, near-resonance response in carbon. The helium comparisons employ previously studied laser parameters, displaying excellent agreement with the established Belfast R-matrix input codes in the time-dependent dipole and harmonic spectrum, both with and without SO. Further structure comparisons in helium show close agreement in the SO-induced changes in energy and oscillator strengths. The two codes coincide on the much larger SO-induced change in the dipole response in carbon, demonstrating agreement for multiconfigurational target states. These extensions allow the flexibility of BSR structure calculations to be used in time-dependent studies of heavier and more complex atoms.",
+    "url": "https://arxiv.org/abs/2611.26834",
+    "authors": [
+      {
+        "name": "Aaron T. Bondy"
+      },
+      {
+        "name": "Juan C. del Valle"
+      },
+      {
+        "name": "Kathryn R. Hamilton"
+      },
+      {
+        "name": "Klaus Bartschat"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph)",
+    "author_count": 4,
+    "topics": [
+      "Nonlinear Optics"
+    ],
+    "topic_hits": {
+      "Nonlinear Optics": [
+        "harmonic generation"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Aaron T. Bondy"
+      },
+      {
+        "name": "Juan C. del Valle"
+      },
+      {
+        "name": "Kathryn R. Hamilton"
+      },
+      {
+        "name": "Klaus Bartschat"
+      }
+    ],
+    "summaries": {
+      "en": "The paper extends the B-spline R-matrix (BSR) to a time-dependent R-matrix (RMT) interface that supports multiconfiguration target states and jK coupling with one-body spin-orbit interaction, validated by high-harmonic generation in helium and near-resonant carbon response where results match established Belfast R-matrix calculations with and without spin-orbit effects.",
+      "zh": "论文将B样条R矩阵（BSR）扩展为时间相关R矩阵（RMT）接口，使其能够支持多构型靶态与jK耦合，并纳入一体自旋-轨道相互作用，通过氦的高次谐波产生和碳的近共振弱场响应进行验证，结果与既有的Belfast R矩阵计算在包含与不包含自旋-轨道效应时均一致。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27328",
+    "category": "physics.atom-ph",
+    "title": "60-cm-long In-vacuum Zerodur Optical Cavity for Optical Lattice Atom Interferometry",
+    "abstract": "Optical cavities are widely used in atomic physics experiments to control the spatial geometry and spectral properties of atom-light interactions. Recently, an optical lattice generated by the pristine mode of an optical cavity was utilized to hold and extend the quantum coherence of atomic spatial superpositions. Here, we describe an in-vacuum optical cavity designed to enhance the spatial and temporal coherence of optical lattice atom interferometers to one millimeter wavepacket separations and one minute measurement durations. The cavity uses a rigid Zerodur spacer to suppress the negative effects of thermal drift and mechanical-acoustic vibrations on the atomic motional state. The 60 cm-long cavity spacer provides ample optical access for the laser beams and imaging optics necessary for the preparation, quantum control, and read-out of the atomic state, as well as room for various source mass configurations for localized gravitational measurements. An integrated differential pumping structure enables compatibility with ultrahigh-vacuum operation and optical interferometry allows for in-situ vibration monitoring. The performance of the optical cavity is methodically characterized: we measure mirror vibration noise with amplitude below 5 nm/$\\sqrt{\\rm Hz}$ in a wide frequency range of 2 Hz - 100 kHz and a slow 15 MHz thermal drift of the cavity resonance over 47 hours, which can be readily stabilized with an integrated piezo. The optical cavity supports both 852-nm light for Raman transitions and 1064-nm light for the optical lattice, with a free spectral range matched to an integer divisor of the cesium ground-state hyperfine splitting.",
+    "url": "https://arxiv.org/abs/2611.27328",
+    "authors": [
+      {
+        "name": "Philip Wondrak"
+      },
+      {
+        "name": "Paola Luna"
+      },
+      {
+        "name": "Kenneth Nakasone"
+      },
+      {
+        "name": "Andrei Zhukov"
+      },
+      {
+        "name": "Michael Grisham"
+      },
+      {
+        "name": "Garrett D. Cole"
+      },
+      {
+        "name": "Po-han Chen"
+      },
+      {
+        "name": "Cristian D. Panda"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph) ; Instrumentation and Detectors (physics.ins-det); Optics (physics.optics); Quantum Physics (quant-ph)",
+    "author_count": 8,
+    "topics": [
+      "Integrated Optics",
+      "Quantum Optics & Quantum Computing",
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "Integrated Optics": [
+        "cavity design"
+      ],
+      "Quantum Optics & Quantum Computing": [
+        "quantum control"
+      ],
+      "AMO Physics": [
+        "atom-light interaction",
+        "atom-light interactions",
+        "optical lattice"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Philip Wondrak"
+      },
+      {
+        "name": "Paola Luna"
+      },
+      {
+        "name": "Kenneth Nakasone"
+      },
+      {
+        "name": "Garrett D. Cole"
+      },
+      {
+        "name": "Po-han Chen"
+      },
+      {
+        "name": "Cristian D. Panda"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports a 60‑cm in‑vacuum Zerodur optical cavity designed to improve the coherence of optical-lattice atom interferometers to millimeter-scale wavepacket separations and minute-long measurements by suppressing thermal/mechanical noise, enabling ultrahigh-vacuum compatibility with differential pumping, and providing in-situ vibration monitoring and characterized performance including low mirror vibration noise and small, stabilizable thermal drift while supporting 852‑nm Raman and 1064‑nm lattice light matched to cesium hyperfine structure.",
+      "zh": "本文提出了一种60厘米长的真空内使用Zerodur光学腔，用以通过抑制热漂移与机械声学振动来提升光晶格原子干涉仪的相干性，使波包分离达到毫米量级、测量持续时间可达数分钟，并实现超高真空的差分抽气兼容性与原位振动监测；作者还对其性能进行了系统表征，包括宽频范围内低于5 nm/√Hz的镜面振动噪声以及47小时内可稳定的慢速15 MHz热漂移，同时支持852 nm用于拉曼跃迁、1064 nm用于光晶格且其自由光谱范围与铯基态超精细分裂相匹配。"
+    },
+    "summary_source": "openai"
+  },
+  {
+    "id": "2611.27588",
+    "category": "physics.atom-ph",
+    "title": "Test of gravitational redshift by optical clocks at different latitudes",
+    "abstract": "General relativity predicts that frequency comparisons between clocks are affected by both gravitational and kinematic time dilation. While the kinematic contribution has been tested with high accuracy, experimental tests of the gravitational redshift remain comparatively less stringent. Here, we measure the frequency shift between two Earth-fixed optical atomic clocks at different potentials and compare it to the redshift predicted by general relativity using independent geodetic measurements. The observed shift agrees with the prediction, testing the gravitational redshift at the $4.6 \\times 10^{-5}$ uncertainty level, improving ground-based tests by a factor two. Previous ground-based tests separated the clocks mainly vertically. For clocks at different latitudes, their height difference is governed not only by the gravitational potentials at their locations but also by the centrifugal potentials caused by Earth's rotation. As both contributions can partially cancel, the gravitational contribution can be considerably larger than their height difference suggests. In this work, a separation of the clocks by $4^\\circ$ in latitude enhances their sensitivity to a gravitational redshift violation threefold, to the equivalent of an approximately 1200 m difference in height for small latitudinal separation. Our results establish Earth's rotation as a so far unexploited resource for advancing ground-based tests of the gravitational redshift towards the sensitivity of previous space-based experiments.",
+    "url": "https://arxiv.org/abs/2611.27588",
+    "authors": [
+      {
+        "name": "Ingo Nosske"
+      },
+      {
+        "name": "Chetan Vishwakarma"
+      },
+      {
+        "name": "Tim Lücke"
+      },
+      {
+        "name": "Martin Steinel"
+      },
+      {
+        "name": "Melina Filzinger"
+      },
+      {
+        "name": "Jochen Kronjäger"
+      },
+      {
+        "name": "Alexander Kuhl"
+      },
+      {
+        "name": "Shambo Mukherjee"
+      },
+      {
+        "name": "Erik Benkler"
+      },
+      {
+        "name": "Heiner Denker"
+      },
+      {
+        "name": "Ronald Holzwarth"
+      },
+      {
+        "name": "Thomas Udem"
+      },
+      {
+        "name": "Sören Dörscher"
+      },
+      {
+        "name": "Nils Huntemann"
+      },
+      {
+        "name": "Christian Lisdat"
+      }
+    ],
+    "subjects": "Atomic Physics (physics.atom-ph) ; General Relativity and Quantum Cosmology (gr-qc)",
+    "author_count": 15,
+    "topics": [
+      "AMO Physics"
+    ],
+    "topic_hits": {
+      "AMO Physics": [
+        "atomic clock",
+        "atomic clocks",
+        "optical clock",
+        "optical clocks"
+      ]
+    },
+    "featured_authors": [
+      {
+        "name": "Ingo Nosske"
+      },
+      {
+        "name": "Chetan Vishwakarma"
+      },
+      {
+        "name": "Tim Lücke"
+      },
+      {
+        "name": "Sören Dörscher"
+      },
+      {
+        "name": "Nils Huntemann"
+      },
+      {
+        "name": "Christian Lisdat"
+      }
+    ],
+    "summaries": {
+      "en": "The paper reports a ground-based optical-clock comparison between two Earth-fixed atomic clocks at different latitudes that confirms general-relativity’s gravitational redshift prediction at the 4.",
+      "zh": "论文通过对两个位于不同纬度的地面光学原子钟进行比较，验证了广义相对论对引力红移的预测（不确定度为4."
+    },
+    "summary_source": "openai"
+  }
+]
